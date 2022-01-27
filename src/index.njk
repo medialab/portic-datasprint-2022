@@ -1,0 +1,24 @@
+---
+title: Portic datasprint 2022
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+
+{% include 'head.njk' %}
+
+<body class="container is-widescreen ">
+    <header class="block">
+        <h1 class="title">{{ title }}</h1>
+    </header>
+
+    <main class="block">
+        <ul>
+            {% for viz in collections.viz %}
+                <li><a href="{{ viz.url }}">{{ viz.data.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </main>
+</body>
+
+</html>

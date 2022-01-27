@@ -1,0 +1,8 @@
+@media print {
+    body { font-size: 30px; }
+    .no-print, .no-print * { display: none !important; }
+}
+
+div.viz {
+    break-after: always;
+}
