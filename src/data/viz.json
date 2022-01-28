@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Product",
+        "script": "product.js"
+    },
+    {
+        "name": "Commodity",
+        "script": "commodity.js"
+    }
+]

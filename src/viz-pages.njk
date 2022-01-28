@@ -1,7 +1,13 @@
 ---
+pagination:
+    data: viz
+    size: 1
+    alias: viz
+    addAllPagesToCollections: true
+permalink: "/{{ viz.name | slug }}.html"
 tags: viz
-title: Product
-permalink: "/{{ title}}.html"
+eleventyComputed:
+    title: "{{ viz.name }}"
 ---
 
 <!DOCTYPE html>
@@ -18,10 +24,7 @@ permalink: "/{{ title}}.html"
     <main id="container" class="block">
     </main>
 
-    <script src="/static/libs/vega.js"></script>
-    <script src="/static/libs/vega-lite.js"></script>
-    <script src="/static/libs/vegas-embed.js"></script>
-    <script src="/static/js/product.js"></script>
+    <script src="/static/js/{{ viz.script }}"></script>
 </body>
 
 </html>
