@@ -4,6 +4,13 @@ Plus d'informations dans les fichiers `/docs/**.md`.
 
 # Installation
 
+## Logiciels requis
+
+- NodeJS
+- Python (v3.10.1)
+
+## Commandes
+
 ```
 sh install.sh
 ```

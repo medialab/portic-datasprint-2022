@@ -20,7 +20,8 @@ Se rendre à http://127.0.0.1:8080/Product.html.
 Fichiers :
 
 - Corps de page `/src/product.njk`
-- Script `/src/static/js/product.js`
+- Script (aggrégation des données) `/scripts/product.py`
+- Script (visualisation) `/src/static/js/product.js`
 - Données `/data/toflit18_all`
 
 Avec Vega-Lite :
