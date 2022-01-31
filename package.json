@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/http-server ./dist/",
-    "build:11ty": "cd src && npx @11ty/eleventy --serve",
-    "build:webpack": "webpack"
+    "build": "webpack && cd src && npx @11ty/eleventy",
+    "build:serve": "npx @11ty/eleventy --serve",
+    "notebook": "cd docs && jupyter notebook"
   },
   "repository": {
     "type": "git",

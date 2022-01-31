@@ -17,7 +17,15 @@ sh install.sh
 
 # Démarrage
 
+Construire et voir le site
+
 ```
-npm start
 npm run build
+npm start
+```
+
+Ouvrir le notebook Jupyter
+
+```
+npm run notebook
 ```

@@ -89,7 +89,7 @@ year,value,source,export,import,partner,product,product_revolutionempire,product
 1789,800,best_guess_region_prodxpart,no,yes,dunkerque,Huile de poisson,Huile de poisson,huile de poisson,"Huiles, graisses et cires d'origine animale et végétale",Amiens,Boulogne-sur-Mer
 1789,252,best_guess_region_prodxpart,no,yes,dunkerque,Liege en table,[vide],,Divers incertains et inconnus,Amiens,Boulogne-sur-Mer
 1789,162,best_guess_region_prodxpart,no,yes,dunkerque,Liqueur,Eaux-de-vie et liqueurs,liqueurs,Boissons et tabac,Amiens,Boulogne-sur-Mer
-1789,760,best_guess_region_prodxpart,no,yes,dunkerque,Liqueur ; sirop,[vide],,Divers incertains et inconnus,Amiens,Boulogne-sur-Mer
+1789,760,best_guess_region_prodxpart,no,yes,dunkerque,Liqueur ; sirop,Boissons diverses et mélangées,liqueurs et sirop,Boissons et tabac,Amiens,Boulogne-sur-Mer
 1789,622,best_guess_region_prodxpart,no,yes,dunkerque,Marchandises à la valeur,Divers mélangés,marchandises à l'estimation,Divers mélangés,Amiens,Boulogne-sur-Mer
 1789,502,best_guess_region_prodxpart,no,yes,dunkerque,Meubles divers,"Meubles, glaces et miroirs",mobilier,Articles manufacturés divers n.d.a,Amiens,Boulogne-sur-Mer
 1789,975,best_guess_region_prodxpart,no,yes,dunkerque,Poissons divers,Pêche et fruits de mer,poisson,Autres produits alimentaires et animaux,Amiens,Boulogne-sur-Mer

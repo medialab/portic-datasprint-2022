@@ -5,11 +5,17 @@ const container = document.getElementById('container');
 
 ['1787', '1789'].forEach(date => {
 
-    [{ field: 'in', label: 'entréd' }, { field: 'out', label: 'sortie' }]
-        .forEach(direction => {
+    [{ field: 'in', label: 'entrée' }, { field: 'out', label: 'sortie' }]
+        .forEach(action => {
 
-            vizMatrice(date, direction);
-            vizHistogramme(date, direction);
+            [{ field: 'departure_fr', label: 'de départ' }, { field: 'destination_fr', label: "d'arrivée" }]
+                .forEach(direction => {
+        
+                    vizMatrice(date, action, direction);
+                    
+                })
+
+                vizHistogramme(date, action);
 
         })
 
@@ -17,27 +23,28 @@ const container = document.getElementById('container');
 
 /**
  * @param {string|number} date
+ * @param {object} action
  * @param {object} direction
  * @returns {undefined}
  */
 
-function vizMatrice(date, direction) {
+function vizMatrice(date, action, direction) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "mark": "rect",
-        "title": `Objet et zone de départ des bateaux attachés à Dunkerque en ${direction.label} en ${date}`,
+        "title": `Objet et port ${direction.label} des bateaux attachés à Dunkerque en ${action.label} en ${date}`,
         "data": {
-            "url": "/static/data/commodity.csv"
+            "url": `/static/data/commodity_${date}.csv`
         },
         "encoding": {
             "x": {
-                "field": "departure_fr",
+                "field": direction.field,
                 "type": "nominal",
                 "sort": "-color",
                 "axis": {
                     "orient": "top"
                 },
-                "title": "port de départ"
+                "title": `port ${direction.label}`
             },
             "y": {
                 "field": "commodity_purpose",
@@ -52,8 +59,7 @@ function vizMatrice(date, direction) {
             }
         },
         "transform": [
-            { "filter": { "field": "year", "equal": date } },
-            { "filter": { "field": "cargo_item_action", "equal": direction.field } }
+            { "filter": { "field": "cargo_item_action", "equal": action.field } }
         ],
     };
 
@@ -64,25 +70,24 @@ function vizMatrice(date, direction) {
 
 /**
  * @param {string|number} date
- * @param {object} direction
+ * @param {object} action
  * @returns {undefined}
  */
 
-function vizHistogramme(date, direction) {
+function vizHistogramme(date, action) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": `Objet des bateaux commulés en ${direction.label} et attachés au port de Dunkerque en ${date}`,
+        "title": `Objet des bateaux commulés en ${action.label} et attachés au port de Dunkerque en ${date}`,
         "mark": "bar",
         "data": {
-            "url": "/static/data/commodity.csv"
+            "url": `/static/data/commodity_${date}.csv`
         },
         "encoding": {
             "x": { "field": "tonnage", "type": "quantitative", "aggregate": "sum", "title": "Tonnage cummulée" },
             "y": { "field": "commodity_purpose", "type": "nominal", "sort": "-x", "title": "Objet du voyage" }
         },
         "transform": [
-            { "filter": { "field": "year", "equal": date } },
-            { "filter": { "field": "cargo_item_action", "equal": direction.field } }
+            { "filter": { "field": "cargo_item_action", "equal": action.field } }
         ],
     };
 

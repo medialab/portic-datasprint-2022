@@ -10,11 +10,13 @@ curl -o data/toflit18_sources_schema.json "https://raw.githubusercontent.com/med
 echo "fetching latest navigo pointcalls data"
 curl -o data/navigo_all_pointcalls_1789.json "data.portic.fr/api/pointcalls/?date=1789"
 echo "fetching latest navigo flows data"
-curl -o data/navigo_all_flows_1789.json "data.portic.fr/api/rawflows/?date=1789&format=csv"
-curl -o data/navigo_all_flows_1787.json "data.portic.fr/api/rawflows/?date=1787&format=csv"
+curl -o data/navigo_all_flows_1789.csv "data.portic.fr/api/rawflows/?date=1789&format=csv"
+curl -o data/navigo_all_flows_1787.csv "data.portic.fr/api/rawflows/?date=1787&format=csv"
 echo "fetching latest navigo pointcalls schema"
 curl -o data/portic_pointcalls_descriptions.json "http://data.portic.fr/api/fieldnames/?API=pointcalls"
 echo "fetching latest navigo flows schema"
 curl -o data/portic_flows_descriptions.json "http://data.portic.fr/api/fieldnames/?API=travels"
 echo "install NodeJS dependencies"
 npm i
+echo "process data with Python scripts"
+for f in ./scripts/*.py; do python "$f"; done

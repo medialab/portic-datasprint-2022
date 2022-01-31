@@ -7,7 +7,7 @@ const container = document.getElementById('container');
 
     [{ field: 'import', label: 'import depuis' }, { field: 'import', label: 'export vers' }].forEach(direction => {
 
-        ['customs_region', 'customs_office'].forEach(localisation => {
+        ['customs_region', 'customs_office', 'product_sitc_FR'].forEach(localisation => {
 
             ['product_simplification', 'product_revolutionempire'].forEach(class_produit => {
 

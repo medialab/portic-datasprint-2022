@@ -2,30 +2,32 @@
     File name: product.py
     Author: Guillaume Brioudes
     Date created: 2022-01-24
-    Date last modified: 2022-01-24
+    Date last modified: 2022-01-28
     Python Version: 3.10.1
     Description: For each travel to/from Dunkerque, report the product with the several classifications
 '''
 
-import json
 import csv
 
-JSON_file = open("../config.json", "r").read()
-JSON = json.loads(JSON_file)
+CSV_FILE_INPUT = '../data/toflit18_all.csv'
+CSV_FILE_OUTPUT = '../src/static/data/product.csv'
 
-script_name = 'product'
-script_data = [viz for viz in JSON['visualizations'] if viz['name'] == script_name][0]
-
-file = open('../src/static/data/' + script_data['build']['files'][0], 'w')
+file = open(CSV_FILE_OUTPUT, 'w')
 writer = csv.writer(file)
 
-fields = script_data['build']['fields']
-source = script_data['source']
+fields = [
+    "product",
+    "product_revolutionempire",
+    "product_simplification",
+    "product_sitc_FR",
+    "customs_region",
+    "customs_office"
+]
 
 CSV_FIRST_LINE = ['year', 'value', 'source', 'export', 'import', 'partner'] + fields
 writer.writerow(CSV_FIRST_LINE)
 
-with open('../data/' + source, newline='') as csvfile:
+with open(CSV_FILE_INPUT, newline='') as csvfile:
     reader = csv.DictReader(csvfile)
 
     for row in reader:
