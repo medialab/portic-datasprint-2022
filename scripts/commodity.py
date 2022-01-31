@@ -9,7 +9,7 @@
 
 import csv
 
-fields = ['homeport', 'tonnage', 'destination_fr', 'departure_fr', 'cargo_item_action', 'cargo_item_action2', 'cargo_item_action3', 'cargo_item_action4', 'commodity_purpose', 'commodity_purpose2', 'commodity_purpose3', 'commodity_purpose4']
+fields = ['homeport', 'tonnage', 'destination_fr', 'departure_fr', 'cargo_item_action', 'cargo_item_action2', 'cargo_item_action3', 'cargo_item_action4', 'commodity_purpose', 'commodity_purpose2', 'commodity_purpose3', 'commodity_purpose4', 'commodity_standardized_fr']
 
 for year in ['1787', '1789']:
     CSV_FILE_INPUT = '../data/navigo_all_flows_' + year + '.csv'

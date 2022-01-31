@@ -6,7 +6,7 @@
   "scripts": {
     "start": "./node_modules/.bin/http-server ./dist/",
     "build": "webpack && cd src && npx @11ty/eleventy",
-    "build:serve": "npx @11ty/eleventy --serve",
+    "serve": "npx @11ty/eleventy --serve",
     "notebook": "cd docs && jupyter notebook"
   },
   "repository": {

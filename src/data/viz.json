@@ -6,5 +6,9 @@
     {
         "name": "Commodity",
         "script": "commodity.js"
+    },
+    {
+        "name": "Direction",
+        "script": "destination.js"
     }
 ]
