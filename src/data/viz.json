@@ -8,7 +8,7 @@
         "script": "commodity.js"
     },
     {
-        "name": "Direction",
+        "name": "Destination",
         "script": "destination.js"
     }
 ]
