@@ -19,4 +19,4 @@ curl -o data/portic_flows_descriptions.json "http://data.portic.fr/api/fieldname
 echo "install NodeJS dependencies"
 npm i
 echo "process data with Python scripts"
-for f in ./scripts/*.py; do python "$f"; done
+cd ./scripts && for f in ./*.py; do python "$f"; done
