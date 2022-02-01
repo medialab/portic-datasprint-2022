@@ -1,0 +1,21 @@
+- title: Produits
+  name: product
+  script: product.js
+  description: >-
+    Valeur commulée des produits importés et exportés depuis des ports partenaires de Dunkerque
+    en 1787 et 1789.
+
+- title: Objet de voyage
+  name: commodity
+  script: commodity.js
+
+- title: Destination
+  name: destination
+  script: destination.js
+
+- title: Bureau de ferme
+  name: custom_office
+  script: custom_office.js
+  description: >-
+    Valeur commulée des produits importés et exportés depuis des ports sous l'égide de Dunkerque
+    en tant que bureau de fermer en 1787 et 1789.

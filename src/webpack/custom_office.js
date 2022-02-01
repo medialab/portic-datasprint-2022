@@ -1,7 +1,8 @@
 import vegaEmbed from 'vega-embed'
 import getVizContainer from './get-container';
 
-const container = document.getElementById('container');
+const container = document.getElementById('container')
+    , dataPath = '/static/data/custom_office.csv';
 
 ['1787', '1789'].forEach(date => {
 
@@ -11,8 +12,7 @@ const container = document.getElementById('container');
     ].forEach(direction => {
 
         [
-            { field: 'customs_region', label: 'bureau de ferme' },
-            { field: 'customs_office', label: 'direction de ferme' },
+            { field: 'partner', label: 'partenaire' },
             { field: 'origin', label: 'origine' },
             { field: 'origin_province', label: 'province d\'origine' }
         ].forEach(localisation => {
@@ -39,12 +39,12 @@ const container = document.getElementById('container');
  * @returns {undefined}
  */
 
-function vizMatrice (date, direction, localisation, class_produit) {
+ function vizMatrice (date, direction, localisation, class_produit) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "mark": "rect",
         "data": {
-            "url": "/static/data/product.csv"
+            "url": dataPath
         },
         "title": `${direction.label} de produits (aggrégés par valeur cumulée) détaillés selon la classification "${class_produit}" et pointés par ${localisation.label} en ${date}`,
         "encoding": {
@@ -88,7 +88,7 @@ function vizMatrice (date, direction, localisation, class_produit) {
  * @returns {undefined}
  */
 
-function vizHistogramme (date, direction, localisation) {
+ function vizHistogramme (date, direction, localisation) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "title": `Valeur cummulée des ${direction.label} en ${date} vers des ${localisation.label}`,

@@ -1,16 +1,16 @@
 '''
-    File name: product.py
+    File name: custom_office.py
     Author: Guillaume Brioudes
-    Date created: 2022-01-24
+    Date created: 2022-02-01
     Date last modified: 2022-02-01
     Python Version: 3.10.1
-    Description: For each travel to/from Dunkerque as a partner, report the product with the several classifications
+    Description: For each travel to/from Dunkerque as a custom_office, report the product with the several classifications
 '''
 
 import csv
 
 CSV_FILE_INPUT = '../data/toflit18_all.csv'
-CSV_FILE_OUTPUT = '../src/static/data/product.csv'
+CSV_FILE_OUTPUT = '../src/static/data/custom_office.csv'
 
 file = open(CSV_FILE_OUTPUT, 'w')
 writer = csv.writer(file)
@@ -38,8 +38,8 @@ with open(CSV_FILE_INPUT, newline='') as csvfile:
 
         if row['best_guess_region_prodxpart'] != '1':
             continue
-        row['partner'] = row['partner'].lower()
-        if row['partner'].find('dunkerque') == -1:
+        row['customs_office'] = row['customs_office'].lower()
+        if row['customs_office'].find('dunkerque') == -1:
             continue
 
         writer.writerow(

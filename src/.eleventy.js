@@ -1,10 +1,10 @@
 const pckData = require('../package.json')
-    // , config = require('../config.json');
+    , yml = require("js-yaml");
 
 module.exports = function(e) {
     e.addGlobalData('pck', pckData);
-    // e.addGlobalData('config', config);
-    // e.addGlobalData('vizualisations', config.visualizations);
+
+    e.addDataExtension("yml", contents => yml.load(contents));
 
     e.addPassthroughCopy("static");
 

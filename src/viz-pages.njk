@@ -7,7 +7,7 @@ pagination:
 permalink: "/{{ viz.name | slug }}.html"
 tags: viz
 eleventyComputed:
-    title: "{{ viz.name }}"
+    title: "{{ viz.title }}"
 ---
 
 <!DOCTYPE html>
@@ -19,6 +19,9 @@ eleventyComputed:
     <header class="block">
         <h1 class="title">{{ title }}</h1>
         <button class="no-print" onclick="window.print()">Imprimer</button>
+        <p><a href="/">⬅ Retour à la liste des viz</a></p>
+
+        <div class="block">{{ viz.description }}</div>
     </header>
 
     <main id="container" class="block">
