@@ -13,6 +13,7 @@ const container = document.getElementById('container')
 
         [
             { field: 'partner', label: 'partenaire' },
+            { field: 'partner_simplification', label: 'partenaire (simplifié)' },
             { field: 'origin', label: 'origine' },
             { field: 'origin_province', label: 'province d\'origine' }
         ].forEach(localisation => {

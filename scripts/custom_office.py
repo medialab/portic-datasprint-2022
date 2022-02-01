@@ -16,6 +16,7 @@ file = open(CSV_FILE_OUTPUT, 'w')
 writer = csv.writer(file)
 
 fields = [
+    'partner_simplification',
     'product',
     'product_revolutionempire',
     'product_simplification',
