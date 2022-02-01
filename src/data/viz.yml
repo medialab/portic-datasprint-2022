@@ -5,9 +5,15 @@
     Valeur commulée des produits importés et exportés depuis des ports partenaires de Dunkerque
     en 1787 et 1789.
 
-- title: Objet de voyage
+- title: Objet de voyage (déprécié)
   name: commodity
   script: commodity.js
+  description: >-
+    Ne rend pas compte de la totalité des missions des navires
+
+- title: Objet de voyage
+  name: commodity_purpose
+  script: commodity_purpose.js
 
 - title: Destination
   name: destination

@@ -40,7 +40,7 @@ function vizMatrice(date, action, direction, commodity) {
         "mark": "rect",
         "title": `Objet et port ${direction.label} des bateaux attachés au port de Dunkerque (homeport) ${action.label} en ${date}`,
         "data": {
-            "url": `/static/data/commodity_${date}.csv`
+            "url": `/static/data/commodity_data_${date}.csv`
         },
         "encoding": {
             "x": {
@@ -86,7 +86,7 @@ function vizHistogramme(date, action, commodity) {
         "title": `Objet des bateaux commulés ${action.label} et attachés au port de Dunkerque (homeport) en ${date}`,
         "mark": "bar",
         "data": {
-            "url": `/static/data/commodity_${date}.csv`
+            "url": `/static/data/commodity_data_${date}.csv`
         },
         "encoding": {
             "x": { "field": "tonnage", "type": "quantitative", "aggregate": "sum", "title": "Tonnage cummulée" },
