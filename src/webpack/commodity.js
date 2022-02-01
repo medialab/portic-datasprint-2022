@@ -38,7 +38,7 @@ function vizMatrice(date, action, direction, commodity) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "mark": "rect",
-        "title": `Objet et port ${direction.label} des bateaux attachés au port de Dunkerque ${action.label} en ${date}`,
+        "title": `Objet et port ${direction.label} des bateaux attachés au port de Dunkerque (homeport) ${action.label} en ${date}`,
         "data": {
             "url": `/static/data/commodity_${date}.csv`
         },
@@ -83,7 +83,7 @@ function vizMatrice(date, action, direction, commodity) {
 function vizHistogramme(date, action, commodity) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": `Objet des bateaux commulés ${action.label} et attachés au port de Dunkerque en ${date}`,
+        "title": `Objet des bateaux commulés ${action.label} et attachés au port de Dunkerque (homeport) en ${date}`,
         "mark": "bar",
         "data": {
             "url": `/static/data/commodity_${date}.csv`
@@ -97,7 +97,7 @@ function vizHistogramme(date, action, commodity) {
         ],
     };
 
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite" })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }

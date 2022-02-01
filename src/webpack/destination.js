@@ -21,7 +21,23 @@ const container = document.getElementById('container');
         {
             field: 'destination_ferme_direction',
             label: "direction de ferme comme point de destination"
-        }
+        },
+        {
+            field: 'destination_admiralty',
+            label: "amirauté comme point de destination"
+        },
+        {
+            field: 'departure_admiralty',
+            label: "amirauté comme point de destination"
+        },
+        {
+            field: 'destination_province',
+            label: "province comme point de destination"
+        },
+        {
+            field: 'departure_province',
+            label: "province comme point de destination"
+        },
     ].forEach(lieu => {
         vizHistogramme(date, lieu)
     })
@@ -37,7 +53,7 @@ const container = document.getElementById('container');
  function vizHistogramme(date, lieu) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": `Tonnage commulé en fonction de la ${lieu.label}`,
+        "title": `Tonnage commulé en fonction de la ${lieu.label} en ${date}`,
         "mark": "bar",
         "data": {
             "url": `/static/data/destination_${date}.csv`
@@ -47,7 +63,7 @@ const container = document.getElementById('container');
             "y": { "field": lieu.field, "type": "nominal", "sort": "-x", "title": lieu.label },
             "color": {
                 "condition": {
-                    "test": `datum['${lieu.field}'] == 'dunkerque'`,
+                    "test": `datum['${lieu.field}'] == 'dunkerque' || datum['${lieu.field}'] == 'flandre'`,
                     "value": "#e39382"
                 }
             }
@@ -57,7 +73,7 @@ const container = document.getElementById('container');
         ],
     };
 
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite" })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }

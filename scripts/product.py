@@ -16,12 +16,16 @@ file = open(CSV_FILE_OUTPUT, 'w')
 writer = csv.writer(file)
 
 fields = [
-    "product",
-    "product_revolutionempire",
-    "product_simplification",
-    "product_sitc_FR",
-    "customs_region",
-    "customs_office"
+    'product',
+    'product_revolutionempire',
+    'product_simplification',
+    'product_sitc_FR',
+    'product_RE_aggregate',
+    'customs_region',
+    'customs_office',
+    'origin',
+    'origin_province',
+    'origin_source'
 ]
 
 CSV_FIRST_LINE = ['year', 'value', 'source', 'export', 'import', 'partner'] + fields
