@@ -25,3 +25,10 @@
   description: >-
     Valeur commulée des produits importés et exportés depuis des ports sous l'égide de Dunkerque
     en tant que bureau de fermer en 1787 et 1789.
+
+- title: Points d'enregistrement
+  name: pointcalls
+  script: pointcalls.js
+  description: >-
+    Étude du tonnage (cumulé ou en classes) et des modalités du voyage en fonction
+    des attaches du navire.

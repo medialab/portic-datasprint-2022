@@ -40,7 +40,7 @@ const container = document.getElementById('container')
  * @returns {undefined}
  */
 
- function vizMatrice (date, direction, localisation, class_produit) {
+function vizMatrice (date, direction, localisation, class_produit) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "mark": "rect",
