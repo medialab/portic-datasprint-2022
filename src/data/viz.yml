@@ -30,5 +30,10 @@
   name: pointcalls
   script: pointcalls.js
   description: >-
-    Étude du tonnage (cumulé ou en classes) et des modalités du voyage en fonction
-    des attaches du navire.
+    Étude du tonnage et des modalités du voyage en fonction des enregistrements des navires.
+
+- title: Flux
+  name: flows
+  script: flows.js
+  description: >-
+    Étude du tonnage et des modalités du voyage en fonction des flux de navires.
