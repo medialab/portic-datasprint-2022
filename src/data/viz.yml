@@ -41,3 +41,7 @@
 - title: Objet de pointage
   name: pointcall_commodity
   script: pointcall_commodity.js
+
+- title: Objet de trajet
+  name: flow_commodity
+  script: flow_commodity.js

@@ -49,7 +49,8 @@ for year in ['1787', '1789']:
             tonnage = row_original['tonnage']
 
             for commodity in fields_commodity:
-                nb_commodity += 1
+                if row_original[commodity] != '':
+                    nb_commodity += 1
 
             for commodity in fields_commodity:
                 if row_original[commodity] == '':
