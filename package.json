@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/http-server ./dist/",
-    "build": "webpack && cd src && npx @11ty/eleventy",
+    "build": "webpack --mode=development && cd src && npx @11ty/eleventy",
+    "build:prod": "webpack --mode=production && cd src && npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "notebook": "cd docs && jupyter notebook"
   },
