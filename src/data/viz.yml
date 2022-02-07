@@ -37,3 +37,7 @@
   script: flows.js
   description: >-
     Étude du tonnage et des modalités du voyage en fonction des flux de navires.
+
+- title: Objet de pointage
+  name: pointcall_commodity
+  script: pointcall_commodity.js
