@@ -19,7 +19,8 @@ const dates = [
         { field: 'homeport', label: "port d'attache"},
         { field: 'homeport_state_1789_fr', label: "pays d'attache"},
         { field: 'flag', label: "pays du pavillon (drapeau)"},
-        { field: 'commodity_standardized_fr', label: "objet du voyage"}
+        { field: 'commodity_standardized_fr', label: "objet du voyage"},
+        { field: 'tonnage_class', label: "tonnage en classe"}
     ]
     , directions = [
         { value: 'in', label: "en entrée"},
