@@ -45,3 +45,7 @@
 - title: Objet de trajet
   name: flow_commodity
   script: flow_commodity.js
+
+- title: Flux vers/sortant de Dunkerque
+  name: flow_from_dunkerque
+  script: flow_from_dunkerque.js

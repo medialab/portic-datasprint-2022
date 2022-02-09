@@ -25,6 +25,8 @@ fields = [
     'departure_admiralty',
     'departure_action',
     'destination_ferme_bureau',
+    'departure_state_1789_fr',
+    'destination_state_1789_fr',
     'destination_ferme_direction',
     'destination_province',
     'destination_admiralty',

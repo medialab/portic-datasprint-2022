@@ -46,11 +46,11 @@ dates.forEach(date => {
 
             directions.forEach(direction => {
     
-                // for (let i = 0; i < ensembles.length - 1; i++) {
-                //     for (let j = i + 1; j < ensembles.length; j++) {
-                //         vizMatrice(date, filter, ensembles[i], ensembles[j], direction, action)
-                //     }
-                // }
+                for (let i = 0; i < ensembles.length - 1; i++) {
+                    for (let j = i + 1; j < ensembles.length; j++) {
+                        vizMatrice(date, filter, ensembles[i], ensembles[j], direction, action)
+                    }
+                }
     
                 ensembles.forEach(ensemble => {
     
