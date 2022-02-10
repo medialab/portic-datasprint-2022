@@ -7,8 +7,8 @@ const container = document.getElementById('container')
 ['1787', '1789'].forEach(date => {
 
     [
-        { field: 'import', label: 'import vers le bureau de ferme Dunkerque (le reste du monde vers Dunkerque)' },
-        { field: 'export', label: 'export depuis le bureau de ferme Dunkerque (Dunkerque vers le reste du monde)' }
+        { field: 'import', label: 'import vers le bureau de ferme de Dunkerque (le reste du monde vers Dunkerque)' },
+        { field: 'export', label: 'export depuis le bureau de ferme de Dunkerque (Dunkerque vers le reste du monde)' }
     ].forEach(direction => {
 
         [

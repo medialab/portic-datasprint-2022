@@ -6,8 +6,8 @@ const container = document.getElementById('container');
 ['1787', '1789'].forEach(date => {
 
     [
-        { field: 'import', label: 'import depuis le port de Dunkerque (Dunkerque vers le reste de la France)' },
-        { field: 'export', label: 'export vers le port de Dunkerque (le reste de la France vers Dunkerque)' }
+        { field: 'import', label: 'import depuis le port de Dunkerque (Dunkerque vers le reste de la France), considéré comme partenaire,'  },
+        { field: 'export', label: 'export vers le port de Dunkerque (le reste de la France vers Dunkerque), considéré comme partenaire,' }
     ].forEach(direction => {
 
         [

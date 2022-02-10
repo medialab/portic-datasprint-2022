@@ -22,9 +22,9 @@ const dates = [
     ]
     , ensembles = [
         { field: 'homeport', label: "port d'attache (homeport)"},
-        { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
-        { field: 'flag', label: "pays du pavillon (drapeau) (flag)"},
-        { field: 'commodity_standardized_fr', label: "objet du voyage (commodity_standardized_fr)"}
+        // { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
+        // { field: 'flag', label: "pays du pavillon (drapeau) (flag)"},
+        // { field: 'commodity_standardized_fr', label: "objet du voyage (commodity_standardized_fr)"}
     ]
     , directions = [
         { value: 'in', label: "entrée (in)"},
