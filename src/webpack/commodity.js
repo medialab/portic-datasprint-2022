@@ -6,11 +6,11 @@ const container = document.getElementById('container');
 ['1787', '1789'].forEach(date => {
 
     [
-        { field: 'in', label: "en train d'entrer" },
-        { field: 'out', label: 'en train de sortir' },
-        { field:'sailing around', label: 'en train de pêcher' },
-        { field:'transit', label: 'en cours de correspondance' },
-        { field:'in-out', label: 'entrés et ressortis' },
+        { field: 'in', label: "en train d'entrer (in)" },
+        { field: 'out', label: 'en train de sortir (out)' },
+        { field:'sailing around', label: 'en train de pêcher (sailing around)' },
+        { field:'transit', label: 'en cours de correspondance (transit)' },
+        { field:'in-out', label: 'entrés et ressortis (in-out)' },
     ]
         .forEach(action => {
 
@@ -38,7 +38,10 @@ function vizMatrice(date, action, direction, commodity) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "mark": "rect",
-        "title": `Objet et port ${direction.label} des bateaux attachés au port de Dunkerque (homeport) ${action.label} en ${date}`,
+        "title": [
+            `Objet et port ${direction.label} des bateaux`,
+            `attachés au port de Dunkerque (homeport) ${action.label} en ${date}`,
+        ],
         "data": {
             "url": `/static/data/commodity_data_${date}.csv`
         },

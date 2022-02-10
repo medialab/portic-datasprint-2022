@@ -1,51 +1,51 @@
-- title: Produits
+- title: Toflit18 - Produits importés et exportés avec les partenaires de Dunkerque
   name: product
   script: product.js
   description: >-
     Valeur commulée des produits importés et exportés depuis des ports partenaires de Dunkerque
     en 1787 et 1789.
 
-- title: Objet de voyage (déprécié)
+- title: Toflit18 - Objet de voyage (déprécié)
   name: commodity
   script: commodity.js
   description: >-
     Ne rend pas compte de la totalité des missions des navires
 
-- title: Objet de voyage
+- title: Toflit18 - Nombre de navire par objet de voyage
   name: commodity_purpose
   script: commodity_purpose.js
 
-- title: Destination
+- title: Navigo - Tonnage des bateaux arrivés/partis (port, bueau de ferme, amirauté…)
   name: destination
   script: destination.js
 
-- title: Bureau de ferme
+- title: Navigo - Tonnage en import et export depuis/vers Dunkerque
   name: custom_office
   script: custom_office.js
   description: >-
     Valeur commulée des produits importés et exportés depuis des ports sous l'égide de Dunkerque
     en tant que bureau de fermer en 1787 et 1789.
 
-- title: Points d'enregistrement
+- title: Navigo - Analyse des points d'enregistrement (pointcalls)
   name: pointcalls
   script: pointcalls.js
   description: >-
     Étude du tonnage et des modalités du voyage en fonction des enregistrements des navires.
 
-- title: Flux
+- title: Navigo - Analyse des flux (flows)
   name: flows
   script: flows.js
   description: >-
     Étude du tonnage et des modalités du voyage en fonction des flux de navires.
 
-- title: Objet de pointage
+- title: Navigo - Objet de voyage au pointage (pointcall)
   name: pointcall_commodity
   script: pointcall_commodity.js
 
-- title: Objet de trajet
+- title: Navigo - Objet de voyage par trajet (flow)
   name: flow_commodity
   script: flow_commodity.js
 
-- title: Flux vers/sortant de Dunkerque
+- title: Navigo - Tonnage des bateaux arrivés/partis de Dunkerque (port, bueau de ferme, amirauté…)
   name: flow_from_dunkerque
   script: flow_from_dunkerque.js

@@ -21,21 +21,21 @@ const dates = [
         { field: 'destination_admiralty', filter: 'Dunkerque', label: "amirauté d'arrivée (Dunkerque)"}
     ]
     , ensembles = [
-        { field: 'homeport', label: "port d'attache"},
-        { field: 'homeport_state_1789_fr', label: "pays d'attache"},
-        { field: 'flag', label: "pays du pavillon (drapeau)"},
-        { field: 'commodity_standardized_fr', label: "objet du voyage"}
+        { field: 'homeport', label: "port d'attache (homeport)"},
+        { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
+        { field: 'flag', label: "pays du pavillon (drapeau) (flag)"},
+        { field: 'commodity_standardized_fr', label: "objet du voyage (commodity_standardized_fr)"}
     ]
     , directions = [
-        { value: 'in', label: "entrée"},
-        { value: 'out', label: "sortie"},
-        { value: 'in-out', label: "correspondance"},
-        { value: 'sailing around', label: "pêche"},
-        { value: 'transit', label: "transit"}
+        { value: 'in', label: "entrée (in)"},
+        { value: 'out', label: "sortie (out)"},
+        { value: 'in-out', label: "correspondance (in-out)"},
+        { value: 'sailing around', label: "pêche (sailing around)"},
+        { value: 'transit', label: "transit (transit)"}
     ]
     , actions = [
-        { field: 'destination_action', label: "en entrée"},
-        { field: 'departure_action', label: "en sortie"}
+        { field: 'destination_action', label: "en entrée (destination_action)"},
+        { field: 'departure_action', label: "en sortie (departure_action)"}
     ];
 
 dates.forEach(date => {
@@ -74,7 +74,11 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, action, va
         "data": {
             "url": dataPath
         },
-        "title": `${value.label} en fonction du ${ensemble_x.label} et du ${ensemble_y.label} du navire ${action.label} (pour ${direction.label}) pour les pointcalls (${direction.label}) de ${filter.label} en ${date}`,
+        "title": [
+            `${value.label} en fonction du ${ensemble_x.label} et du ${ensemble_y.label}`,
+            `du navire ${action.label} (pour ${direction.label}) pour les pointcalls`,
+            `(${direction.label}) de ${filter.label} en ${date}`
+        ],
         "encoding": {
             "x": {
                 "field": ensemble_x.field,
@@ -115,8 +119,10 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, action, va
 function vizHistogramme(date, filter, ensemble, direction, action, value = { field: 'tonnage', label: 'tonnage cumulé' }) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        // "title": `${value.label} et ${field.label} du navire en fonction de ${filter.label} en ${date}`,
-        "title": `${ensemble.label} du navire pour les pointcalls (${direction.label}) de ${filter.label}, aggrégés par ${value.label} en ${date}`,
+        "title": [
+            `${ensemble.label} du navire pour les pointcalls (${direction.label})`,
+            `de ${filter.label}, aggrégés par ${value.label} en ${date}`
+        ],
         "mark": "bar",
         "data": {
             "url": dataPath

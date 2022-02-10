@@ -53,7 +53,7 @@ const container = document.getElementById('container');
  function vizHistogramme(date, lieu) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": `Tonnage commulé en fonction de la ${lieu.label} en ${date}`,
+        "title": `Tonnage cummulé en fonction de la ${lieu.label} en ${date}`,
         "mark": "bar",
         "data": {
             "url": `/static/data/destination_${date}.csv`

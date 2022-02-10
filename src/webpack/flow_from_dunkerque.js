@@ -28,7 +28,10 @@ dates.forEach(date => {
 
             spec = {
                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-                "title": `Destination (${arrivée.label}) aggrégé par tonnage cummulé des navires au départ de ${départ.label} de Dunkerque en ${date}`,
+                "title": [
+                    `Destination (${arrivée.label}) aggrégé par tonnage cummulé`,
+                    `des navires au départ de ${départ.label} de Dunkerque en ${date}`
+                ],
                 "mark": "bar",
                 "data": {
                     "url": dataPath
@@ -50,7 +53,10 @@ dates.forEach(date => {
 
             spec = {
                 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-                "title": `Départ (${départ.label}) aggrégé par tonnage cummulé des navires à destination de ${arrivée.label} de Dunkerque en ${date}`,
+                "title": [
+                    `Départ (${départ.label}) aggrégé par tonnage cummulé`,
+                    `des navires à destination de ${arrivée.label} de Dunkerque en ${date}`
+                ],
                 "mark": "bar",
                 "data": {
                     "url": dataPath

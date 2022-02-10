@@ -47,7 +47,10 @@ function vizMatrice (date, direction, localisation, class_produit) {
         "data": {
             "url": dataPath
         },
-        "title": `${direction.label} de produits (aggrégés par valeur cumulée) détaillés selon la classification "${class_produit}" et pointés par ${localisation.label} en ${date}`,
+        "title": [
+            `${direction.label} de produits (aggrégés par valeur cumulée) détaillés`,
+            `selon la classification "${class_produit}" et pointés par ${localisation.label} en ${date}`,
+        ],
         "encoding": {
             "x": {
                 "field": localisation.field,
