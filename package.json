@@ -32,6 +32,11 @@
     "vega-lite": "^5.2.0"
   },
   "devDependencies": {
+    "chalk": "^4.1.2",
+    "d3-dsv": "^2.0.0",
+    "fs-extra": "^3.0.1",
+    "node-pandoc": "^0.3.0",
+    "puppeteer": "^13.3.0",
     "webpack": "^5.67.0",
     "webpack-cli": "^4.9.2"
   }

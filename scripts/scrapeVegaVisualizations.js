@@ -89,7 +89,7 @@ const slugify = str => {
     
     console.log(chalk.green(specs.length + ' specs discovered'));
 
-    await [specs[0]].reduce(async (cur1, {svg, title, fileName}, index) => 
+    await specs.reduce(async (cur1, {svg, title, fileName}, index) => 
       cur1.then(() => new  Promise (async (res1, rej1) => {
         const screenshotPage = await browser.newPage();
         await screenshotPage.goto(URL);
