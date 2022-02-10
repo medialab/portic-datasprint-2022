@@ -19,7 +19,7 @@ const dates = [
         { field: 'sailing around', label: "en pêche (sailing around)"},
         { field: 'transit', label: "en transit (transit)"}
     ], values = [
-        { field: 'tonnage', label: 'tonnage pondéré (divisé par le nombre de commodités)' },
+        // { field: 'tonnage', label: 'tonnage pondéré (divisé par le nombre de commodités)' },
         { field: 'commodity_standardized', label: 'objet navire (commodity standardized)' }
     ]
 
@@ -28,12 +28,9 @@ dates.forEach(date => {
     filters.forEach(filter => {
         
         directions.forEach(direction => {
-            
-            values.forEach(value => {
-                
-                vizHistogramme(date, filter, direction, value);
-    
-            })
+
+                vizHistogrammeCommodity(date, filter, direction);
+                vizHistogrammeTonnage(date, filter, direction);
 
         })
 
@@ -41,7 +38,7 @@ dates.forEach(date => {
 
 })
 
-function vizHistogramme(date, filter, direction, value) {
+function vizHistogrammeCommodity(date, filter, direction, value= { field: 'commodity_standardized', label: 'objet navire (commodity standardized)' }) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "title": `${value.label} des navires ${direction.label} des ports du/de la ${filter.label} en ${date}`,
@@ -52,6 +49,30 @@ function vizHistogramme(date, filter, direction, value) {
         "encoding": {
             "y": { "field": value.field, "title": value.label, "sort": "-x" },
             "x": { "aggregate": "count", "title": "nombre de pointcall par objet", "type": "quantitative" },
+        },
+        "transform": [
+            { "filter": { "field": "year", "equal": date } },
+            { "filter": { "field": filter.field, "equal": filter.filter } },
+            { "filter": { "field": 'pointcall_action', "equal": direction.field } }
+        ],
+    };
+
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+        .then((response) => { console.log(response) })
+        .catch((response) => { console.error(response) });
+}
+
+function vizHistogrammeTonnage(date, filter, direction, value= { field: 'commodity_standardized', label: 'objet navire (commodity standardized)' }) {
+    const spec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "title": `${value.label} des navires ${direction.label} des ports du/de la ${filter.label} en ${date}`,
+        "mark": "bar",
+        "data": {
+            "url": dataPath
+        },
+        "encoding": {
+            "y": { "field": value.field, "title": value.label, "sort": "-x" },
+            "x": { "aggregate": "sum", "title": "tonnage cummulé par objet", "type": "quantitative", 'field': 'tonnage' },
         },
         "transform": [
             { "filter": { "field": "year", "equal": date } },
