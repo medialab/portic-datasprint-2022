@@ -10,21 +10,20 @@ const dates = [
     ]
     , filters = [
         { field: 'departure', filter: 'Dunkerque', label: "ville de départ (Dunkerque)"},
-        { field: 'destination', filter: 'Dunkerque', label: "ville d'arrivée (Dunkerque)"},
-        { field: 'departure_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme de départ (Dunkerque)"},
-        { field: 'destination_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'arrivée (Dunkerque)"},
-        { field: 'departure_ferme_direction', filter: 'Lille', label: "direction de ferme de départ (Lille)"},
-        { field: 'destination_ferme_direction', filter: 'Lille', label: "direction de ferme d'arrivée (Lille)"},
-        { field: 'departure_province', filter: 'Flandre', label: "province de départ (Flandre)"},
-        { field: 'destination_province', filter: 'Flandre', label: "province d'arrivée (Flandre)"},
-        { field: 'departure_admiralty', filter: 'Dunkerque', label: "amirauté de départ (Dunkerque)"},
-        { field: 'destination_admiralty', filter: 'Dunkerque', label: "amirauté d'arrivée (Dunkerque)"}
+        // { field: 'destination', filter: 'Dunkerque', label: "ville d'arrivée (Dunkerque)"},
+        // { field: 'departure_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme de départ (Dunkerque)"},
+        // { field: 'destination_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'arrivée (Dunkerque)"},
+        // { field: 'departure_ferme_direction', filter: 'Lille', label: "direction de ferme de départ (Lille)"},
+        // { field: 'destination_ferme_direction', filter: 'Lille', label: "direction de ferme d'arrivée (Lille)"},
+        // { field: 'departure_province', filter: 'Flandre', label: "province de départ (Flandre)"},
+        // { field: 'destination_province', filter: 'Flandre', label: "province d'arrivée (Flandre)"},
+        // { field: 'departure_admiralty', filter: 'Dunkerque', label: "amirauté de départ (Dunkerque)"},
+        // { field: 'destination_admiralty', filter: 'Dunkerque', label: "amirauté d'arrivée (Dunkerque)"}
     ]
     , ensembles = [
         { field: 'homeport', label: "port d'attache (homeport)"},
-        // { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
-        // { field: 'flag', label: "pays du pavillon (drapeau) (flag)"},
-        // { field: 'commodity_standardized_fr', label: "objet du voyage (commodity_standardized_fr)"}
+        { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
+        { field: 'flag', label: "pays du pavillon (drapeau) (flag)"}
     ]
     , directions = [
         { value: 'in', label: "entrée (in)"},
@@ -54,7 +53,7 @@ dates.forEach(date => {
     
                 ensembles.forEach(ensemble => {
     
-                    vizHistogramme(date, filter, ensemble, direction, action);
+                    // vizHistogramme(date, filter, ensemble, direction, action);
     
                 })
 
