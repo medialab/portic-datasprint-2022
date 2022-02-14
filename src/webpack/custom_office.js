@@ -1,5 +1,6 @@
 import vegaEmbed from 'vega-embed'
 import getVizContainer from './get-container';
+import slug from 'slug';
 
 const container = document.getElementById('container')
     , dataPath = '/static/data/custom_office.csv';
@@ -18,7 +19,8 @@ const container = document.getElementById('container')
             { field: 'origin_province', label: 'province d\'origine' }
         ].forEach(localisation => {
 
-            ['product_simplification', 'product_revolutionempire', 'product_sitc_FR', 'product_RE_aggregate'].forEach(class_produit => {
+            // ['product_simplification', 'product_revolutionempire', 'product_sitc_FR', 'product_RE_aggregate'].forEach(class_produit => {
+            ['product_revolutionempire'].forEach(class_produit => {
 
                 vizMatrice(date, direction, localisation, class_produit);
 
@@ -80,7 +82,7 @@ function vizMatrice (date, direction, localisation, class_produit) {
         "config": {}
     };
     
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title.join(' ')) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }
@@ -110,7 +112,7 @@ function vizMatrice (date, direction, localisation, class_produit) {
         ],
       };
     
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }

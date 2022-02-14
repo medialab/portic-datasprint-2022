@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/http-server ./dist/",
-    "build": "webpack --mode=development && cd src && npx @11ty/eleventy",
+    "build": "webpack --mode=development && cd src && npx @11ty/eleventy --quiet",
     "build:prod": "webpack --mode=production && cd src && npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "notebook": "cd docs && jupyter notebook"
@@ -28,6 +28,7 @@
     "@11ty/eleventy": "^1.0.0",
     "http-server": "^14.1.0",
     "js-yaml": "^4.1.0",
+    "slug": "^5.2.0",
     "vega-embed": "^6.20.5",
     "vega-lite": "^5.2.0"
   },

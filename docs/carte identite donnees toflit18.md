@@ -35,3 +35,17 @@ Avec Vega-Lite :
     - directions (import depuis Dunkerque et export vers Dunkerque)
     - localisation de l'enregistrement (bureau de ferme et direction de ferme)
     - classification des produits (`product_simplification` et `product_revolutionempire`)
+
+# Selection des viz
+
+```js
+Array.from(document.querySelectorAll('svg')).forEach(viz => {
+    const parent = viz.parentNode;
+    let title = viz.querySelector('.role-title-text')
+    if (!title) {
+        return
+    }
+    title = title.textContent
+    parent.insertAdjacentHTML('afterbegin', `<span>${title}</span>`)
+})
+```

@@ -8,7 +8,10 @@ vizList = yml.load(vizList);
 const entries = {};
 
 for (const item of vizList) {
-    entries[item.name] = path.resolve(__dirname, './src/webpack/', item.script)
+    const name = path.parse(item.script).name
+    if (entries[name] === undefined) {
+        entries[name] = path.resolve(__dirname, './src/webpack/', item.script)
+    }
 }
 
 module.exports = {

@@ -1,5 +1,6 @@
 import vegaEmbed from 'vega-embed'
 import getVizContainer from './get-container';
+import slug from 'slug';
 
 const container = document.getElementById('container')
     , dataPath = '/static/data/flows.csv';
@@ -9,16 +10,7 @@ const dates = [
         '1789'
     ]
     , filters = [
-        { field: 'departure', filter: 'Dunkerque', label: "ville de départ (Dunkerque)"},
-        // { field: 'destination', filter: 'Dunkerque', label: "ville d'arrivée (Dunkerque)"},
-        // { field: 'departure_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme de départ (Dunkerque)"},
-        // { field: 'destination_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'arrivée (Dunkerque)"},
-        // { field: 'departure_ferme_direction', filter: 'Lille', label: "direction de ferme de départ (Lille)"},
-        // { field: 'destination_ferme_direction', filter: 'Lille', label: "direction de ferme d'arrivée (Lille)"},
-        // { field: 'departure_province', filter: 'Flandre', label: "province de départ (Flandre)"},
-        // { field: 'destination_province', filter: 'Flandre', label: "province d'arrivée (Flandre)"},
-        // { field: 'departure_admiralty', filter: 'Dunkerque', label: "amirauté de départ (Dunkerque)"},
-        // { field: 'destination_admiralty', filter: 'Dunkerque', label: "amirauté d'arrivée (Dunkerque)"}
+        args.filter
     ]
     , ensembles = [
         { field: 'homeport', label: "port d'attache (homeport)"},
@@ -44,18 +36,22 @@ dates.forEach(date => {
         actions.forEach(action => {
 
             directions.forEach(direction => {
-    
-                for (let i = 0; i < ensembles.length - 1; i++) {
-                    for (let j = i + 1; j < ensembles.length; j++) {
-                        vizMatrice(date, filter, ensembles[i], ensembles[j], direction, action)
+
+                if (args.schema === 'matrice') {
+                    for (let i = 0; i < ensembles.length - 1; i++) {
+                        for (let j = i + 1; j < ensembles.length; j++) {
+                            vizMatrice(date, filter, ensembles[i], ensembles[j], direction, action)
+                        }
                     }
                 }
-    
-                ensembles.forEach(ensemble => {
-    
-                    // vizHistogramme(date, filter, ensemble, direction, action);
-    
-                })
+
+                if (args.schema === 'histogramme') {
+                    ensembles.forEach(ensemble => {
+
+                        vizHistogramme(date, filter, ensemble, direction, action);
+        
+                    })
+                }
 
             })
 
@@ -110,7 +106,7 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, action, va
         "config": {}
     };
     
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title.join(' ')) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }
@@ -144,9 +140,7 @@ function vizHistogramme(date, filter, ensemble, direction, action, value = { fie
         ],
     };
 
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title.join(' ')) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }
-
-

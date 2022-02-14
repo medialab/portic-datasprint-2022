@@ -27,6 +27,12 @@ eleventyComputed:
     <main id="container" class="block">
     </main>
 
+    {% if viz.args %}
+    <script>
+        const args = {{ viz.args | dump | safe }};
+    </script>
+    {% endif %}
+
     <script src="/static/js/{{ viz.script }}"></script>
 </body>
 

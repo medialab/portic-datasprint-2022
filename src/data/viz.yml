@@ -26,17 +26,217 @@
   name: destination
   script: destination.js
 
-- title: Navigo - Analyse des points d'enregistrement (pointcalls)
-  name: pointcalls
+- title: Navigo - Analyse des points d'enregistrement (pointcalls) via des matrices selon la ville d'enregistrement
+  name: pointcalls_matrice_pointcall
   script: pointcalls.js
-  description: >-
-    Étude du tonnage et des modalités du voyage en fonction des enregistrements des navires.
+  args: {
+    filter: { field: 'pointcall', filter: 'Dunkerque', label: "ville d'enregistrement (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des points d'enregistrement (pointcalls) via des histogrammes selon la ville d'enregistrement
+  name: pointcalls_histogramme_pointcall
+  script: pointcalls.js
+  args: {
+    filter: { field: 'pointcall', filter: 'Dunkerque', label: "ville d'enregistrement (Dunkerque)"},
+    schema: "histogramme"
+  }
+- title: Navigo - Analyse des points d'enregistrement (pointcalls) via des matrices selon le bureau de ferme d'enregistrement
+  name: pointcalls_matrice_ferme_bureau
+  script: pointcalls.js
+  args: {
+    filter: { field: 'ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'enregistrement (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des points d'enregistrement (pointcalls) via des histogrammes selon le bureau de ferme d'enregistrement
+  name: pointcalls_histogramme_ferme_bureau
+  script: pointcalls.js
+  args: {
+    filter: { field: 'ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'enregistrement (Dunkerque)"},
+    schema: "histogramme"
+  }
+# - title: Navigo - Analyse des points d'enregistrement (pointcalls) via des matrices selon la direction de ferme d'enregistrement
+#   name: pointcalls_matrice_ferme_direction
+#   script: pointcalls.js
+#   args: {
+#     filter: { field: 'ferme_direction', filter: 'Dunkerque', label: "direction de ferme d'enregistrement (Lille)"},
+#     schema: "matrice"
+#   }
+# - title: Navigo - Analyse des points d'enregistrement (pointcalls) via des histogrammes selon la direction de ferme d'enregistrement
+#   name: pointcalls_histogramme_ferme_direction
+#   script: pointcalls.js
+#   args: {
+#     filter: { field: 'ferme_direction', filter: 'Dunkerque', label: "direction de ferme d'enregistrement (Lille)"},
+#     schema: "histogramme"
+#   }
+# - title: Navigo - Analyse des points d'enregistrement (pointcalls) via des matrices selon la province d'enregistrement
+#   name: pointcalls_matrice_pointcall_province
+#   script: pointcalls.js
+#   args: {
+#     filter: { field: 'pointcall_province', filter: 'Dunkerque', label: "province d'enregistrement (Flandre)"},
+#     schema: "matrice"
+#   }
+# - title: Navigo - Analyse des points d'enregistrement (pointcalls) via des histogrammes selon la province d'enregistrement
+#   name: pointcalls_histogramme_pointcall_province
+#   script: pointcalls.js
+#   args: {
+#     filter: { field: 'pointcall_province', filter: 'Dunkerque', label: "province d'enregistrement (Flandre)"},
+#     schema: "histogramme"
+#   }
+- title: Navigo - Analyse des points d'enregistrement (pointcalls) via des matrices selon l'amirauté d'enregistrement
+  name: pointcalls_matrice_pointcall_admiralty
+  script: pointcalls.js
+  args: {
+    filter: { field: 'pointcall_admiralty', filter: 'Dunkerque', label: "amirauté d'enregistrement (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des points d'enregistrement (pointcalls) via des histogrammes selon l'amirauté d'enregistrement
+  name: pointcalls_histogramme_pointcall_admiralty
+  script: pointcalls.js
+  args: {
+    filter: { field: 'pointcall_admiralty', filter: 'Dunkerque', label: "amirauté d'enregistrement (Dunkerque)"},
+    schema: "histogramme"
+  }
 
-- title: Navigo - Analyse des flux (flows)
-  name: flows
+- title: Navigo - Analyse des flux (flows) via des matrices selon la ville de départ
+  name: flows_matrix_departure
   script: flows.js
-  description: >-
-    Étude du tonnage et des modalités du voyage en fonction des flux de navires.
+  args: {
+    filter: { field: 'departure', filter: 'Dunkerque', label: "ville de départ (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des flux (flows) via des histogrammes selon la ville de départ
+  name: flows_histogram_departure
+  script: flows.js
+  args: {
+    filter: { field: 'departure', filter: 'Dunkerque', label: "ville de départ (Dunkerque)"},
+    schema: "histogramme"
+  }
+- title: Navigo - Analyse des flux (flows) via des matrices selon la ville d'arrivée
+  name: flows_matrix_destination
+  script: flows.js
+  args: {
+    filter: { field: 'destination', filter: 'Dunkerque', label: "ville d'arrivée (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des flux (flows) via des histogrammes selon la ville d'arrivée
+  name: flows_histogram_destination
+  script: flows.js
+  args: {
+    filter: { field: 'destination', filter: 'Dunkerque', label: "ville d'arrivée (Dunkerque)"},
+    schema: "histogramme"
+  }
+- title: Navigo - Analyse des flux (flows) via des matrices selon le bureau de ferme de départ
+  name: flows_matrix_departure_ferme_bureau
+  script: flows.js
+  args: {
+    filter: { field: 'departure_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme de départ (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des flux (flows) via des histogrammes selon le bureau de ferme de départ
+  name: flows_histogram_departure_ferme_bureau
+  script: flows.js
+  args: {
+    filter: { field: 'departure_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme de départ (Dunkerque)"},
+    schema: "histogramme"
+  }
+- title: Navigo - Analyse des flux (flows) via des matrices selon le bureau de ferme d'arrivée
+  name: flows_matrix_destination_ferme_bureau
+  script: flows.js
+  args: {
+    filter: { field: 'destination_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'arrivée (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des flux (flows) via des histogrammes selon le bureau de ferme d'arrivée
+  name: flows_histogram_destination_ferme_bureau
+  script: flows.js
+  args: {
+    filter: { field: 'destination_ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'arrivée (Dunkerque)"},
+    schema: "histogramme"
+  }
+# - title: Navigo - Analyse des flux (flows) via des matrices selon la direction de ferme de départ
+#   name: flows_matrix_departure_ferme_direction
+#   script: flows.js
+#   args: {
+#     filter: { field: 'departure_ferme_direction', filter: 'Dunkerque', label: "direction de ferme de départ (Lille)"},
+#     schema: "matrice"
+#   }
+# - title: Navigo - Analyse des flux (flows) via des histogrammes selon la direction de ferme de départ
+#   name: flows_histogram_departure_ferme_direction
+#   script: flows.js
+#   args: {
+#     filter: { field: 'departure_ferme_direction', filter: 'Dunkerque', label: "direction de ferme de départ (Lille)"},
+#     schema: "histogramme"
+#   }
+# - title: Navigo - Analyse des flux (flows) via des matrices selon la direction de ferme d'arrivée
+#   name: flows_matrix_destination_ferme_direction
+#   script: flows.js
+#   args: {
+#     filter: { field: 'destination_ferme_direction', filter: 'Dunkerque', label: "direction de ferme d'arrivée (Lille)"},
+#     schema: "matrice"
+#   }
+# - title: Navigo - Analyse des flux (flows) via des histogrammes selon la direction de ferme d'arrivée
+#   name: flows_histogram_destination_ferme_direction
+#   script: flows.js
+#   args: {
+#     filter: { field: 'destination_ferme_direction', filter: 'Dunkerque', label: "direction de ferme d'arrivée (Lille)"},
+#     schema: "histogramme"
+#   }
+# - title: Navigo - Analyse des flux (flows) via des matrices selon la province de départ
+#   name: flows_matrix_departure_province
+#   script: flows.js
+#   args: {
+#     filter: { field: 'departure_province', filter: 'Dunkerque', label: "province de départ (Flandre)"},
+#     schema: "matrice"
+#   }
+# - title: Navigo - Analyse des flux (flows) via des histogrammes selon la province de départ
+#   name: flows_histogram_departure_province
+#   script: flows.js
+#   args: {
+#     filter: { field: 'departure_province', filter: 'Dunkerque', label: "province de départ (Flandre)"},
+#     schema: "histogramme"
+#   }
+# - title: Navigo - Analyse des flux (flows) via des matrices selon la province d'arrivée
+#   name: flows_matrix_destination_province
+#   script: flows.js
+#   args: {
+#     filter: { field: 'destination_province', filter: 'Dunkerque', label: "province d'arrivée (Flandre)"},
+#     schema: "matrice"
+#   }
+# - title: Navigo - Analyse des flux (flows) via des histogrammes selon la province d'arrivée
+#   name: flows_histogram_destination_province
+#   script: flows.js
+#   args: {
+#     filter: { field: 'destination_province', filter: 'Dunkerque', label: "province d'arrivée (Flandre)"},
+#     schema: "histogramme"
+#   }
+- title: Navigo - Analyse des flux (flows) via des matrices selon l'amirauté de départ'
+  name: flows_matrix_departure_admiralty
+  script: flows.js
+  args: {
+    filter: { field: 'departure_admiralty', filter: 'Dunkerque', label: "amirauté de départ (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des flux (flows) via des histogrammes selon l'amirauté de départ'
+  name: flows_histogram_departure_admiralty
+  script: flows.js
+  args: {
+    filter: { field: 'departure_admiralty', filter: 'Dunkerque', label: "amirauté de départ (Dunkerque)"},
+    schema: "histogramme"
+  }
+- title: Navigo - Analyse des flux (flows) via des matrices selon l'amirauté d'arrivée
+  name: flows_matrix_destination_admiralty
+  script: flows.js
+  args: {
+    filter: { field: 'destination_admiralty', filter: 'Dunkerque', label: "amirauté d'arrivée (Dunkerque)"},
+    schema: "matrice"
+  }
+- title: Navigo - Analyse des flux (flows) via des histogrammes selon l'amirauté d'arrivée
+  name: flows_histogram_destination_admiralty
+  script: flows.js
+  args: {
+    filter: { field: 'destination_admiralty', filter: 'Dunkerque', label: "amirauté d'arrivée (Dunkerque)"},
+    schema: "histogramme"
+  }
 
 - title: Navigo - Objet de voyage au pointage (pointcall)
   name: pointcall_commodity

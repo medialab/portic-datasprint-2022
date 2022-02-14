@@ -1,5 +1,6 @@
 import vegaEmbed from 'vega-embed'
 import getVizContainer from './get-container';
+import slug from 'slug';
 
 const container = document.getElementById('container')
     , dataPath = '/static/data/pointcalls.csv';
@@ -9,17 +10,12 @@ const dates = [
         '1789'
     ]
     , filters = [
-        { field: 'pointcall', filter: 'Dunkerque', label: "ville d'enregistrement (Dunkerque)"},
-        { field: 'ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'enregistrement (Dunkerque)"},
-        { field: 'ferme_direction', filter: 'Lille', label: "direction de ferme d'enregistrement (Lille)"},
-        { field: 'pointcall_province', filter: 'Flandre', label: "province d'enregistrement (Flandre)"},
-        { field: 'pointcall_admiralty', filter: 'Dunkerque', label: "amirauté d'enregistrement (Dunkerque)"}
+        args.filter
     ]
     , ensembles = [
         { field: 'homeport', label: "port d'attache (homeport)"},
         { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
         { field: 'flag', label: "pays du pavillon (drapeau) (flag)"},
-        { field: 'commodity_standardized_fr', label: "objet du voyage (commodity_standardized_fr)"},
         { field: 'tonnage_class', label: "tonnage en classe (tonnage_class)"}
     ]
     , directions = [
@@ -36,17 +32,21 @@ dates.forEach(date => {
 
         directions.forEach(direction => {
 
-            for (let i = 0; i < ensembles.length - 1; i++) {
-                for (let j = i + 1; j < ensembles.length; j++) {
-                    vizMatrice(date, filter, ensembles[i], ensembles[j], direction)
+            if (args.schema === 'matrice') {
+                for (let i = 0; i < ensembles.length - 1; i++) {
+                    for (let j = i + 1; j < ensembles.length; j++) {
+                        vizMatrice(date, filter, ensembles[i], ensembles[j], direction)
+                    }
                 }
             }
 
-            ensembles.forEach(ensemble => {
-
-                vizHistogramme(date, filter, ensemble, direction);
-
-            })
+            if (args.schema === 'histogramme') {
+                ensembles.forEach(ensemble => {
+    
+                    vizHistogramme(date, filter, ensemble, direction);
+    
+                })
+            }
 
 
         })
@@ -64,7 +64,7 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, value = { 
             "url": dataPath
         },
         "title": [
-            `${value.label} en fonction du ${ensemble_x.label} et du ${ensemble_y.label}`,
+            `${ensemble_x.label} en fonction de ${ensemble_y.label} aggrégé par ${value.label}`,
             `du navire pour les pointcalls (${direction.label}) de ${filter.label} en ${date}`
         ],
         "encoding": {
@@ -99,7 +99,7 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, value = { 
         "config": {}
     };
     
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title.join(' ')) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }
@@ -133,7 +133,7 @@ function vizHistogramme(date, filter, ensemble, direction, value = { field: 'ton
         ],
     };
 
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title.join(' ')) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }

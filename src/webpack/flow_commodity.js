@@ -1,5 +1,6 @@
 import vegaEmbed from 'vega-embed'
 import getVizContainer from './get-container';
+import slug from 'slug';
 
 const container = document.getElementById('container')
     , dataPath = '/static/data/flow_commodity.csv';
@@ -41,10 +42,9 @@ dates.forEach(date => {
                 })
         
             })
-    })
+        })
 
     })
-    
 
 })
 
@@ -69,7 +69,7 @@ function vizHistogramme(date, action, filter, direction, value) {
         ],
     };
 
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg' })
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }
