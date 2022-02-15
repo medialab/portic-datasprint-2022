@@ -20,7 +20,7 @@ const container = document.getElementById('container')
         ].forEach(localisation => {
 
             // ['product_simplification', 'product_revolutionempire', 'product_sitc_FR', 'product_RE_aggregate'].forEach(class_produit => {
-            ['product_revolutionempire'].forEach(class_produit => {
+            ['product_RE_aggregate'].forEach(class_produit => {
 
                 vizMatrice(date, direction, localisation, class_produit);
 
@@ -103,7 +103,7 @@ function vizMatrice (date, direction, localisation, class_produit) {
             "url": "/static/data/product.csv"
         },
         "encoding": {
-          "x": {"field": "value", "type": "quantitative", "aggregate": "sum", "title": "Valeur cummulée"},
+          "x": {"field": "value", "type": "quantitative", "aggregate": "sum", "title": "Valeur cumulée"},
           "y": {"field": localisation.field, "type": "nominal", "sort": "-x", "title": localisation.label}
         },
         "transform": [

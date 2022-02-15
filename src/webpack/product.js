@@ -12,14 +12,14 @@ const container = document.getElementById('container');
     ].forEach(direction => {
 
         [
-            { field: 'customs_region', label: 'bureau de ferme' },
-            { field: 'customs_office', label: 'direction de ferme' },
+            { field: 'customs_region', label: 'direction de ferme' },
+            { field: 'customs_office', label: 'bureau de ferme' },
             { field: 'origin', label: 'origine' },
             { field: 'origin_province', label: 'province d\'origine' }
         ].forEach(localisation => {
 
             // ['product_simplification', 'product_revolutionempire', 'product_sitc_FR', 'product_RE_aggregate'].forEach(class_produit => {
-            ['product_revolutionempire'].forEach(class_produit => {
+            ['product_RE_aggregate'].forEach(class_produit => {
 
                 vizMatrice(date, direction, localisation, class_produit);
 
