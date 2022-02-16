@@ -6,7 +6,7 @@ Graph = nx.Graph()
 destinations_from_dunkerque = {}
 
 for year in ['1787', '1789']:
-    CSV_FILE_INPUT = '../../data/navigo_all_flows_' + year + '.csv'
+    CSV_FILE_INPUT = '../data/navigo_all_flows_' + year + '.csv'
 
     with open(CSV_FILE_INPUT, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
@@ -33,7 +33,7 @@ for destination in destinations_from_dunkerque.keys():
 destinations_from_dunkerque_list = list(destinations_from_dunkerque)
 
 for year in ['1787', '1789']:
-    CSV_FILE_INPUT = '../../data/navigo_all_flows_' + year + '.csv'
+    CSV_FILE_INPUT = '../data/navigo_all_flows_' + year + '.csv'
 
     with open(CSV_FILE_INPUT, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
