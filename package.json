@@ -26,6 +26,8 @@
   "homepage": "https://github.com/medialab/portic-datasprint-2022#readme",
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
+    "d3": "^4.13.0",
+    "d3-scale": "^4.0.2",
     "http-server": "^14.1.0",
     "js-yaml": "^4.1.0",
     "slug": "^5.2.0",

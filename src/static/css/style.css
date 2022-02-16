@@ -1,3 +1,9 @@
+:root {
+    --highlight: red;
+    --l_undefined: #d8d8d8;
+    --n_undefined: #8a8a8a;
+}
+
 @media print {
     body { font-size: 30px; }
     .no-print, .no-print * { display: none !important; }
@@ -6,3 +12,32 @@
 div.viz {
     break-inside: avoid;
 }
+
+/* nodes */
+circle, text { cursor: pointer; }
+g.highlight circle, g.focus circle, g.hover circle {
+	stroke: var(--highlight);
+}
+g.focus circle { stroke-width: 3 }
+g.translucent circle { opacity: 0.5; }
+/* links */
+line.highlight, line.hover { stroke: var(--highlight); }
+line.translucent { stroke-opacity: 0.2; }
+/* labels */
+text {
+	font-family: var(--condensed);
+	fill: gray;
+}
+text.highlight { fill: var(--highlight); }
+g.highlight text, g.hover text {
+	fill: black;
+}
+/* arrows */
+marker {
+	/* set into config.yml file by 'undefined' link type */
+	stroke:var(--l_undefined);
+	fill:var(--l_undefined);
+}
+
+.l_undefined { fill: var(--l_undefined); stroke: var(--l_undefined); }
+.n_undefined { fill: var(--n_undefined); stroke: var(--n_undefined); }

@@ -249,3 +249,10 @@
 - title: Navigo - Tonnage des bateaux arrivés/partis de Dunkerque (port, bueau de ferme, amirauté…)
   name: flow_from_dunkerque
   script: flow_from_dunkerque.js
+
+- title: Navigo graph - Ports d'arrivée des bateaux venant de Dunkerque
+  isNetwork: true
+  name: destinations_from_dunkerque
+  script: destinations_from_dunkerque.js
+  description: >-
+    Ports d'arrivée des bateaux venant de Dunkerque. La taille des nœuds exprime le tonnage des bateaux.

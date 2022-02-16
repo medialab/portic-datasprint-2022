@@ -25,7 +25,13 @@ eleventyComputed:
     </header>
 
     <main id="container" class="block">
+
+    {% if viz.isNetwork %}
+    <svg id="graph" width="100vw" height="800"></svg>
+    {% endif %}
+
     </main>
+
 
     {% if viz.args %}
     <script>
