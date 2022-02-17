@@ -104,25 +104,25 @@
     filter: { field: 'departure', filter: 'Dunkerque', label: "ville de départ (Dunkerque)"},
     schema: "matrice"
   }
-- title: Navigo - Analyse des flux (flows) via des histogrammes selon la ville de départ
+- title: Navigo - Analyse des flux (flows) dont le départ est le port de Dunkerque via des histogrammes
   name: flows_histogram_departure
   script: flows.js
   args: {
-    filter: { field: 'departure', filter: 'Dunkerque', label: "ville de départ (Dunkerque)"},
+    filter: { field: 'departure', filter: 'Dunkerque', label: "port de départ (Dunkerque)"},
     schema: "histogramme"
   }
 - title: Navigo - Analyse des flux (flows) via des matrices selon la ville d'arrivée
   name: flows_matrix_destination
   script: flows.js
   args: {
-    filter: { field: 'destination', filter: 'Dunkerque', label: "ville d'arrivée (Dunkerque)"},
+    filter: { field: 'destination', filter: 'Dunkerque', label: "port d'arrivée (Dunkerque)"},
     schema: "matrice"
   }
 - title: Navigo - Analyse des flux (flows) via des histogrammes selon la ville d'arrivée
   name: flows_histogram_destination
   script: flows.js
   args: {
-    filter: { field: 'destination', filter: 'Dunkerque', label: "ville d'arrivée (Dunkerque)"},
+    filter: { field: 'destination', filter: 'Dunkerque', label: "port d'arrivée (Dunkerque)"},
     schema: "histogramme"
   }
 - title: Navigo - Analyse des flux (flows) via des matrices selon le bureau de ferme de départ

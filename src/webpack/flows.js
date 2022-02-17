@@ -15,54 +15,45 @@ const dates = [
     , ensembles = [
         { field: 'homeport', label: "port d'attache (homeport)"},
         { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
-        { field: 'flag', label: "pays du pavillon (drapeau) (flag)"}
-    ]
-    , directions = [
-        { value: 'in', label: "entrée (in)"},
-        { value: 'out', label: "sortie (out)"},
-        { value: 'in-out', label: "correspondance (in-out)"},
-        { value: 'sailing around', label: "pêche (sailing around)"},
-        { value: 'transit', label: "transit (transit)"}
-    ]
-    , actions = [
-        { field: 'destination_action', label: "en entrée (destination_action)"},
-        { field: 'departure_action', label: "en sortie (departure_action)"}
+        { field: 'flag', label: "pays du pavillon (drapeau) (flag)"},
+        { field: args.filter.field === 'destination' ? 'departure' : 'destination', label: `port de ${args.filter.field === 'destination' ? 'départ' : 'destination'}`},
+        { field: args.filter.field === 'destination' ? 'departure_state_1789_fr' : 'destination_state_1789_fr', label: `pays du port de ${args.filter.field === 'destination' ? 'départ' : 'destination'}`},
     ];
 
 dates.forEach(date => {
 
     filters.forEach(filter => {
 
-        actions.forEach(action => {
 
-            directions.forEach(direction => {
-
-                if (args.schema === 'matrice') {
-                    for (let i = 0; i < ensembles.length - 1; i++) {
-                        for (let j = i + 1; j < ensembles.length; j++) {
-                            vizMatrice(date, filter, ensembles[i], ensembles[j], direction, action)
-                        }
-                    }
+        if (args.schema === 'matrice') {
+            for (let i = 0; i < ensembles.length - 1; i++) {
+                for (let j = i + 1; j < ensembles.length; j++) {
+                    vizMatrice(date, filter, ensembles[i], ensembles[j])
                 }
+            }
+        }
 
-                if (args.schema === 'histogramme') {
-                    ensembles.forEach(ensemble => {
+        if (args.schema === 'histogramme') {
+            ensembles.forEach(ensemble => {
 
-                        vizHistogramme(date, filter, ensemble, direction, action);
-        
-                    })
-                }
+                vizHistogramme(date, filter, ensemble);
 
             })
+        }
+        // actions.forEach(action => {
 
-        })
+        //     directions.forEach(direction => {
+
+        //     })
+
+        // })
 
 
     })
 
 })
 
-function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, action, value = { field: 'tonnage', label: 'tonnage cumulé' }) {
+function vizMatrice (date, filter, ensemble_x, ensemble_y, value = { field: 'tonnage', label: 'tonnage cumulé' }) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "mark": "rect",
@@ -71,8 +62,7 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, action, va
         },
         "title": [
             `${value.label} en fonction du ${ensemble_x.label} et du ${ensemble_y.label}`,
-            `du navire ${action.label} (pour ${direction.label}) pour les pointcalls`,
-            `(${direction.label}) de ${filter.label} en ${date}`
+            `du navire pour les flows de ${filter.label} en ${date}`
         ],
         "encoding": {
             "x": {
@@ -99,7 +89,7 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, action, va
         "transform": [
             { "filter": { "field": "year", "equal": date } },
             { "filter": { "field": filter.field, "equal": filter.filter } },
-            { "filter": { "field": action.field, "equal": direction.value } },
+            // { "filter": { "field": action.field, "equal": direction.value } },
             { "filter": `datum.${ensemble_x.field} != ''` },
             { "filter": `datum.${ensemble_y.field} != ''` }
         ],
@@ -111,11 +101,11 @@ function vizMatrice (date, filter, ensemble_x, ensemble_y, direction, action, va
         .catch((response) => { console.error(response) });
 }
 
-function vizHistogramme(date, filter, ensemble, direction, action, value = { field: 'tonnage', label: 'tonnage cumulé' }) {
+function vizHistogramme(date, filter, ensemble, value = { field: 'tonnage', label: 'tonnage cumulé' }) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "title": [
-            `${ensemble.label} du navire pour les pointcalls (${direction.label})`,
+            `${ensemble.label} du navire pour les flows`,
             `de ${filter.label}, aggrégés par ${value.label} en ${date}`
         ],
         "mark": "bar",
@@ -135,7 +125,7 @@ function vizHistogramme(date, filter, ensemble, direction, action, value = { fie
         "transform": [
             { "filter": { "field": "year", "equal": date } },
             { "filter": { "field": filter.field, "equal": filter.filter } },
-            { "filter": { "field": action.field, "equal": direction.value } },
+            // { "filter": { "field": action.field, "equal": direction.value } },
             { "filter": `datum.${ensemble.field} != ''` }
         ],
     };

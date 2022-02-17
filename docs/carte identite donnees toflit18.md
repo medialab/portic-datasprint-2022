@@ -49,3 +49,10 @@ Array.from(document.querySelectorAll('svg')).forEach(viz => {
     parent.insertAdjacentHTML('afterbegin', `<span>${title}</span>`)
 })
 ```
+
+# Zones
+
+Port + Bureau de ferme de Dunkerque = Dunkerque
+Amirauté + Province de Dunkerque = Dunkerque + Gravelines
+
+Il faut donc comparer Dunkerque avec Gravelines

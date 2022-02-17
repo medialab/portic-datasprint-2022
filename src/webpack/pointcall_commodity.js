@@ -73,7 +73,7 @@ function vizHistogrammeTonnage(date, filter, direction, value= { field: 'commodi
         },
         "encoding": {
             "y": { "field": value.field, "title": value.label, "sort": "-x" },
-            "x": { "aggregate": "sum", "title": "tonnage cummulé par objet", "type": "quantitative", 'field': 'tonnage' },
+            "x": { "aggregate": "sum", "title": "tonnage cumulé, pondéré par nombre de commodités par bateau", "type": "quantitative", 'field': 'tonnage' },
         },
         "transform": [
             { "filter": { "field": "year", "equal": date } },

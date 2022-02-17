@@ -55,3 +55,4 @@ La variables `homeport`, `homeport_admiralty`, `homeport_province`, `homeport_st
 - Les ports faisant parti de l'amirauté de Dunkerque et les ports
     - vers lesquels ils exporent
     - d'où ils importent
+- Réseau des bateaux avec un `flag` anglais/grande bretagne (voir les smogleurs)
