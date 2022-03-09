@@ -2,6 +2,8 @@
 /node_modules
 /package-lock.json
 
+/data
+
 /preliminary_inquiry/data
 /preliminary_inquiry/dist
 /preliminary_inquiry/src/static/data
