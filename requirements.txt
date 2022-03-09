@@ -1,0 +1,7 @@
+vega
+pandas
+ipyleaflet
+ipysigma
+networkx
+keplergl
+pre-commit
