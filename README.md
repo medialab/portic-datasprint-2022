@@ -1,5 +1,4 @@
 Datasprint PORTIC 2022
-===
 
 Ce répertoire contient à la fois un ensemble de ressources et les productions des participants du datasprint PORTIC 2022 qui se tiendra les 15, 16, 17, 18.
 

@@ -6,12 +6,17 @@ __pycache__/
 .python-version
 .vscode
 
+<<<<<<< HEAD
 
 node_modules
 package-lock.json
 data
 
 # Preliminary inquiry
+=======
+/data
+
+>>>>>>> 3633af220566caa8d4b002de37cca972cab536cc
 /preliminary_inquiry/data
 /preliminary_inquiry/dist
 /preliminary_inquiry/src/static/data
