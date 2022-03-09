@@ -15,6 +15,8 @@ fields = [
     'destination',
     'homeport',
     'homeport_state_1789_fr',
+    'departure_state_1789_fr',
+    'destination_state_1789_fr',
     'flag',
     'departure_ferme_bureau',
     'departure_ferme_direction',

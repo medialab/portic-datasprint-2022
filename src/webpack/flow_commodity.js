@@ -8,68 +8,98 @@ const container = document.getElementById('container')
 const dates = [
         '1787',
         '1789'
-    ], filters = [
-        { field: 'ferme_bureau', filter: 'Dunkerque', label: "bureau de ferme d'enregistrement (Dunkerque) de départ"},
-        { field: 'ferme_direction', filter: 'Lille', label: "direction de ferme d'enregistrement (Lille) de départ"},
-        { field: 'province', filter: 'Flandre', label: "province d'enregistrement (Flandre) de départ"},
-        { field: 'admiralty', filter: 'Dunkerque', label: "amirauté d'enregistrement (Dunkerque) de départ"}
-    ], directions = [
-        { field: 'in', label: "en entrée (in)"},
-        { field: 'out', label: "en sortie (out)"},
-        { field: 'in-out', label: "en correspondance (in-out)"},
-        { field: 'sailing around', label: "en pêche (sailing around)"},
-        { field: 'transit', label: "en transit (transit)"}
-    ], values = [
-        { field: 'tonnage', label: 'tonnage pondéré (divisé par le nombre de commodités)' },
-        { field: 'commodity_standardized', label: 'objet navire (commodity standardized)' }
-    ], actions = [
-        { value: 'departure_', label: "d'arrivée" },
-        { value: 'destination_', label: "de départ" },
     ]
+    , filters = [
+        { field: 'departure', filter: 'Dunkerque', label: "port de départ (Dunkerque)"},
+        { field: 'destination', filter: 'Dunkerque', label: "port d'arrivée (Dunkerque)"}
+    ]
+    , ensembles = [
+        { field: 'homeport', label: "port d'attache (homeport)"},
+        { field: 'homeport_state_1789_fr', label: "pays d'attache (homeport_state_1789_fr)"},
+        { field: 'flag', label: "pays du pavillon (drapeau) (flag)"},
+        { field: 'departure_or_destination'},
+        { field: 'departure_or_destination_state'}
+    ];
 
 dates.forEach(date => {
 
-    values.forEach(value => {
+    filters.forEach(filter => {
 
-        actions.forEach(action => {
-    
-            filters.forEach(filter => {
-                
-                directions.forEach(direction => {
+        ensembles.forEach((ensemble) => {
 
-                    vizHistogramme(date, action, filter, direction, value);
-        
-                })
-        
-            })
+            vizMatrice(date, filter, ensemble);
+
         })
 
     })
 
 })
 
+function vizMatrice (date, filter, ensemble) {
+    if (ensemble.field === 'departure_or_destination') {
+        if (filter.field === 'destination') {
+            ensemble.field = 'departure'
+            ensemble.label = 'port de départ';
+        } else {
+            ensemble.field = 'destination';
+            ensemble.label = 'port de destination';
+        }
+    }
 
+    if (ensemble.field === 'departure_or_destination_state') {
+        if (filter.field === 'destination') {
+            ensemble.field = 'departure_state_1789_fr'
+            ensemble.label = 'État de départ';
+        } else {
+            ensemble.field = 'destination_state_1789_fr';
+            ensemble.label = 'État de destination';
+        }
+    }
+    
 
-function vizHistogramme(date, action, filter, direction, value) {
     const spec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-        "title": `${value.label} des navires ${direction.label} des ports ${action.label} du/de la ${filter.label} en ${date}`,
-        "mark": "bar",
+        "mark": "rect",
         "data": {
             "url": dataPath
         },
+        "title": [
+            `${ensemble.field} en fonction des objets de voyage aggrégés par tonnage cumulé, pondéré par nombre de commodités par bateau en ${date}`,
+            `filtré par ${filter.label}`
+        ],
         "encoding": {
-            "y": { "field": value.field, "title": value.label, "sort": "-x" },
-            "x": { "aggregate": "count", "title": "nombre de pointcall par objet", "type": "quantitative" },
+            "x": {
+                "field": ensemble.field,
+                "type": "nominal",
+                "sort": "-color",
+                "axis": {
+                    "orient": "top"
+                },
+                "title": ensemble.label
+            },
+            "y": {
+                "field": 'commodity_standardized',
+                "type": "nominal",
+                "sort": "-color",
+                "title": "objets de voyage"
+            },
+            "color": {
+                "field": 'tonnage',
+                "aggregate": "sum",
+                // "aggregate": "count",
+                "type": "quantitative",
+                "title": "tonnage cumulé, pondéré par nombre de commodités par bateau"
+            }
         },
         "transform": [
             { "filter": { "field": "year", "equal": date } },
-            { "filter": { "field": action.value + filter.field, "equal": filter.filter } },
-            { "filter": { "field": `${action.value}action`, "equal": direction.field } }
+            { "filter": { "field": filter.field, "equal": filter.filter } },
+            { "filter": `datum.${ensemble.field} != ''` }
         ],
+        "config": {}
     };
-
-    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title) })
+    
+    vegaEmbed(getVizContainer(container), spec, { mode: "vega-lite", renderer: 'svg', downloadFileName: slug(spec.title.join(' ')) })
         .then((response) => { console.log(response) })
         .catch((response) => { console.error(response) });
 }

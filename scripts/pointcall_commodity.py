@@ -12,6 +12,9 @@ import csv
 fields = [
     'year',
     'flag',
+    'pointcall',
+    'homeport',
+    'homeport_state_1789_fr',
     'ferme_bureau',
     'ferme_direction',
     'pointcall_province',

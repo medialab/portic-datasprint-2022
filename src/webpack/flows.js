@@ -40,14 +40,6 @@ dates.forEach(date => {
 
             })
         }
-        // actions.forEach(action => {
-
-        //     directions.forEach(direction => {
-
-        //     })
-
-        // })
-
 
     })
 
