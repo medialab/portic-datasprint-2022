@@ -2,9 +2,7 @@
 /node_modules
 /package-lock.json
 
-/data
-/dist
-/src/static/data
-/src/static/js
-/docs/.ipynb_checkpoints
-/visualizations
+/preliminary_inquiry/data
+/preliminary_inquiry/dist
+/preliminary_inquiry/src/static/data
+/preliminary_inquiry/src/static/js

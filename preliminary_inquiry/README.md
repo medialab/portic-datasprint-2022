@@ -9,7 +9,7 @@ Plus d'informations dans les fichiers `/docs/**.md`.
 - NodeJS
 - Python (v3.10.1)
 
-## Commandes
+## Commande
 
 ```
 sh install.sh
@@ -22,10 +22,4 @@ Construire et voir le site
 ```
 npm run build
 npm start
-```
-
-Ouvrir le notebook Jupyter
-
-```
-npm run notebook
 ```
