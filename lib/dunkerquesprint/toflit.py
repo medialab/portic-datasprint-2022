@@ -3,7 +3,7 @@ import csv
 import pkgutil
 import io
 
-all_flows = pkgutil.get_data(__name__, "../../data/toflit18_all_flows.csv")
+all_flows = pkgutil.get_data(__name__, "../../data/toflit18_all.csv")
 class Toflit(Client): 
   """
   Utilitaire permettant de requêter les données Toflit
