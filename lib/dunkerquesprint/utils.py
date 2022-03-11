@@ -31,8 +31,8 @@ def nest_toflit18_flow(flow):
     ],
     "product_origin": [
       "origin",
-      "origin_origin",
-      "customs_region_origin",
+      "origin_source",
+      "origin_province",
       "details_provenance"
     ],
     "product_quantity_and_value": [
