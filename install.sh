@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-<<<<<<< HEAD
 echo "installing python dependencies"
 pip3 install -U pip
 pip3 install -e lib
