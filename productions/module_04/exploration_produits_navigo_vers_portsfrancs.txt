@@ -39,7 +39,7 @@ Autres
 
 
 # On extrait les produits à destination des autres ports francs
-xsv select "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | tr "," "\n" | grep . | grep -v "commodity" | count | sort -rn
+xsv select "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Autres_portsfrancs.csv.csv | tr "," "\n" | grep . | grep -v "commodity" | count | sort -rn
     226 Bois à brûler
     249 Boissons alcoolisées (agrégat)
     200 Sel
@@ -99,4 +99,88 @@ Autres
       1 Cuivre
       1 Charbon
       1 Carreaux
+
+# On remarque comme importantes différences :
+- Les ports francs reçoivent beaucoup de Bois à brûler alors que aucun déclaré n'arrive à Dunkerque
+- Les ports francs reçoivent beaucoup de Lest et de Produits alimentaires alors que peu déclaré arrive à Dunkerque
+- Dunkerque reçoit beaucoup de Produits coloniaux en comparaison avec les autres ports francs
+
+
+# On regarde les ports de départ des principaux produits à destination de Dunkerque et des autres ports francs:
+
+# Sel
+xsv search Sel -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | xsv select departure | xsv frequency
+
+## Destination Dunkerque
+departure,Marennes,204
+departure,Noirmoutier,24
+departure,Beauvoir-sur-Mer,10
+departure,Ars en Ré,4
+departure,Ile de Bouin,2
+departure,Etaples,2
+departure,Saint Martin de Ré,1
+departure,La Flotte en Ré,1
+departure,Soubise,1
+departure,Bordeaux,1
+
+xsv search Sel -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Autres_portsfrancs.csv | xsv select departure | xsv frequency
+
+## Destination autres ports francs
+departure,Marennes,72
+departure,Sables d' Olonne,50
+departure,Saint Gilles sur Vie,43
+departure,Noirmoutier,11
+departure,Le Croisic,8
+departure,Le Pouliguen,6
+departure,Ars en Ré,3
+departure,Talmont [Talmont Saint Hilaire],3
+departure,Saint Jean de Luz,1
+departure,Mesquer,1
+
+
+# Vin
+xsv search Vin -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | xsv select departure | xsv frequency
+
+## Destination Dunkerque
+departure,Bordeaux,46
+departure,Boulogne sur Mer,3
+departure,Saint Martin de Ré,3
+departure,La Perrotine,2
+departure,Cherbourg,2
+departure,Bayonne,2
+departure,La Flotte en Ré,1
+departure,Saint Denis [d' Oléron],1
+departure,Marennes,1
+departure,Saint Malo,1
+
+xsv search Vin -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Autres_portsfrancs.csv | xsv select departure | xsv frequency
+
+## Destination autres ports francs
+departure,Bordeaux,85
+departure,Marennes,40
+departure,Ribérou [Saujon],21
+departure,La Flotte en Ré,15
+departure,La Perrotine,11
+departure,Saint Martin de Ré,10
+departure,Lorient,5
+departure,Saint Denis [d' Oléron],5
+departure,Rochefort,4
+departure,Collioure,3
+
+
+# Produits coloniaux
+xsv search "Sucre|Coton|Café" -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | xsv select departure | xsv frequency
+
+## Destination Dunkerque
+departure,Bordeaux,13
+departure,Saint Malo,4
+departure,Etaples,1
+departure,Lorient,1
+
+xsv search "Sucre|Coton|Café" -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Autres_portsfrancs.csv | xsv select departure | xsv frequency
+
+## Destination autres ports francs
+departure,Bordeaux,15
+
+
 
