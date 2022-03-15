@@ -5,7 +5,7 @@ pip3 install -U pip
 pip3 install -e lib
 pip3 install -r requirements.txt
 echo "ensuring notebook config is ok"
-pip3 install --upgrade notebook jupyter # need jupyter_client >= 4.2 for sys-prefix below
+pip3 install --upgrade notebook jupyter jupyterlab # need jupyter_client >= 4.2 for sys-prefix below
 jupyter nbextension install --sys-prefix --py vega  # not needed in notebook >= 5.3
 jupyter nbextension enable --py --sys-prefix ipyleaflet  # can be skipped for notebook 5.3 and above
 
