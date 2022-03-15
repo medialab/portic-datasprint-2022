@@ -1,0 +1,102 @@
+# On filtre dans les flows Navigo les flux a destination de tous les ports francs
+xsv search -s destination_action In navigo_all_flows_1787.csv  | xsv search -s destination "Bayonne|Bayonne|Lorient|Marseille|Noirmoutier|Ile d' Yeu|Ile de Bouin|Dunkerque"> navigo_flows_destination_portfrancs_1787.csv
+xsv search -s destination_action In navigo_all_flows_1789.csv  | xsv search -s destination "Bayonne|Bayonne|Lorient|Marseille|Noirmoutier|Ile d' Yeu|Ile de Bouin|Dunkerque"> navigo_flows_destination_portfrancs_1789.csv
+xsv cat rows navigo_flows_destination_portfrancs_178* > navigo_flows_destination_portfrancs.csv
+
+# On sépare les flows a destination de Dunkerque et des autres ports francs
+xsv search -s "destination" Dunkerque navigo_flows_destination_portfrancs.csv > navigo_flows_destination_Dunkerque.csv
+xsv search -s "destination" -v Dunkerque navigo_flows_destination_portfrancs.csv > navigo_flows_destination_Autres_portsfrancs.csv
+
+# On extrait les produits à destination de Dunkerque
+xsv select "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | tr "," "\n" | grep . | grep -v "commodity" | count | sort -rn
+    251 Sel
+     66 Boissons alcoolisées (agrégat)
+     22 Produits coloniaux (agrégat)
+     15 Diverses marchandises
+     12 Lest
+      2 Passagers
+      9 Futailles vides
+      6 Pierres
+      4 Autres (agrégat)
+      3 Produits alimentaires (agrégat)
+      3 Soude
+
+Boissons alcoolisées
+     60 Vin
+      6 Eau-de-vie
+Produits coloniaux
+     13 Sucre
+      8 Café
+      1 Coton
+Produits alimentaires
+      1 Vinaigre
+      1 Pêche au poisson frais
+      1 Farine
+Autres      
+      2 Vinatérie
+      1 Poterie
+      1 Meubles
+
+
+# On extrait les produits à destination des autres ports francs
+xsv select "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | tr "," "\n" | grep . | grep -v "commodity" | count | sort -rn
+    226 Bois à brûler
+    249 Boissons alcoolisées (agrégat)
+    200 Sel
+    172 Lest
+     53 Diverses marchandises
+     47 Autres (agrégat)
+     37 Passagers
+     34 Produits alimentaires (agrégat)
+     23 Vide
+     21 Futailles vides
+     15 Produits coloniaux (agrégat)
+     12 Bois de construction
+     10 Bouteilles 
+      8 Planches
+      3 Soude
+      1 Pierres
+
+Boissons alcoolisées
+    217 Vin
+     31 Eau-de-vie
+      1 Bière
+Produits coloniaux
+     14 Sucre
+      1 Café
+Produits alimentaires
+      7 Farine
+      5 Froment
+      4 Vinaigre
+      4 Blé
+      2 Sardines pressées de Bretagne
+      2 Pêche au poisson frais
+      2 Morue
+      2 Fourrage
+      2 Fèves
+      1 Morue verte
+      1 Morue sèche
+      1 Haricots blancs
+      1 Beurre
+Autres
+      8 Brai
+      5 Fer
+      4 Goudron
+      4 Chanvre
+      4 Briques
+      3 Résine
+      2 Huile
+      2 Charbon de terre
+      2 Canons
+      2 Bois merrain
+      2 Bois
+      1 Voiles
+      1 Tuilles
+      1 Terre
+      1 Gréments de navire
+      1 Graines de lin
+      1 Feuillard
+      1 Cuivre
+      1 Charbon
+      1 Carreaux
+
