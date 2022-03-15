@@ -25,7 +25,7 @@ xsv join pointcall navigo_pointcalls_1787_destinations.csv pointcall navigo_poin
 
 # On regarde les valeurs qui nous intéressent
 
-grep -P "Dunkerque|Bayonne|Bayonne|Lorient|Marseille|Noirmoutier|Ile d' Yeu|Ile de Bouin|Bordeaux|Nantes" navigo_pointcalls_1787_destinations_fiability.csv
+grep -P "Dunkerque|Bayonne|Lorient|Marseille|Noirmoutier|Ile d' Yeu|Ile de Bouin|Bordeaux|Nantes" navigo_pointcalls_1787_destinations_fiability.csv
 
 Bayonne,413,51,12.35
 Dunkerque,363,23,6.34
@@ -34,4 +34,12 @@ Noirmoutier,114,5,4.39
 Nantes,953,14,1.47
 Lorient,243,2,0.82
 Marseille,6231,1,0.02
+
+
+
+# Pistes explorables
+
+- regarder la proportion de trajets au départ de Dunkerque peu fiables et les produits qui se trouvent dedans
+- toflit : même étude sur les produits d'arrivées à Dunkerque et autres ports francs
+
 
