@@ -16,6 +16,13 @@ cd portic-datasprint-2022
 # cela va lancer des pip install, assurez-vous bien d'être dans un vitualenv python dédié auparavant
 ./install.sh
 ```
+
+Pour éviter que le git contienne plein de commits de merge, lancer la ligne de configuration suivante est très utile:
+
+```
+git config pull.rebase true
+```
+
 ## Mise à jour des données
 
 Si les données de base venaient à être mises à jour en cours de datasprint, une commande permet de les mettre à jour sur votre copie locale du répertoire (dans le dossier `data`) :
