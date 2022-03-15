@@ -168,6 +168,30 @@ departure,Rochefort,4
 departure,Collioure,3
 
 
+# Eau de vie
+xsv search "Eau-de-vie" -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | xsv select departure | xsv frequency
+
+## Destination Dunkerque
+departure,Baie d' Authie,2
+departure,Bordeaux,1
+departure,Bayonne,1
+departure,Cherbourg,1
+departure,Boulogne sur Mer,1
+
+xsv search "Eau-de-vie" -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Autres_portsfrancs.csv | xsv select departure | xsv frequency
+
+## Destination autres ports francs
+departure,Marennes,10
+departure,Bordeaux,6
+departure,La Perrotine,4
+departure,La Flotte en Ré,3
+departure,Lorient,3
+departure,Bayonne,2
+departure,Oléron,1
+departure,Ribérou [Saujon],1
+departure,Rochefort,1
+
+
 # Produits coloniaux
 xsv search "Sucre|Coton|Café" -s "commodity_standardized_fr,commodity_standardized2_fr,commodity_standardized3_fr,commodity_standardized4_fr" navigo_flows_destination_Dunkerque.csv | xsv select departure | xsv frequency
 
