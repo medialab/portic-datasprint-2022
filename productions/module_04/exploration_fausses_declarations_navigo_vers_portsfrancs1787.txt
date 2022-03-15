@@ -1,0 +1,37 @@
+# On filtre dans les pointcalls Navigo les arrivées jugées peu fiables
+
+xsv search "In|In-out" -s pointcall_action navigo_all_pointcalls_1787.csv | xsv search -s pointcall_uncertainity "\-2|\-3" > navigo_pointcalls_fake_1787.csv
+
+# On regarde les principaux ports d'arrivées de ces flux peu fiables
+
+xsv select pointcall navigo_pointcalls_fake_1787.csv  | count | sort -rn | head -10
+     65 Bordeaux
+     64 La Rochelle
+     51 Bayonne
+     23 Rouen
+     23 Dunkerque
+     15 Saint Malo
+     15 Le Havre
+     15 Charente
+     14 Nantes
+     10 Honfleur
+
+# On compte le nombre de pointcalls par port et le nombre de pointcalls jugés peu fiables par port et on en tire des proportions
+
+
+xsv search "In|In-out" -s pointcall_action navigo_all_pointcalls_1787.csv | xsv frequency -s pointcall -l 0 | xsv select "value,count" | sed 's/value,count/pointcall,count/' > navigo_pointcalls_1787_destinations.csv
+xsv frequency -s pointcall -l 0 navigo_pointcalls_fake_1787.csv | xsv select "value,count" | sed 's/value,count/pointcall,uncertain_count/' > navigo_pointcalls_1787_fake_destinations.csv
+xsv join pointcall navigo_pointcalls_1787_destinations.csv pointcall navigo_pointcalls_1787_fake_destinations.csv | xsv select "pointcall,count,uncertain_count" | xsv lua map percent_uncertain "math.floor(uncertain_count / count  * 10000 + 0.5) / 100" | xsv sort -NR -s percent_uncertain > navigo_pointcalls_1787_destinations_fiability.csv
+
+# On regarde les valeurs qui nous intéressent
+
+grep -P "Dunkerque|Bayonne|Bayonne|Lorient|Marseille|Noirmoutier|Ile d' Yeu|Ile de Bouin|Bordeaux|Nantes" navigo_pointcalls_1787_destinations_fiability.csv
+
+Bayonne,413,51,12.35
+Dunkerque,363,23,6.34
+Bordeaux,1389,65,4.68
+Noirmoutier,114,5,4.39
+Nantes,953,14,1.47
+Lorient,243,2,0.82
+Marseille,6231,1,0.02
+
