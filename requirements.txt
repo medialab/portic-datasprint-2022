@@ -6,3 +6,4 @@ ipysigma
 networkx
 keplergl
 pre-commit
+seaborn
