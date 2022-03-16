@@ -1,0 +1,58 @@
+produits_navigo,quantity_unit,modifications,quantity_unit_metric,unit_price_metric,
+amidon,livres poids,,,,
+Bandanoes,livres poids,,,,
+Bandanoes,pièces,,,,
+bandanoes,livres tournois,,,,
+café,livres poids,,,,
+Cambray,livres sterling,,,,
+Cambray,livres tournois,ajout « poids »,,,
+cambray,livres poids,,,,
+cartes à jouer,livres poids,,,,
+Chocolat,livres poids,,,,
+corinthes,livres poids,,,,
+crêpes,livres poids,,,,
+Dimity,livres poids,,,,
+drogues,livres poids,,,,
+eau-de-vie,pintes de Paris,,,,
+Gauzes,livres poids,,,,
+geniève,pintes de Paris,,,,
+Jalap,livres poids,,,,
+liqueurs,pintes,,,,X
+marchandises des Indes,livres tournois,,,,X
+mercerie fine,livres poids,,,,X
+mouchoirs de Bandannoes,livres poids,,,,X
+mouchoirs de mousselin,livres sterling,,,,X
+mouchoirs de mousseline,livres poids,,,,X
+mouchoirs de soie,livres poids,,,,X
+mouchoirs de soie,livres tournois,,,,X
+mousseline,livres poids,,,,X
+mousseline,livres tournois,,,,X
+mousseline des Indes,livres tournois,,,,
+mousselines et mouchoirs,livres tournois,,,,X
+nacres de perle,livres tournois,,,,X
+nankins,livres poids,,,,X
+nankins,pièces,,,,X
+perses,livres poids,,,,
+porcelaine,livres tournois,,,,
+pots de vess potjevleesch,bouteilles,,,,
+poudre à poudrer,livres poids,,,,X
+rhubarbre,livres poids,,,,X
+sené,livres poids,,,,X
+Soie des Indes,livres poids,,,,X
+soie et mousseline,livres tournois,,,,X
+soieries,livres tournois,,,,
+sucre brut,livres poids,,,,X
+sucre en pain,livres poids,,,,
+sucre rafiné,livres poids,,,,
+tabac en côtes,livres poids,,,,X
+tabac en feuilles,livres poids,,,,X
+tabac en poudre,livres poids,,,,
+tabac fabriqué,livres poids,,,,
+Taffetas,livres poids,,,,
+Taffia,pintes de Paris,,,,
+thé,livres poids,,,,
+vin,barriques,,,,
+vin,pots,,,,
+vin fin,pintes,,,,X
+vin rouge,pintes,,,,X
+voiture,pièces,ajout « pièces »,,,
