@@ -7,6 +7,15 @@ CSV_FILE_INPUT = '../../../data/navigo_all_flows_1787.csv'
 
 departs = {}
 
+def is_gb_destination(row):
+    row['destination_substate_1789_fr'] = row['destination_substate_1789_fr'].lower()
+
+    if row['destination_state_1789_fr'] == 'Grande-Bretagne' \
+        and 'colonies britanniques' not in row['destination_substate_1789_fr']:
+        return True
+    
+    return False
+
 with open(CSV_FILE_INPUT, newline='') as csvfile:
     reader = csv.DictReader(csvfile)
 
@@ -20,7 +29,7 @@ with open(CSV_FILE_INPUT, newline='') as csvfile:
 
         if row['departure_fr'] in departs:
             departs[row['departure_fr']]['total'] += 1
-            if row['destination_state_1789_fr'] == 'Grande-Bretagne':
+            if is_gb_destination(row) == True:
                 departs[row['departure_fr']]['dont_vers_grande_bretagne'] += 1
                 departs[row['departure_fr']]['tonnage_vers_grande_bretagne'] += row['tonnage']
                 if row['flag'] == 'British':
@@ -30,8 +39,8 @@ with open(CSV_FILE_INPUT, newline='') as csvfile:
             departs[row['departure_fr']] = {
                 'name': row['departure_fr'],
                 'total': 1,
-                'dont_vers_grande_bretagne': 1 if row['destination_state_1789_fr'] == 'Grande-Bretagne' else 0,
-                'tonnage_vers_grande_bretagne': row['tonnage'] if row['destination_state_1789_fr'] == 'Grande-Bretagne' else 0,
+                'dont_vers_grande_bretagne': 1 if is_gb_destination(row) == True else 0,
+                'tonnage_vers_grande_bretagne': row['tonnage'] if is_gb_destination(row) == True else 0,
                 'nb_bateau_anglais': 1 if row['flag'] == 'British' else 0,
                 'tonnage_bateaux_anglais_vers_grande_bretagne': row['tonnage'] if row['flag'] == 'British' else 0,
                 'per_cent': 0,
