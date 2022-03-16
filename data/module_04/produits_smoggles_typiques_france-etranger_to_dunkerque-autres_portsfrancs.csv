@@ -1,0 +1,30 @@
+categorie,produit,count_france_to_dunkerque,count_etranger_to_dunkerque,count_france_to_autres_portsfrancs,count_etranger_to_autres_portsfrancs
+Boissons alcoolisées,"Bière, cidre et vinaigre",8,7,12,7
+Boissons alcoolisées,Eaux-de-vie et liqueurs,16,23,31,25
+Boissons alcoolisées,Vin de liqueurs,,,,4
+Boissons alcoolisées,Vins de Bordeaux,1,,,2
+Boissons alcoolisées,Vins divers,22,19,48,45
+Produits coloniaux,Cacao et chocolat,1,3,3,25
+Produits coloniaux,Café,,3,1,11
+Produits coloniaux,Cannelle,,7,1,7
+Produits coloniaux,Cochenille,1,,1,4
+Produits coloniaux,Coton non transformé,1,7,3,10
+Produits coloniaux,Denrées coloniales et épiceries diverses,2,5,1,8
+Produits coloniaux,Indigo,,6,3,24
+Produits coloniaux,Quinquina,,,1,6
+Produits coloniaux,Sucre,1,12,1,11
+Produits coloniaux,Tabac,9,10,2,21
+Produits coloniaux,Thé,,8,,8
+Produits coloniaux,Girofle,1,3,,1
+Produits coloniaux,Muscades,1,3,,1
+Soieries,Bonneterie de soie,2,,4,
+Soieries,Châles et mouchoirs de soie,,4,4,3
+Soieries,Châles et mouchoirs hors soie,9,10,17,9
+Soieries,Dentelles,7,3,13,2
+Soieries,Étoffes de soie,6,6,20,17
+Soieries,"Filoselle, fleuret et bourre de soie",,,1,4
+Soieries,"Mousseline, basin et nankin",1,10,16,10
+Soieries,Rubanerie et passementerie de soie,6,,9,5
+Soieries,Rubanerie et passementerie diverse,,9,6,2
+Soieries,Soie,2,5,4,33
+Soieries,Soieries diverses,3,4,7,12
