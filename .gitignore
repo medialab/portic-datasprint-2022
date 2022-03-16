@@ -9,8 +9,7 @@ __pycache__/
 
 node_modules
 package-lock.json
-data
-
+/data
 /test
 
 # Preliminary inquiry
