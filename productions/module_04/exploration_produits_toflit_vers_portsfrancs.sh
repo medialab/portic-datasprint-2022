@@ -22,3 +22,11 @@ xsv join --left produit /tmp/join1.csv produit toflit18_products_etranger_to_dun
 xsv join --left produit /tmp/join2.csv produit toflit18_products_france_to_autres_portsfrancs_1787-1789.csv | xsv select 1,2,3,4,6 > /tmp/join3.csv
 xsv join --left produit /tmp/join3.csv produit toflit18_products_etranger_to_autres_portsfrancs_1787-1789.csv | xsv select 1,2,3,4,5,7 > produits_smoggles_typiques_france-etranger_to_dunkerque-autres_portsfrancs.csv
 
+
+xsv search "178[79]" -s year toflit18_flows_france_to_dunkerque.csv | xsv select product_revolutionempire,value  > toflit18_products_france_to_dunkerque_1787-1789_values.csv
+xsv search "178[79]" -s year toflit18_flows_france_to_autres_portsfrancs.csv | xsv select product_revolutionempire,value  > toflit18_products_france_to_autres_portsfrancs_1787-1789_values.csv
+xsv search "178[79]" -s year toflit18_flows_etranger_to_dunkerque.csv | xsv select product_revolutionempire,value  > toflit18_products_etranger_to_dunkerque_1787-1789_values.csv
+xsv search "178[79]" -s year toflit18_flows_etranger_to_autres_portsfrancs.csv | xsv select product_revolutionempire,value  > toflit18_products_etranger_to_autres_portsfrancs_1787-1789_values.csv
+
+python ../../productions/module_04/agregate_values_for_histograms.py ../produits_smoggles_typiques.csv toflit18_products_%s_to_%s_1787-1789_values.csv france etranger dunkerque autres_portsfrancs > produits_smoggles_typiques_france-etranger_to_dunkerque-autres_portsfrancs_values-agrege.csv
+
