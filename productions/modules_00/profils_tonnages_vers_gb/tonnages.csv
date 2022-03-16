@@ -1,0 +1,71 @@
+port,tonnage,order,count
+Honfleur,1 - [1-20],1,1
+Honfleur,4 - [101-200],101,1
+Dieppe,2 -[21-50],21,81
+Dieppe,5 - [201-500],201,6
+Dieppe,1 - [1-20],1,46
+Dieppe,4 - [101-200],101,8
+Dieppe,3 - [51-100],51,2
+Marennes,4 - [101-200],101,2
+Marennes,3 - [51-100],51,1
+Bordeaux,4 - [101-200],101,60
+Bordeaux,3 - [51-100],51,39
+Bordeaux,5 - [201-500],201,20
+Bordeaux,2 -[21-50],21,13
+Bordeaux,1 - [1-20],1,2
+Gravelines,2 -[21-50],21,3
+Gravelines,3 - [51-100],51,1
+Rouen,3 - [51-100],51,38
+Rouen,2 -[21-50],21,28
+Rouen,4 - [101-200],101,9
+Rochefort,2 -[21-50],21,1
+Rochefort,4 - [101-200],101,6
+Rochefort,3 - [51-100],51,3
+Noirmoutier,4 - [101-200],101,3
+Noirmoutier,2 -[21-50],21,2
+Granville,1 - [1-20],1,46
+Le Tréport,4 - [101-200],101,2
+Nantes,4 - [101-200],101,5
+Nantes,3 - [51-100],51,5
+Nantes,1 - [1-20],1,1
+Nantes,2 -[21-50],21,4
+Bayonne,3 - [51-100],51,2
+Bayonne,5 - [201-500],201,2
+Le Pouliguen,3 - [51-100],51,2
+Roscoff,1 - [1-20],1,122
+Roscoff,2 -[21-50],21,16
+Roscoff,3 - [51-100],51,3
+Roscoff,4 - [101-200],101,1
+La Rochelle,5 - [201-500],201,2
+La Rochelle,4 - [101-200],101,1
+Brest,2 -[21-50],21,1
+Mortagne,4 - [101-200],101,1
+Calais,1 - [1-20],1,282
+Calais,2 -[21-50],21,527
+Calais,3 - [51-100],51,3
+Calais,5 - [201-500],201,1
+Calais,4 - [101-200],101,1
+Dunkerque,1 - [1-20],1,1037
+Dunkerque,4 - [101-200],101,70
+Dunkerque,2 -[21-50],21,27
+Dunkerque,3 - [51-100],51,111
+Le Havre,4 - [101-200],101,74
+Le Havre,5 - [201-500],201,17
+Le Havre,3 - [51-100],51,57
+Le Havre,2 -[21-50],21,42
+Le Havre,1 - [1-20],1,10
+Le Croisic,2 -[21-50],21,4
+Le Croisic,4 - [101-200],101,4
+Le Croisic,3 - [51-100],51,3
+Fécamp,4 - [101-200],101,6
+Fécamp,1 - [1-20],1,6
+Fécamp,3 - [51-100],51,2
+Cherbourg,1 - [1-20],1,11
+Cherbourg,3 - [51-100],51,9
+Cherbourg,5 - [201-500],201,5
+Cherbourg,2 -[21-50],21,4
+Cherbourg,4 - [101-200],101,6
+Lorient,3 - [51-100],51,6
+Lorient,2 -[21-50],21,24
+Lorient,5 - [201-500],201,1
+Lorient,4 - [101-200],101,3
