@@ -70,13 +70,13 @@ with open('result.csv', 'w', newline='') as csvfile:
     fieldnames = [
         'Nom port',
         'nombre de départ',
-        "dont vers l'angleterre",
-        "% départs vers angleterre",
+        "dont vers l'Grande-Bretagne",
+        "% départs vers Grande-Bretagne",
         "nombre de bateaux anglais",
-        "% bateaux anglais avec départ angleterre",
-        "tonnage bateaux vers angleterre",
-        "tonnage des bateaux anglais vers angleterre",
-        "% tonnage anglais vers angleterre"
+        "% bateaux anglais avec départ Grande-Bretagne",
+        "tonnage bateaux vers Grande-Bretagne",
+        "tonnage des bateaux anglais vers Grande-Bretagne",
+        "% tonnage anglais vers Grande-Bretagne"
     ]
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
@@ -87,12 +87,12 @@ with open('result.csv', 'w', newline='') as csvfile:
             {
                 'Nom port': depart['name'],
                 'nombre de départ': depart['total'],
-                "dont vers l'angleterre": depart['dont_vers_grande_bretagne'],
-                "% départs vers angleterre": depart['per_cent'],
+                "dont vers l'Grande-Bretagne": depart['dont_vers_grande_bretagne'],
+                "% départs vers Grande-Bretagne": depart['per_cent'],
                 "nombre de bateaux anglais": depart['nb_bateau_anglais'],
-                "% bateaux anglais avec départ angleterre": depart['per_cent_bateaux_anglais'],
-                "tonnage bateaux vers angleterre": depart['tonnage_vers_grande_bretagne'],
-                "tonnage des bateaux anglais vers angleterre": depart['tonnage_bateaux_anglais_vers_grande_bretagne'],
-                "% tonnage anglais vers angleterre": depart['per_cent_tonnage_bateaux_anglais']
+                "% bateaux anglais avec départ Grande-Bretagne": depart['per_cent_bateaux_anglais'],
+                "tonnage bateaux vers Grande-Bretagne": depart['tonnage_vers_grande_bretagne'],
+                "tonnage des bateaux anglais vers Grande-Bretagne": depart['tonnage_bateaux_anglais_vers_grande_bretagne'],
+                "% tonnage anglais vers Grande-Bretagne": depart['per_cent_tonnage_bateaux_anglais']
             }
         )
