@@ -1,0 +1,1065 @@
+﻿{
+  "type": "presentation",
+  "metadata": {
+    "authors": [],
+    "description": "",
+    "gistId": "3a09af51b29efd361c7b8c51f42be89b",
+    "gistUrl": "https://gist.github.com/3a09af51b29efd361c7b8c51f42be89b"
+  },
+  "datasets": {
+    "a2e7816c-d1cf-451c-844d-efb78717dfeb": {
+      "metadata": {
+        "format": "csv",
+        "fileName": "chronologie qualitative timeline js - Feuille 1.csv",
+        "title": "chronologie qualitative timeline js - Feuille 1.csv",
+        "description": "",
+        "url": ""
+      },
+      "rawData": "Year,Month,Day,Time,End Year,End Month,End Day,End Time,Display Date,Headline,Text,Media,Media Credit,Media Caption,Media Thumbnail,Type,Group,Background\r\n1662,,,,,,,,,Dunkerque est rachetée par la France à l’Angleterre après 5 ans d’occupation anglaise (auparavant : espagnole) ; la ville est alors fortifiée par Vauban.,,,,,,France,,\r\n1701,,,,1713,,,,,\"guerre de Succession d’Espagne, traité d’Utrecht.\",,,,,,Autre,,\r\n1713,,,,1714,,,,,\"occupation anglaise, démolition des fortifications et du port.\",,,,,,France,,\r\n1717,,,,,,,,,premier Act anti-smogglage en Grande-Bretagne.,,,,,,Angleterre,,\r\n1718,,,,,,,,,Hovering Act en Grande-Bretagne. Les navires fraudeurs saisis sont confisqués ou détruits.,,,,,,Angleterre,,\r\n1721,,,,,,,,,Smuggling Act en Grande-Bretagne. Sept années de déportation pour les smoggleurs.,,,,,,Angleterre,,\r\n1724,,,,,,,,,le thé est inscrit en Grande-Bretagne parmi les articles fortement taxés et soumis à l’entrepôt.,,,,,,Angleterre,,\r\n1728,,,,,,,,,forte hausse de la taxation sur les alcools en Grande-Bretagne.,,,,,,Angleterre,,\r\n1733,,,,,,,,,le tabac est fortement taxé en Grande-Bretagne.,,,,,,Angleterre,,\r\n1736,,,,,,,,,\"construction sur le port du bureau de pesage, dit Halle de l’Estran, entrepôt de produits coloniaux.\",,,,,,France,,\r\n1740,,,,1748,,,,,guerre de Succession d’Autriche (la France intervient à partir de 1744). Première reconstruction du port suivie d’une démolition en 1748 exigée par les Anglais.,,,,,,France,,\r\n1749,,,,,,,,,tabacs en France exclus du droit de transit à 5% (comme les sucres et les fers (depuis 1711).,,,,,,France,,\r\n1756,,,,1763,,,,,guerre de Sept Ans. Deuxième destruction du port.,,,,,,France,,\r\n1765,,,,,,,,,l’Angleterre “rachète” l’île de Man et met fin à sa florissante contrebande.,,,,,,Angleterre,,\r\n1778,,,,1783,,,,,\"participation de la France à la guerre d’Indépendance Américaine. Pendant la guerre, la France admet (règlement du 12 octobre 1778) les fraudeurs anglais désarmés dans les seuls ports de Dunkerque, Calais, Boulogne et Fécamp. À partir de 1783, le port est libéré des contraintes anglaises.\",,,,,,France,,\r\n1784,9,,,,,,,,très forte réduction des droits d’entrée prohibitifs sur le thé en Grande-Bretagne (voir Cole): les importations légales de thé en GB sont multipliées par 4 dès 1785.,,,,,,Angleterre,,\r\n1784,,,,1785,,,,,\"mise en service des revenue cutters, navires destinés à intercepter les smoggleurs en pleine mer (dates à préciser).\",,,,,,Angleterre,,\r\n1784,,,,1785,,,,,construction du bureau principal des traites à Dunkerque en basse-ville.,,,,,,France,,\r\n1785,,,,,,,,,réduction du droit de transit (pour les marchandises sortant de Dunkerque vers l’étranger) à 1% de la valeur des marchandises transportées (sauf pour les tabacs). (source : Frappé),,,,,,France,,\r\n1787,3,10,,,,,,,\"signature du traité Eden-Rayneval (provoquant une forte diminution des taxes douanières entre GB et France). Un conflit à propos de Dunkerque éclate sur la question de savoir si les marchandises anglaises passant par Dunkerque peuvent bénéficier de droits réduits comme marchandises anglaises en allant ensuite en France. La chambre de commerce de Dunkerque accepte la nouvelle procédure, qui requiert une vérification de la Ferme. Le port de Dunkerque reste donc  une zone franche, et la ville est considérée comme étrangère ne bénéficiant pas du traité (voir Frappé p. 104).\",,,,,,France,,\r\n1793,2,1,,,,,,,début de la guerre contre le Royaume-Uni.,,,,,,France,,"
+    }
+  },
+  "visualizations": {
+    "2c1fdf9e-d47a-4f74-8b23-d047af243e72": {
+      "metadata": {
+        "visualizationType": "timeline"
+      },
+      "data": {
+        "main": [
+          {
+            "Year": "1662",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "Dunkerque est rachetée par la France à l’Angleterre après 5 ans d’occupation anglaise (auparavant : espagnole) ; la ville est alors fortifiée par Vauban.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1701",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "1713",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "guerre de Succession d’Espagne, traité d’Utrecht.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Autre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1713",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "1714",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "occupation anglaise, démolition des fortifications et du port.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1717",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "premier Act anti-smogglage en Grande-Bretagne.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1718",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "Hovering Act en Grande-Bretagne. Les navires fraudeurs saisis sont confisqués ou détruits.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1721",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "Smuggling Act en Grande-Bretagne. Sept années de déportation pour les smoggleurs.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1724",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "le thé est inscrit en Grande-Bretagne parmi les articles fortement taxés et soumis à l’entrepôt.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1728",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "forte hausse de la taxation sur les alcools en Grande-Bretagne.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1733",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "le tabac est fortement taxé en Grande-Bretagne.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1736",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "construction sur le port du bureau de pesage, dit Halle de l’Estran, entrepôt de produits coloniaux.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1740",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "1748",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "guerre de Succession d’Autriche (la France intervient à partir de 1744). Première reconstruction du port suivie d’une démolition en 1748 exigée par les Anglais.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1749",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "tabacs en France exclus du droit de transit à 5% (comme les sucres et les fers (depuis 1711).",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1756",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "1763",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "guerre de Sept Ans. Deuxième destruction du port.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1765",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "l’Angleterre “rachète” l’île de Man et met fin à sa florissante contrebande.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1778",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "1783",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "participation de la France à la guerre d’Indépendance Américaine. Pendant la guerre, la France admet (règlement du 12 octobre 1778) les fraudeurs anglais désarmés dans les seuls ports de Dunkerque, Calais, Boulogne et Fécamp. À partir de 1783, le port est libéré des contraintes anglaises.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1784",
+            "Month": "9",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "très forte réduction des droits d’entrée prohibitifs sur le thé en Grande-Bretagne (voir Cole): les importations légales de thé en GB sont multipliées par 4 dès 1785.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1784",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "1785",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "mise en service des revenue cutters, navires destinés à intercepter les smoggleurs en pleine mer (dates à préciser).",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "Angleterre",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1784",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "1785",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "construction du bureau principal des traites à Dunkerque en basse-ville.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1785",
+            "Month": "",
+            "Day": "",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "réduction du droit de transit (pour les marchandises sortant de Dunkerque vers l’étranger) à 1% de la valeur des marchandises transportées (sauf pour les tabacs). (source : Frappé)",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1787",
+            "Month": "3",
+            "Day": "10",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "signature du traité Eden-Rayneval (provoquant une forte diminution des taxes douanières entre GB et France). Un conflit à propos de Dunkerque éclate sur la question de savoir si les marchandises anglaises passant par Dunkerque peuvent bénéficier de droits réduits comme marchandises anglaises en allant ensuite en France. La chambre de commerce de Dunkerque accepte la nouvelle procédure, qui requiert une vérification de la Ferme. Le port de Dunkerque reste donc  une zone franche, et la ville est considérée comme étrangère ne bénéficiant pas du traité (voir Frappé p. 104).",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": "",
+            "Background": ""
+          },
+          {
+            "Year": "1793",
+            "Month": "2",
+            "Day": "1",
+            "Time": "",
+            "End Year": "",
+            "End Month": "",
+            "End Day": "",
+            "End Time": "",
+            "Display Date": "",
+            "Headline": "début de la guerre contre le Royaume-Uni.",
+            "Text": "",
+            "Media": "",
+            "Media Credit": "",
+            "Media Caption": "",
+            "Media Thumbnail": "",
+            "Type": "France",
+            "Group": ""
+          }
+        ]
+      },
+      "dataProfile": {
+        "main": [
+          {
+            "propertyName": "Year",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 21,
+              "total": 21,
+              "coverage": 1
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Month",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 3,
+              "total": 21,
+              "coverage": 0.14285714285714285
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Day",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 2,
+              "total": 21,
+              "coverage": 0.09523809523809523
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Time",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "End Year",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 7,
+              "total": 21,
+              "coverage": 0.3333333333333333
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "End Month",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "End Day",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "End Time",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Display Date",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Headline",
+            "propertiesTypes": {
+              "string": 21
+            },
+            "coverage": {
+              "covered": 21,
+              "total": 21,
+              "coverage": 1
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Text",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Media",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Media Credit",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Media Caption",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Media Thumbnail",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Type",
+            "propertiesTypes": {
+              "string": 21
+            },
+            "coverage": {
+              "covered": 21,
+              "total": 21,
+              "coverage": 1
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Group",
+            "propertiesTypes": {
+              "number": 21
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          },
+          {
+            "propertyName": "Background",
+            "propertiesTypes": {
+              "number": 20,
+              "string": 1
+            },
+            "coverage": {
+              "covered": 0,
+              "total": 21,
+              "coverage": 0
+            },
+            "collectionId": "main"
+          }
+        ]
+      },
+      "flattenedDataMap": {
+        "main": {
+          "year": "Year",
+          "month": "Month",
+          "day": "Day",
+          "time": "Time",
+          "end year": "End Year",
+          "end month": "End Month",
+          "end day": "End Day",
+          "end time": "End Time"
+        }
+      },
+      "datasets": [
+        "a2e7816c-d1cf-451c-844d-efb78717dfeb"
+      ],
+      "viewParameters": {
+        "fromDate": -2202561564261,
+        "toDate": -309108603261,
+        "colorsMap": {
+          "main": {
+            "France": "#ffd1bf",
+            "Autre": "#ffa380",
+            "Angleterre": "#1feb00"
+          }
+        },
+        "dataMap": {
+          "main": {
+            "title": {
+              "id": "title",
+              "acceptedValueTypes": [
+                "string",
+                "number"
+              ],
+              "mappedField": "Headline"
+            },
+            "description": {
+              "id": "description",
+              "acceptedValueTypes": [
+                "string"
+              ]
+            },
+            "source": {
+              "id": "source",
+              "acceptedValueTypes": [
+                "string"
+              ]
+            },
+            "category": {
+              "id": "category",
+              "acceptedValueTypes": [
+                "string",
+                "number"
+              ],
+              "mappedField": "Type"
+            },
+            "year": {
+              "id": "year",
+              "acceptedValueTypes": [
+                "number"
+              ],
+              "mappedField": "Year"
+            },
+            "month": {
+              "id": "month",
+              "acceptedValueTypes": [
+                "number"
+              ],
+              "mappedField": "Month"
+            },
+            "day": {
+              "id": "day",
+              "acceptedValueTypes": [
+                "number"
+              ],
+              "mappedField": "Day"
+            },
+            "time": {
+              "id": "time",
+              "acceptedValueTypes": [
+                "string"
+              ],
+              "mappedField": "Time"
+            },
+            "end year": {
+              "id": "end year",
+              "acceptedValueTypes": [
+                "number"
+              ],
+              "mappedField": "End Year"
+            },
+            "end month": {
+              "id": "end month",
+              "acceptedValueTypes": [
+                "number"
+              ],
+              "mappedField": "End Month"
+            },
+            "end day": {
+              "id": "end day",
+              "acceptedValueTypes": [
+                "number"
+              ],
+              "mappedField": "End Day"
+            },
+            "end time": {
+              "id": "end time",
+              "acceptedValueTypes": [
+                "string"
+              ],
+              "mappedField": "End Time"
+            }
+          }
+        },
+        "flattenedDataMap": {
+          "main": {
+            "year": "Year",
+            "month": "Month",
+            "day": "Day",
+            "time": "Time",
+            "end year": "End Year",
+            "end month": "End Month",
+            "end day": "End Day",
+            "end time": "End Time",
+            "title": "Headline",
+            "category": "Type"
+          }
+        }
+      }
+    }
+  },
+  "slides": {
+    "8e438260-98d5-4885-9e02-c6d9e259ca86": {
+      "views": {
+        "2c1fdf9e-d47a-4f74-8b23-d047af243e72": {
+          "viewParameters": {
+            "fromDate": -6169908203303.169,
+            "toDate": -5573095585146.491,
+            "colorsMap": {
+              "main": {
+                "France": "#ffd1bf",
+                "Autre": "#ffa380",
+                "Angleterre": "#1feb00"
+              }
+            },
+            "dataMap": {
+              "main": {
+                "title": {
+                  "id": "title",
+                  "acceptedValueTypes": [
+                    "string",
+                    "number"
+                  ],
+                  "mappedField": "Headline"
+                },
+                "description": {
+                  "id": "description",
+                  "acceptedValueTypes": [
+                    "string"
+                  ]
+                },
+                "source": {
+                  "id": "source",
+                  "acceptedValueTypes": [
+                    "string"
+                  ]
+                },
+                "category": {
+                  "id": "category",
+                  "acceptedValueTypes": [
+                    "string",
+                    "number"
+                  ],
+                  "mappedField": "Type"
+                },
+                "year": {
+                  "id": "year",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "Year"
+                },
+                "month": {
+                  "id": "month",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "Month"
+                },
+                "day": {
+                  "id": "day",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "Day"
+                },
+                "time": {
+                  "id": "time",
+                  "acceptedValueTypes": [
+                    "string"
+                  ],
+                  "mappedField": "Time"
+                },
+                "end year": {
+                  "id": "end year",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "End Year"
+                },
+                "end month": {
+                  "id": "end month",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "End Month"
+                },
+                "end day": {
+                  "id": "end day",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "End Day"
+                },
+                "end time": {
+                  "id": "end time",
+                  "acceptedValueTypes": [
+                    "string"
+                  ],
+                  "mappedField": "End Time"
+                }
+              }
+            },
+            "flattenedDataMap": {
+              "main": {
+                "year": "Year",
+                "month": "Month",
+                "day": "Day",
+                "time": "Time",
+                "end year": "End Year",
+                "end month": "End Month",
+                "end day": "End Day",
+                "end time": "End Time",
+                "title": "Headline",
+                "category": "Type"
+              }
+            },
+            "shownCategories": {
+              "main": [
+                "France",
+                "Autre",
+                "Angleterre"
+              ]
+            }
+          }
+        }
+      },
+      "title": "Deuxième partie du 18ème",
+      "markdown": "",
+      "id": "8e438260-98d5-4885-9e02-c6d9e259ca86"
+    },
+    "5a803e44-5879-424d-b58b-08c37058a8a0": {
+      "views": {
+        "2c1fdf9e-d47a-4f74-8b23-d047af243e72": {
+          "viewParameters": {
+            "fromDate": -6930760124836.658,
+            "toDate": -6070880689273.18,
+            "colorsMap": {
+              "main": {
+                "France": "#ffd1bf",
+                "Autre": "#ffa380",
+                "Angleterre": "#1feb00"
+              }
+            },
+            "dataMap": {
+              "main": {
+                "title": {
+                  "id": "title",
+                  "acceptedValueTypes": [
+                    "string",
+                    "number"
+                  ],
+                  "mappedField": "Headline"
+                },
+                "description": {
+                  "id": "description",
+                  "acceptedValueTypes": [
+                    "string"
+                  ]
+                },
+                "source": {
+                  "id": "source",
+                  "acceptedValueTypes": [
+                    "string"
+                  ]
+                },
+                "category": {
+                  "id": "category",
+                  "acceptedValueTypes": [
+                    "string",
+                    "number"
+                  ],
+                  "mappedField": "Type"
+                },
+                "year": {
+                  "id": "year",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "Year"
+                },
+                "month": {
+                  "id": "month",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "Month"
+                },
+                "day": {
+                  "id": "day",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "Day"
+                },
+                "time": {
+                  "id": "time",
+                  "acceptedValueTypes": [
+                    "string"
+                  ],
+                  "mappedField": "Time"
+                },
+                "end year": {
+                  "id": "end year",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "End Year"
+                },
+                "end month": {
+                  "id": "end month",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "End Month"
+                },
+                "end day": {
+                  "id": "end day",
+                  "acceptedValueTypes": [
+                    "number"
+                  ],
+                  "mappedField": "End Day"
+                },
+                "end time": {
+                  "id": "end time",
+                  "acceptedValueTypes": [
+                    "string"
+                  ],
+                  "mappedField": "End Time"
+                }
+              }
+            },
+            "flattenedDataMap": {
+              "main": {
+                "year": "Year",
+                "month": "Month",
+                "day": "Day",
+                "time": "Time",
+                "end year": "End Year",
+                "end month": "End Month",
+                "end day": "End Day",
+                "end time": "End Time",
+                "title": "Headline",
+                "category": "Type"
+              }
+            },
+            "shownCategories": {
+              "main": [
+                "France",
+                "Autre",
+                "Angleterre"
+              ]
+            }
+          }
+        }
+      },
+      "title": "Guerre de sept ans",
+      "markdown": "",
+      "id": "5a803e44-5879-424d-b58b-08c37058a8a0"
+    }
+  },
+  "order": [
+    "5a803e44-5879-424d-b58b-08c37058a8a0",
+    "8e438260-98d5-4885-9e02-c6d9e259ca86"
+  ],
+  "id": "e8b5a60f-1d66-4e4e-a322-3ca277ebc45d"
+}
