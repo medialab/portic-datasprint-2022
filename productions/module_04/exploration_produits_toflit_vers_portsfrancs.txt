@@ -1,0 +1,211 @@
+# On filtre les flux toflit vers Dunkerque :
+
+# 1) flux de la France vers Dunkerque : partner = Dunkerque AND export_import = Exports
+
+## On identifie les partners à prendre en compte pour Dunkerque
+
+xsv select partner_simplification,partner_orthographic,partner toflit18_all_flows.csv  | count |grep -i dunkerque
+     11 "Bayonne, Dunkerque et Marseille","Dunkerque, Bayonne et Marseille",dunkerquebayonnemarseille
+      1 "Bayonne, Dunkerque, Lorient et Petites Îles","Bayonne, Dunkerque, Lorient et Petites Îles","Bayonne, Petites Isles, Dunkerque et Lorient"
+      2 "Bayonne, Dunkerque, Lorient et Petites Îles","Petites Îles, Bayonne, Dunkerque et Lorient","Petites Isles, Lorient, Dunkerque et Bayonne"
+      2 Bayonne et Dunkerque,Bayonne et Dunkerque,Bayonne et Dunkerque
+      1 Bayonne et Dunkerque,Dunkerque et Bayonne,Dunkerque et Bayonne
+      9 Bayonne,Port de France Bayonne,Ports de France ; Dunkerque
+    549 Dunkerque,Dunkerque,dunkerque
+    276 Dunkerque,Dunkerque,Dunkerque
+      4 Dunkerque,Port de France Dunkerque,Ports de France Dunkerque
+     39 Dunkerque,Port de France Dunkerque,Ports de France ; Lorient
+     10 Dunkerque,Port à l'instar de l'étranger Dunkerque,Ports à l'instar de l'étranger ; Dunkerque
+      2 Dunkerque et Marseille,Dunkerque et Marseille,dunkerquemarseille
+      3 Dunkerque et Petites Îles,Dunkerque et Petites Îles,Dunkerque et Petites Isles
+      1 Dunkerque et Petites Îles,Dunkerque et Petites Îles,dunkerquepetitesisles
+      1 "Dunkerque, Lorient et Petites Îles","Dunkerque, Lorient et Petites Îles",dunkerquelorientpetitesislesb
+      1 "Dunkerque, Lorient et Petites Îles","Petites Îles, Dunkerque et Lorient","Petites Isles, Dunkerque et Lorient"
+      1 "Dunkerque, Lorient et Petites Îles","Petites Îles, Dunkerque et Lorient","Petites Isles, Lorient et Dunkerquer"
+      2 Dunkerque et Lorient,Dunkerque et Lorient,lorientdunkerque
+      1 "Alsace, Bayonne, Dunkerque, Lorient et Petites Îles","Dunkerque, Petites Îles, Lorient, Marseille, Bayonne, Alsace","Dunkerque, Petites Isles, Lorient, Marseille, Bayonne, Aslace"
+
+## =>  a priori Port de France Dunkerque ne correspond pas à la partie Dunkerque du Royaume de France et on peut considérer l'agrégat Dunkerque de partner_simplification
+
+xsv select partner_simplification toflit18_all_flows.csv  | count | grep -i dunkerque
+      1 "Alsace, Bayonne, Dunkerque, Lorient et Petites Îles"
+     11 "Bayonne, Dunkerque et Marseille"
+      3 "Bayonne, Dunkerque, Lorient et Petites Îles"
+      3 Bayonne et Dunkerque
+    878 Dunkerque
+      2 Dunkerque et Lorient
+      2 Dunkerque et Marseille
+      4 Dunkerque et Petites Îles
+      3 "Dunkerque, Lorient et Petites Îles"
+
+## => vu les cardinalités, en vue de comparer les ports francs à Dunkerque, on peut ignorer les agrégats incluant Dunkerque et d'autres ports francs
+
+## on ne garde donc que les Exports à destination de Dunkerque
+
+xsv search Dunkerque -s partner_simplification toflit18_all_flows.csv | xsv search Exports -s export_import > toflit18_flows_france_to_dunkerque.csv
+
+# 2) flux de l'étranger vers Dunkerque : bureau des fermes = Dunkerque AND export_import = Imports
+
+## On identifie les bureaux des fermes de Dunkerque:
+
+xsv select customs_office toflit18_all_flows.csv  | count |grep -i dunkerque
+   2330 Dunkerque
+
+## On ne prends pas les autres bureaux des fermes de la direction des fermes de Flandres avec validation de Christian.
+## On ne garde donc que les Imports depuis le bureau de Dunkerque
+
+xsv search Dunkerque -s customs_office toflit18_all_flows.csv | xsv search Imports -s export_import > toflit18_flows_etranger_to_dunkerque.csv
+
+# On agrège le tout et on restreint aux données de 1787 et 1789 comme pour Navigo
+
+xsv cat rows toflit18_flows_france_to_dunkerque.csv toflit18_flows_etranger_to_dunkerque.csv | xsv search "178[79]" -s year > toflit18_flows_to_dunkerque_1787-1789.csv
+
+# On extrait les produits en simplification Empire
+
+xsv select product_revolutionempire toflit18_flows_to_dunkerque_1787-1789.csv | xsv frequency -l 0 > toflit18_products_to_dunkerque_1787-1789.csv
+field,value,count
+product_revolutionempire,"Cuirs, peaux et pelleterie",77
+product_revolutionempire,Ouvrages métalliques,72
+product_revolutionempire,Étoffes de laine,71
+product_revolutionempire,"Ouvrages de bois, liège et jonc",62
+product_revolutionempire,Produits inconnus,58
+product_revolutionempire,Matières brutes et transformées pour teinture,49
+product_revolutionempire,Matières premières diverses,46
+product_revolutionempire,Toiles diverses,46
+product_revolutionempire,Toiles de chanvre et de lin,46
+product_revolutionempire,Vins divers,41
+product_revolutionempire,Ouvrages divers et mélangés,40
+product_revolutionempire,Eaux-de-vie et liqueurs,39
+product_revolutionempire,Divers mélangés,39
+product_revolutionempire,Mercerie,33
+product_revolutionempire,Toiles de coton,33
+product_revolutionempire,Fruits secs et noix,33
+product_revolutionempire,Fruits frais,33
+product_revolutionempire,Blé et autres grains comestibles,33
+product_revolutionempire,Habits et lingerie,31
+product_revolutionempire,Subsistances diverses et mélangées,30
+product_revolutionempire,Drogues diverses,29
+product_revolutionempire,Pêche et fruits de mer,28
+product_revolutionempire,Fils divers,28
+product_revolutionempire,Quincaillerie,27
+product_revolutionempire,"Porcelaine, poterie, faïence et ouvrages de terre",26
+product_revolutionempire,Combustibles dont charbons et bois,21
+product_revolutionempire,Verrerie,21
+product_revolutionempire,Châles et mouchoirs hors soie,19
+product_revolutionempire,Tabac,19
+product_revolutionempire,Chairs et œufs,18
+product_revolutionempire,"Brai, goudron et résines",18
+product_revolutionempire,Bois divers hors combustible,18
+product_revolutionempire,Papier,16
+product_revolutionempire,Bonneterie hors soie,16
+product_revolutionempire,Drogues médicinales diverses,15
+product_revolutionempire,Librairie,15
+product_revolutionempire,"Bière, cidre et vinaigre",15
+product_revolutionempire,Fromage,15
+product_revolutionempire,Animaux,13
+product_revolutionempire,"Meubles, glaces et miroirs",13
+product_revolutionempire,Huiles diverses,13
+product_revolutionempire,Sucre,13
+product_revolutionempire,Manne et médicaments,13
+product_revolutionempire,"Farine, gruau, biscuits et pâtes",13
+product_revolutionempire,Beurre,13
+product_revolutionempire,Étoffes de soie,12
+product_revolutionempire,"Bougies, chandelles et flambeaux",12
+product_revolutionempire,Huile d'olive à manger,12
+product_revolutionempire,Cordage et filets,11
+product_revolutionempire,"Mousseline, basin et nankin",11
+product_revolutionempire,Plumes brutes,11
+product_revolutionempire,Chapeaux hors paille et écorce,11
+product_revolutionempire,Étoffes diverses,10
+product_revolutionempire,Poivre et piment,10
+product_revolutionempire,Cire,10
+product_revolutionempire,Dentelles,10
+product_revolutionempire,Laines non transformées diverses,9
+product_revolutionempire,Sel,9
+product_revolutionempire,Graines diverses et mélangées,9
+product_revolutionempire,Rubanerie et passementerie diverse,9
+product_revolutionempire,Réglisse,9
+product_revolutionempire,"Gravelée, potasse et védasse",8
+product_revolutionempire,Thé,8
+product_revolutionempire,Coton non transformé,8
+product_revolutionempire,Légumes,7
+product_revolutionempire,Gommes diverses,7
+product_revolutionempire,Fer-blanc,7
+product_revolutionempire,Textiles manufacturés divers et mélangés,7
+product_revolutionempire,Soieries diverses,7
+product_revolutionempire,Colles diverses,7
+product_revolutionempire,Soie,7
+product_revolutionempire,Graines grasses,7
+product_revolutionempire,Cannelle,7
+product_revolutionempire,Miel,7
+product_revolutionempire,Chevaux et bêtes de somme,7
+product_revolutionempire,Denrées coloniales et épiceries diverses,7
+product_revolutionempire,Rubanerie et passementerie de soie,6
+product_revolutionempire,Parfumerie et toilette,6
+product_revolutionempire,Chanvre,6
+product_revolutionempire,Indigo,6
+product_revolutionempire,Bijouterie et pierres fines,6
+product_revolutionempire,"Cornes, corail, écailles, ivoire et nacre",6
+product_revolutionempire,Riz,6
+product_revolutionempire,Poils et crin,6
+product_revolutionempire,Graisses diverses,6
+product_revolutionempire,"Graines de trèfle, de luzerne et de prairie",5
+product_revolutionempire,Azur et cobalt,5
+product_revolutionempire,Huile de poisson,5
+product_revolutionempire,Divers incertains,5
+product_revolutionempire,Argenterie et orfèvrerie,5
+product_revolutionempire,Plumes ouvrées,5
+product_revolutionempire,Bouchons principalement en liège,5
+product_revolutionempire,Objets d'art et d'histoire naturelle,4
+product_revolutionempire,Acier,4
+product_revolutionempire,Muscades,4
+product_revolutionempire,Métaux divers et mélangés,4
+product_revolutionempire,Savon,4
+product_revolutionempire,Cordonnerie et sellerie,4
+product_revolutionempire,Girofle,4
+product_revolutionempire,Cacao et chocolat,4
+product_revolutionempire,Cendres diverses,4
+product_revolutionempire,Verdet,4
+product_revolutionempire,Châles et mouchoirs de soie,4
+product_revolutionempire,Alcalis,4
+product_revolutionempire,Salpêtre et soufre,3
+product_revolutionempire,Horlogerie,3
+product_revolutionempire,Sirop et mélasse,3
+product_revolutionempire,Safran,3
+product_revolutionempire,Gants,3
+product_revolutionempire,Étain,3
+product_revolutionempire,Café,3
+product_revolutionempire,Alun,3
+product_revolutionempire,Fer,3
+product_revolutionempire,Céruse et blanc de plomb,3
+product_revolutionempire,Chapeaux d'écorce et de paille,3
+product_revolutionempire,Sels chimiques,3
+product_revolutionempire,Galle,3
+product_revolutionempire,"Armes, munitions, poudre et pierres à fusil",3
+product_revolutionempire,Dorure,3
+product_revolutionempire,Séné,3
+product_revolutionempire,"Alquifoux, mine de plomb et graphite",2
+product_revolutionempire,Marbre brut et ouvré,2
+product_revolutionempire,Boissons diverses et mélangées,2
+product_revolutionempire,Térébenthine,2
+product_revolutionempire,Bonneterie de soie,2
+product_revolutionempire,Provisions diverses,2
+product_revolutionempire,Cuivre,2
+product_revolutionempire,Garance,2
+product_revolutionempire,Fleurs artificielles et ouvrages de mode,1
+product_revolutionempire,Plomb,1
+product_revolutionempire,Bâtiments de mer et apparaux,1
+product_revolutionempire,Cochenille,1
+product_revolutionempire,Rocou,1
+product_revolutionempire,"Faucilles, faux et limes",1
+product_revolutionempire,Vins de Bordeaux,1
+product_revolutionempire,Bois des Indes,1
+product_revolutionempire,Graines de jardin,1
+product_revolutionempire,[vide],1
+
+
+# On fait la même chose pour les autres ports francs
+
+
+
+
