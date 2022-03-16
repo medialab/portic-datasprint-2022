@@ -1,0 +1,1 @@
+python flows.py && pandoc departs_port_france.md -o index.html --template=../pandoc.html
