@@ -39,7 +39,7 @@ Marseille,6231,1,0.02
 
 # Pistes explorables
 
-- regarder la proportion de trajets au départ de Dunkerque peu fiables et les produits qui se trouvent dedans
+- regarder la proportion de trajets au départ de Dunkerque peu fiables et les produits qui se trouvent dedans => aucun
 - toflit : même étude sur les produits d'arrivées à Dunkerque et autres ports francs
 
-
+- recouper avec résultats de paul sur les produits jugés smogglés
