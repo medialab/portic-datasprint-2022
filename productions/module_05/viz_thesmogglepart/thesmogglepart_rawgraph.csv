@@ -1,7 +1,9 @@
-produits,Smogglage Dunkerque,Exports Calais,Exports Bordeaux,Exports nationaux,Pourcentage de smogglage au national
-"Eaux-de-vie, tafias, genièvre",1069551,,,7598120,14
-Vins,3550,,,11776439,"0,03"
-Thés,17270,,,1595558,1
-Feuilles de tabac,378815,,,946904,40
-Sucre brut,4138,,,3487,119
-Café,17718,,,120759,15
+Produits,Smogglage Dunkerque,Smogglage pourcents,Exports Calais,Exports Bordeaux,Exports nationaux,Total smogglage+nationaux,Smogglage pourcent du total,Exports pourcent du total,Ratio smogglage sur nationaux
+"Eaux-de-vie, tafias, genièvre",1069551,65,1532000,665000,7598120,8667671,"12,34","87,66","14,08"
+Vins,3550,0,138000,3996000,11776439,11779989,"0,03","99,97","0,03"
+Thés,17270,1,113000,,1595558,1612828,"1,07","98,93","1,08"
+Feuilles de tabac,378815,23,,,946904,1325719,"28,57","71,43","40,01"
+Sucre brut,4138,0,,,3487,7625,"54,27","45,73","118,67"
+Café,17718,1,,,120759,138477,"12,79","87,21","14,67"
+Varia,143820,9,,,,143820,100,0,
+Total,1634862,100,1783000,4661000,22041267,23676129,,,
