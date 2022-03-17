@@ -80,6 +80,34 @@ with open('result_destination.csv', 'w', newline='') as csvfile:
             }
         )
 
+with open('calais_matrice_destinations_tonnages.csv', 'w', newline='') as csvfile:
+  fieldnames = [
+      'Port de destination',
+      'Classe de tonnage',
+      'Portion dans les départs',
+  ]
+  writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+  writer.writeheader()
+  
+  for destination in destination_depuis_calais.keys():
+      values = {
+              '[1-20]': destination_depuis_calais[destination]['tonnage_class']['[1-20]'] / destination_depuis_calais[destination]['occurence'],
+              '[21-50]': destination_depuis_calais[destination]['tonnage_class']['[21-50]'] / destination_depuis_calais[destination]['occurence'],
+              '[51-100]': destination_depuis_calais[destination]['tonnage_class']['[51-100]'] / destination_depuis_calais[destination]['occurence'],
+              '[101-200]': destination_depuis_calais[destination]['tonnage_class']['[101-200]'] / destination_depuis_calais[destination]['occurence'],
+              '[201-500]': destination_depuis_calais[destination]['tonnage_class']['[201-500]'] / destination_depuis_calais[destination]['occurence'],
+          }
+      for class_name, value in values.items():
+
+        writer.writerow(
+            {
+                'Port de destination': destination,
+                'Classe de tonnage': class_name,
+                'Portion dans les départs': value,
+            }
+        )
+
 with open('result_tonnage.csv', 'w', newline='') as csvfile:
     fieldnames = [
         'tonnage',
