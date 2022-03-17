@@ -1,4 +1,7 @@
-serie,navigo_smoggle,toflit_national_export,pourcentage
-alcool,1069551,7598120,"14,0765215605966"
-the,17270,1595558,"1,08237995735661"
-tabac,378815,946904,"40,0056394312412"
+produits,Smogglage,Exports nationaux,Pourcentage
+Eaux-de-vie,1069551,7598120,14
+Vins,3550,11776439,"0,03"
+Thés,17270,1595558,1
+Feuilles de tabac,378815,946904,40
+Sucre brut,4138,3487,119
+Café,17718,120759,15
