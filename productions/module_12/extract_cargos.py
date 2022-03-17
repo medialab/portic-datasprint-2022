@@ -28,7 +28,7 @@ with open('./sorties_Dunkerque_Etranger_1789.csv.csv', 'r') as f:
 
 fieldnames = by_pointcalls[0].keys()
 with open('./sorties_Dunkerque_Etranger_1789_par_produit.csv', 'w') as f:
-  w = csv.DictWriter(f, fieldnames=fieldnames)
+  w = csv.DictWriter(f, fieldnames=fieldnames, delimiter=";")
   w.writeheader()
   for p in by_pointcalls:
     w.writerow(p)
