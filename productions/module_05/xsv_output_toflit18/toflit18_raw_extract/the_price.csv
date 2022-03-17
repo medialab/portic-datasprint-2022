@@ -1,0 +1,16 @@
+line_number,year,customs_region,partner,product_orthographic,product_simplification,product_revolutionempire,value,quantity,quantity_unit,quantity_unit_orthographic,quantity_unit_metric,unit_price_metric,value_per_unit,product_revolutionempire
+60,1783,,Angleterre,thé,thé,Thé,622000,207607,livres,livres,kg,,2.996045412726931,Thé
+128,1784,,Angleterre,thé,thé,Thé,1762000,792100,livres,livres,kg,,2.224466607751546,Thé
+325,1787.2,Amiens,Angleterre,thé,thé,Thé,113000,37588,livres,livres,kg,,3.006278599553049,Thé
+440,1787.2,Flandre,Angleterre,thé,thé,Thé,89000,17764,livres,livres,kg,,5.010132852961044,Thé
+44,1789,Lorient,Angleterre,thé bou,thé bou,Thé,3200,1600,Livres,livres,kg,4.0858016,2,Thé
+145,1787.2,Rennes,Angleterre,thé,thé,Thé,268000,171414,livres,livres,kg,,1.56346622796271,Thé
+1794,1780,,Angleterre,thé,thé,Thé,650060,161515,livres,livres,kg,,4.024765501656193,Thé
+4266,1782,,Angleterre,marchandises des Indes thé,thé,Thé,1266942,514335,livres,livres,kg,,2.463262270699058,Thé
+2756,1787,,Angleterre,thé,thé,Thé,102204,32153,livres,livres,kg,,3.17867695082885,Thé
+3436,1787,,Angleterre,marchandises provenant du commerce français dans les Indes thé,thé des Indes,Thé,695554,329974,livres,livres,kg,,2.107905471340166,Thé
+692,1788,,Angleterre,thé des Indes,thé des Indes,Thé,216000,43200,Livres,livres,kg,,5,Thé
+728,1788,,Angleterre,marchandises provenant du commerce français dans les Indes thé,thé des Indes,Thé,448200,138720,Livres,livres,kg,,3.230968858131488,Thé
+293,1787,,Angleterre,subsistances thé,thé,Thé,797800,,,unité manquante,unité manquante,,,Thé
+209,1788,,Angleterre,subsistances thé,thé,Thé,664200,,,unité manquante,unité manquante,,,Thé
+201,1789,,Angleterre,subsistances thé,thé,Thé,284000,,,unité manquante,unité manquante,,,Thé
