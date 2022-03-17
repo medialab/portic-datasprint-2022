@@ -1,132 +1,123 @@
 produit,count_etranger_to_dunkerque
-Ouvrages métalliques,67
-"Cuirs, peaux et pelleterie",51
-Étoffes de laine,48
-"Ouvrages de bois, liège et jonc",48
-Matières brutes et transformées pour teinture,40
-Matières premières diverses,36
-Blé et autres grains comestibles,33
-Toiles diverses,32
-Ouvrages divers et mélangés,31
-Divers mélangés,30
-Fruits frais,29
-Toiles de chanvre et de lin,28
-Pêche et fruits de mer,25
-Drogues diverses,24
-Mercerie,23
-Fruits secs et noix,23
-Eaux-de-vie et liqueurs,23
-Subsistances diverses et mélangées,22
-Toiles de coton,20
-Quincaillerie,19
-Vins divers,19
-Produits inconnus,17
-Habits et lingerie,16
-Chairs et œufs,16
-"Porcelaine, poterie, faïence et ouvrages de terre",15
-"Brai, goudron et résines",15
-Fils divers,15
-Drogues médicinales diverses,14
-Sucre,12
-"Farine, gruau, biscuits et pâtes",12
-Manne et médicaments,11
-Huiles diverses,11
-Châles et mouchoirs hors soie,10
-Poivre et piment,10
-"Mousseline, basin et nankin",10
-Tabac,10
-Bonneterie hors soie,9
-Animaux,9
-Plumes brutes,9
-Huile d'olive à manger,9
-Rubanerie et passementerie diverse,9
-Thé,8
-Combustibles dont charbons et bois,8
-Bois divers hors combustible,8
-Librairie,8
-Papier,8
-"Gravelée, potasse et védasse",8
-Graines grasses,7
-Verrerie,7
-Laines non transformées diverses,7
-Cannelle,7
-Fromage,7
-Chevaux et bêtes de somme,7
-"Bière, cidre et vinaigre",7
-Fer-blanc,7
-Coton non transformé,7
-Beurre,7
-Réglisse,7
-Cordage et filets,7
-Étoffes diverses,7
-"Meubles, glaces et miroirs",6
-Riz,6
-Indigo,6
-"Cornes, corail, écailles, ivoire et nacre",6
-Graines diverses et mélangées,6
-Légumes,6
-Colles diverses,6
-Cire,6
-Gommes diverses,6
-Étoffes de soie,6
-Chanvre,6
-Divers incertains,5
-Poils et crin,5
-Soie,5
-Graisses diverses,5
-Textiles manufacturés divers et mélangés,5
-Sel,5
-Azur et cobalt,5
-Denrées coloniales et épiceries diverses,5
-Bijouterie et pierres fines,5
-"Bougies, chandelles et flambeaux",5
-Cordonnerie et sellerie,4
+Ouvrages métalliques,50
+"Ouvrages de bois, liège et jonc",36
+Toiles diverses,29
+"Cuirs, peaux et pelleterie",27
+Fruits frais,25
+Matières premières diverses,22
+Divers mélangés,20
+Matières brutes et transformées pour teinture,20
+Blé et autres grains comestibles,18
+Ouvrages divers et mélangés,18
+Toiles de chanvre et de lin,16
+Eaux-de-vie et liqueurs,16
+Vins divers,16
+Pêche et fruits de mer,14
+Drogues diverses,13
+Subsistances diverses et mélangées,13
+Produits inconnus,13
+Quincaillerie,12
+Chairs et œufs,12
+Étoffes de laine,12
+"Brai, goudron et résines",11
+Fruits secs et noix,11
+Sucre,10
+Mercerie,9
+Huiles diverses,9
+Fils divers,9
+"Porcelaine, poterie, faïence et ouvrages de terre",9
+Habits et lingerie,9
+Toiles de coton,8
+Drogues médicinales diverses,8
+Tabac,7
+Laines non transformées diverses,6
+"Gravelée, potasse et védasse",6
+Thé,6
+"Farine, gruau, biscuits et pâtes",6
+Étoffes diverses,6
+Huile d'olive à manger,6
+Poivre et piment,5
+Fromage,5
+"Mousseline, basin et nankin",5
+Bois divers hors combustible,5
+Châles et mouchoirs hors soie,5
+Manne et médicaments,5
+Chanvre,5
+Bonneterie hors soie,5
+Coton non transformé,5
+Étoffes de soie,5
+Verrerie,5
+"Bière, cidre et vinaigre",4
+Indigo,4
+Gommes diverses,4
 Châles et mouchoirs de soie,4
-Huile de poisson,4
-Cendres diverses,4
-Acier,4
-Métaux divers et mélangés,4
-Argenterie et orfèvrerie,4
+Cire,4
+Cannelle,4
+Poils et crin,4
+Combustibles dont charbons et bois,4
+Denrées coloniales et épiceries diverses,4
+Plumes brutes,4
+Papier,4
+Riz,4
+Graines grasses,4
+Bijouterie et pierres fines,4
+Graines diverses et mélangées,4
 Soieries diverses,4
-Cacao et chocolat,3
-"Graines de trèfle, de luzerne et de prairie",3
-Objets d'art et d'histoire naturelle,3
-Bouchons principalement en liège,3
-Girofle,3
-Céruse et blanc de plomb,3
-Café,3
-Dentelles,3
-Chapeaux d'écorce et de paille,3
-Alcalis,3
-Parfumerie et toilette,3
+Librairie,4
+Soie,3
 "Armes, munitions, poudre et pierres à fusil",3
+Textiles manufacturés divers et mélangés,3
+Acier,3
+Cordonnerie et sellerie,3
+Beurre,3
+"Bougies, chandelles et flambeaux",3
+Réglisse,3
 Chapeaux hors paille et écorce,3
-Alun,3
-Muscades,3
-Fer,3
-Étain,3
-Plumes ouvrées,3
-Sirop et mélasse,2
-Cuivre,2
-Galle,2
+"Meubles, glaces et miroirs",3
+Colles diverses,3
+Café,3
+Légumes,3
+Sel,3
+Cordage et filets,3
+Azur et cobalt,2
+Métaux divers et mélangés,2
+Huile de poisson,2
 "Alquifoux, mine de plomb et graphite",2
-Dorure,2
-Savon,2
-Sels chimiques,2
+Céruse et blanc de plomb,2
+Alun,2
+"Graines de trèfle, de luzerne et de prairie",2
+Fer,2
+Chapeaux d'écorce et de paille,2
+Fer-blanc,2
+Chevaux et bêtes de somme,2
+Cacao et chocolat,2
+Divers incertains,2
+Rubanerie et passementerie diverse,2
+Argenterie et orfèvrerie,2
+Sirop et mélasse,2
+"Cornes, corail, écailles, ivoire et nacre",2
+Muscades,2
+Alcalis,2
+Dentelles,2
 Séné,2
-Provisions diverses,2
-Verdet,2
-Horlogerie,2
-Salpêtre et soufre,2
-Marbre brut et ouvré,1
-Bâtiments de mer et apparaux,1
-Plomb,1
+Objets d'art et d'histoire naturelle,2
+Cendres diverses,1
+Provisions diverses,1
 Boissons diverses et mélangées,1
-Safran,1
-Garance,1
-Graines de jardin,1
-Térébenthine,1
+Girofle,1
+Verdet,1
 Gants,1
-Miel,1
-Rocou,1
+Étain,1
+Bouchons principalement en liège,1
+Bâtiments de mer et apparaux,1
 "Faucilles, faux et limes",1
+Graines de jardin,1
+Graisses diverses,1
+Parfumerie et toilette,1
+Galle,1
+Dorure,1
+Horlogerie,1
+Plumes ouvrées,1
+Sels chimiques,1
+Garance,1
+Miel,1
