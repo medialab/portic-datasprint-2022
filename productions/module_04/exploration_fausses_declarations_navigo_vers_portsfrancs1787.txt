@@ -27,6 +27,10 @@ xsv join pointcall navigo_pointcalls_1787_destinations.csv pointcall navigo_poin
 
 grep -P "Dunkerque|Bayonne|Lorient|Marseille|Noirmoutier|Ile d' Yeu|Ile de Bouin|Bordeaux|Nantes" navigo_pointcalls_1787_destinations_fiability.csv
 
+Pourcentages d'arrivées de bateaux estimées peu fiables dans les différents ports francs
+(peu fiable = bateau allant de A à B mais dont le trajet suivant ne part pas de B)
+
+Port franc,total trajets,trajets peu fiables,proportion de trajets peu fiables
 Bayonne,413,51,12.35
 Dunkerque,363,23,6.34
 Bordeaux,1389,65,4.68
@@ -36,10 +40,3 @@ Lorient,243,2,0.82
 Marseille,6231,1,0.02
 
 
-
-# Pistes explorables
-
-- regarder la proportion de trajets au départ de Dunkerque peu fiables et les produits qui se trouvent dedans => aucun
-- toflit : même étude sur les produits d'arrivées à Dunkerque et autres ports francs
-
-- recouper avec résultats de paul sur les produits jugés smogglés
