@@ -2,10 +2,12 @@
 
 ## Repérer les smoggleurs par ports
 
+Au sujet des destinations :
+- "Nord Ferrow" équivaut à `destination_uhgs_id == A1964976` équivaut à `destination_fr == Îles Féroé` (vérifié dans les données)
+
 - Dunkerque :
     - `flag == 'British'`
     - `tonnage == 12`
-    - `(commodity_standardized_fr == 'Vide' or commodity_standardized_fr == 'Lest')` et autres "commodities" sont `blank`
 - Calais :
     - `flag == 'British'`
     - `destination` = `Grande-Bretagne` hors colonies
