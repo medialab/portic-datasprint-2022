@@ -25,3 +25,15 @@ Au sujet des destinations :
     - `flag == 'British'`
     - `destination` Nord Ferrow, Bergen
     - `commodity_standardized_fr` = vin OU  eau-de-vie OU tabac
+
+Tolflit18 : Peu de données au niveau du bureau de ferme ou de la direction
+
+
+A0864873 : Cap nord
+A0394917 : Lisbonne mais Angleterre
+
+# Mesure
+
+port : dunkerque calais boulogne roscoff lorient bordeaux
+tonnage : 12504 17907 9946 1006 2008 947
+nb smoggleurs : 1042 811 1472 121 58 25

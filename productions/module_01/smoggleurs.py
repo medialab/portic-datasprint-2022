@@ -39,26 +39,40 @@ for source in [CSV_FILE_INPUT_1787]:
                 row['is_smoggleur'] = is_smoggleur_bordeaux(row)
                 bordeaux.append(row)
 
-print(
-    len([flow for flow in roscoff if flow['is_smoggleur'] == True])
-)
+with open('result.csv', 'w', newline='') as csvfile:
+    fieldnames = [
+        'departure_fr',
+        'departure_longitude',
+        'departure_latitude',
+        'destination_fr',
+        'destination_longitude',
+        'destination_latitude',
+        'tonnage',
+        'is_smoggleur'
+    ]
 
-# with open('result.csv', 'w', newline='') as csvfile:
-#     fieldnames = [
-#         'departure_fr',
-#         'destination_fr',
-#         'tonnage',
-#         'is_smoggleur'
-#     ]
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-#     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
 
-#     writer.writeheader()
-
-#     for flow in dunkerque + calais + boulogne + roscoff + lorient + bordeaux:
-#         writer.writerow({
-#             'departure_fr': flow['departure_fr'],
-#             'destination_fr': flow['destination_fr'],
-#             'tonnage': flow['tonnage'],
-#             'is_smoggleur': 1 if flow['is_smoggleur'] == True else 0
-#         })
+    for flow in dunkerque + calais + boulogne + roscoff + lorient + bordeaux:
+        if flow['flag'] != 'British':
+            continue
+        if flow['destination_fr'] in {'Angleterre', 'Angleterre (destination simulée pour)'}:
+            flow['destination_fr'] = 'Autre en Angleterre'
+            # continue
+        if flow['destination_fr'] in {'pas identifié', 'pas mentionné'}:
+            flow['destination_fr'] = 'inconnu'
+            # continue
+        if flow['is_smoggleur'] == False:
+            continue
+        writer.writerow({
+            'departure_fr': flow['departure_fr'],
+            'departure_longitude': flow['departure_longitude'],
+            'departure_latitude': flow['departure_latitude'],
+            'destination_fr': flow['destination_fr'],
+            'destination_longitude': flow['destination_longitude'],
+            'destination_latitude': flow['destination_latitude'],
+            'tonnage': flow['tonnage'],
+            'is_smoggleur': 1 if flow['is_smoggleur'] == True else 0
+        })
