@@ -60,13 +60,12 @@ def is_smoggleur_boulogne(row):
 def is_smoggleur_roscoff(row):
     if row['departure_fr'] != 'Roscoff':
         return False
-    if row['flag'] == 'British' \
-        and (is_gb_destination(row) == True or row['destination_fr'] in {'Îles Féroé', 'Bergen', 'Cap Nord'}) \
+    if (is_gb_destination(row) == True or row['destination_fr'] in {'Îles Féroé', 'Bergen', 'Cap Nord'}) \
         and is_illegal_commodities(row) == True:
         return True
     return False
 
-def is_smoggleur_lorient(row):
+def is_smoggleur_lorient(row): # 51 + 5 + 1
     if row['departure_fr'] != 'Lorient':
         return False
     if row['flag'] == 'British' \
@@ -74,11 +73,11 @@ def is_smoggleur_lorient(row):
         return True
     return False
 
-def is_smoggleur_bordeaux(row):
+def is_smoggleur_bordeaux(row): # 21
     if row['departure_fr'] != 'Bordeaux':
         return False
     if row['flag'] == 'British' \
-        and row['destination_fr'] in {'Bergen', 'Îles Féroé'} \
-        and is_illegal_commodities(row) == True:
+        and row['destination_fr'] == 'Îles Féroé':
+        # and is_illegal_commodities(row) == True:
         return True
     return False
