@@ -1,0 +1,74 @@
+line_number,year,customs_region,partner,product_orthographic,product_simplification,product_revolutionempire,value,quantity,quantity_unit,quantity_unit_orthographic,quantity_unit_metric,unit_price_metric,value_per_unit,product_revolutionempire
+47,1783,,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,3429000,25000,muids,muids,litres,,137.16,Eaux-de-vie et liqueurs
+51,1783,,Angleterre,rhum des prises,rhum des prises,Eaux-de-vie et liqueurs,41000,131,muids,muids,litres,,312.9770992366412,Eaux-de-vie et liqueurs
+105,1784,,Angleterre,eau-de-vie de vin,eau-de-vie de vin,Eaux-de-vie et liqueurs,4742500,34098,muids,muids,litres,,139.0844037773476,Eaux-de-vie et liqueurs
+107,1784,,Angleterre,liqueurs diverses,liqueurs diverses,Eaux-de-vie et liqueurs,15500,,,unité manquante,unité manquante,,,Eaux-de-vie et liqueurs
+321,1787.2,Amiens,Angleterre,eau-de-vie de vin,eau-de-vie de vin,Eaux-de-vie et liqueurs,402000,2673.26,muids,muids,litres,,150.3781899254094,Eaux-de-vie et liqueurs
+322,1787.2,Amiens,Angleterre,eau-de-vie de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,1130000,7237.2402,muids,muids,litres,,156.1368655416467,Eaux-de-vie et liqueurs
+5,1789,Amiens,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,1485,660,veltes,veltes,litres,.29539964,2.25,Eaux-de-vie et liqueurs
+49,1789,Amiens,Angleterre,eau-de-vie de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,1174365,2087760,pinte,pintes,litres,.59079927,.5625,Eaux-de-vie et liqueurs
+50,1789,Amiens,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,36861,6143.5,velte,veltes,litres,.78773236,6,Eaux-de-vie et liqueurs
+51,1789,Amiens,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,226.875,41.25,velte,veltes,litres,.72208804,5.5,Eaux-de-vie et liqueurs
+52,1789,Amiens,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,9280.5,1546.75,velte,veltes,litres,.78773236,6,Eaux-de-vie et liqueurs
+53,1789,Amiens,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,370680,74136,velte,veltes,litres,.65644366,5,Eaux-de-vie et liqueurs
+71,1789,Amiens,Angleterre,liqueurs,liqueurs,Eaux-de-vie et liqueurs,2428,6.0694447,muid,muids,litres,,400.0365964286651,Eaux-de-vie et liqueurs
+114,1789,Amiens,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,50016,8336,velte,veltes,litres,.78773236,6,Eaux-de-vie et liqueurs
+115,1789,Amiens,Angleterre,eau-de-vie de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,238213.5048,1102.8403,muid,muids,litres,.81023902,216,Eaux-de-vie et liqueurs
+66,1787.2,Bordeaux,Angleterre,eau-de-vie diverse,eau-de-vie diverse,Eaux-de-vie et liqueurs,665000,5265.8599,muids,muids,litres,,126.2851675943752,Eaux-de-vie et liqueurs
+216,1789,Bordeaux,Angleterre,eau-de-vie royale,eau-de-vie royale,Eaux-de-vie et liqueurs,27475.19938944,30528,pinte,pintes,litres,.94527882,.89999998,Eaux-de-vie et liqueurs
+221,1789,Bordeaux,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,231692.80289616,289616,pinte,pintes,litres,.84024787,.80000001,Eaux-de-vie et liqueurs
+226,1789,Bordeaux,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,406372,812744,pinte,pintes,litres,.52515495,.5,Eaux-de-vie et liqueurs
+244,1789,Bordeaux,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,189664,379328,pinte,pintes,litres,.52515495,.5,Eaux-de-vie et liqueurs
+455,1789,Bordeaux,Angleterre,liqueurs diverses,liqueurs diverses,Eaux-de-vie et liqueurs,5330.4,4442,pinte,pintes,litres,1.2603718,1.2,Eaux-de-vie et liqueurs
+466,1789,Bordeaux,Angleterre,liqueurs anisette,anisette,Eaux-de-vie et liqueurs,700,500,pinte,pintes,litres,,1.4,Eaux-de-vie et liqueurs
+55,1789,Caen,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,114,148,pinte,pintes,litres,,.7702702702702703,Eaux-de-vie et liqueurs
+426,1787.2,Flandre,Angleterre,eau-de-vie de vin,eau-de-vie de vin,Eaux-de-vie et liqueurs,919000,6384.2798,muids,muids,litres,,143.9473251156693,Eaux-de-vie et liqueurs
+427,1787.2,Flandre,Angleterre,eau-de-vie de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,432000,3001.47,muids,muids,litres,,143.9294745574668,Eaux-de-vie et liqueurs
+439,1787.2,Flandre,Angleterre,tafia,tafia,Eaux-de-vie et liqueurs,93000,382.64001,muids,muids,litres,,243.0482896966263,Eaux-de-vie et liqueurs
+22,1787.2,France,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,7000,60.939999,muids,muids,litres,,114.8670842610286,Eaux-de-vie et liqueurs
+83,1787.2,La Rochelle,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,1166000,9907.6504,muids,muids,litres,,117.6868331971019,Eaux-de-vie et liqueurs
+89,1789,La Rochelle,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,143136,994,muids,muids,litres,.54015934,144,Eaux-de-vie et liqueurs
+91,1789,La Rochelle,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,100157.8976769,632.3099999999999,livres,livres,kg,323.59549,158.39999,Eaux-de-vie et liqueurs
+110,1789,La Rochelle,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,1920354.29502,9502,muids,muids,litres,.75809866,202.10001,Eaux-de-vie et liqueurs
+117,1789,La Rochelle,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,2577261.2001397,11186.03,muids,muids,litres,.86425489,230.39999,Eaux-de-vie et liqueurs
+148,1789,La Rochelle,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,2040.48,14.17,muids,muids,litres,.54015934,144,Eaux-de-vie et liqueurs
+329,1789,La Rochelle,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,6311.520288,43.830002,muids,muids,litres,.54015934,144,Eaux-de-vie et liqueurs
+334,1789,La Rochelle,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,21372.48,148.42,muids,muids,litres,.54015934,144,Eaux-de-vie et liqueurs
+30,1789,Lorient,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,8396,2099,Veltes,veltes,litres,.52515495,4,Eaux-de-vie et liqueurs
+31,1789,Lorient,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,2176,544,Veltes,veltes,litres,.52515495,4,Eaux-de-vie et liqueurs
+32,1789,Lorient,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,179240,44810,Veltes,veltes,litres,.52515495,4,Eaux-de-vie et liqueurs
+33,1789,Lorient,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,1408,176,Veltes,veltes,litres,1.0503099,8,Eaux-de-vie et liqueurs
+34,1789,Lorient,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,2432,304,Veltes,veltes,litres,1.0503099,8,Eaux-de-vie et liqueurs
+35,1789,Lorient,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,16976,4244,Veltes,veltes,litres,.52515495,4,Eaux-de-vie et liqueurs
+36,1789,Lorient,Angleterre,eau-de-vie de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,85007.25,18890.5,Veltes,veltes,litres,.59079927,4.5,Eaux-de-vie et liqueurs
+268,1787.2,Marseille,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,40000,233.89,muids,muids,litres,,171.0205652229681,Eaux-de-vie et liqueurs
+1473,1789,Marseille,Angleterre,liqueurs communes,liqueurs communes,Eaux-de-vie et liqueurs,778.04,14.68,quintal,quintal,kg,2.1654749,53,Eaux-de-vie et liqueurs
+452,1787.2,Montpellier,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,407000,3781.3301,muids,muids,litres,,107.6340835728677,Eaux-de-vie et liqueurs
+283,1789,Montpellier,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,20596.79970576,29424,Pintes,pintes,litres,.73521686,.69999999,Eaux-de-vie et liqueurs
+298,1789,Montpellier,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,426408,852816,Pintes,pintes,litres,.52515495,.5,Eaux-de-vie et liqueurs
+126,1787.2,Rennes,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,121000,838.17999,muids,muids,litres,,144.3604016364075,Eaux-de-vie et liqueurs
+127,1787.2,Rennes,Angleterre,eau-de-vie de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,25000,153.46001,muids,muids,litres,,162.908890726646,Eaux-de-vie et liqueurs
+236,1787.2,Rouen,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,14000,69.389999,muids,muids,litres,,201.7581813194723,Eaux-de-vie et liqueurs
+80,1789,Rouen,angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,198,276,pintes,pintes,litres,,.7173913043478261,Eaux-de-vie et liqueurs
+82,1789,Rouen,angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,434,2.5999999,muids,muids,litres,,166.9230833431955,Eaux-de-vie et liqueurs
+84,1789,Rouen,angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,538,3.7,muids,muids,litres,,145.4054054054054,Eaux-de-vie et liqueurs
+149,1789,Saint-Malo,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,162,27,Veltes,veltes,litres,.78773236,6,Eaux-de-vie et liqueurs
+33,1789,Toulon,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,106074.72,736.63,Muids,muids,litres,.54015934,144,Eaux-de-vie et liqueurs
+667,1780,,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,243562,1070.5,muids,muids,litres,,227.5217188229799,Eaux-de-vie et liqueurs
+1397,1782,,Angleterre,eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,1239184,6898.25,muids,muids,litres,,179.6374442793462,Eaux-de-vie et liqueurs
+2435,1782,,Angleterre,liqueurs diverses,liqueurs diverses,Eaux-de-vie et liqueurs,4719,1573,pintes,pintes,litres,,3,Eaux-de-vie et liqueurs
+1160,1787,,Angleterre,eau-de-vie de grains de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,2528183,16547,muids,muids,litres,,152.787997824379,Eaux-de-vie et liqueurs
+1173,1787,,Angleterre,eau-de-vie de vin,eau-de-vie de vin,Eaux-de-vie et liqueurs,4928502,41288,muids,muids,litres,,119.3688723115675,Eaux-de-vie et liqueurs
+1991,1787,,Angleterre,liqueurs diverses,liqueurs diverses,Eaux-de-vie et liqueurs,15882,859,bouteilles,bouteilles,,,18.48894062863795,Eaux-de-vie et liqueurs
+2019,1787,,Angleterre,liqueurs tafia,tafia,Eaux-de-vie et liqueurs,141435,591,muids,muids,litres,,239.3147208121827,Eaux-de-vie et liqueurs
+664,1788,,Angleterre,eau-de-vie de genièvre,eau-de-vie de genièvre,Eaux-de-vie et liqueurs,2143000,11446,Muids,muids,litres,,187.2269788572427,Eaux-de-vie et liqueurs
+665,1788,,Angleterre,eau-de-vie de grains,eau-de-vie de grains,Eaux-de-vie et liqueurs,624800,2857,Muids,muids,litres,,218.6909345467273,Eaux-de-vie et liqueurs
+666,1788,,Angleterre,eau-de-vie simple,eau-de-vie simple,Eaux-de-vie et liqueurs,4330700,26009,Muids,muids,litres,,166.507747318236,Eaux-de-vie et liqueurs
+667,1788,,Angleterre,eau-de-vie double,eau-de-vie double,Eaux-de-vie et liqueurs,2125600,11740,Muids,muids,litres,,181.0562180579216,Eaux-de-vie et liqueurs
+668,1788,,Angleterre,liqueurs diverses,liqueurs diverses,Eaux-de-vie et liqueurs,17100,55,Muids,muids,litres,,310.9090909090909,Eaux-de-vie et liqueurs
+19,1787,,Angleterre,subsistances eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,7456700,,,unité manquante,unité manquante,,,Eaux-de-vie et liqueurs
+263,1787,,Angleterre,subsistances liqueurs,liqueurs,Eaux-de-vie et liqueurs,157300,,,unité manquante,unité manquante,,,Eaux-de-vie et liqueurs
+16,1788,,Angleterre,subsistances eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,9224100,,,unité manquante,unité manquante,,,Eaux-de-vie et liqueurs
+189,1788,,Angleterre,subsistances liqueurs,liqueurs,Eaux-de-vie et liqueurs,27600,,,unité manquante,unité manquante,,,Eaux-de-vie et liqueurs
+17,1789,,Angleterre,subsistances eau-de-vie,eau-de-vie,Eaux-de-vie et liqueurs,10466000,,,unité manquante,unité manquante,,,Eaux-de-vie et liqueurs
+177,1789,,Angleterre,subsistances liqueurs,liqueurs,Eaux-de-vie et liqueurs,16000,,,unité manquante,unité manquante,,,Eaux-de-vie et liqueurs

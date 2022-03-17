@@ -1,0 +1,82 @@
+line_number,year,customs_region,partner,product_orthographic,product_simplification,product_revolutionempire,value,quantity,quantity_unit,quantity_unit_orthographic,quantity_unit_metric,unit_price_metric,value_per_unit
+53,1783,,Angleterre,vin,vin,Vins divers,2312000,,,unité manquante,unité manquante,,
+110,1784,,Angleterre,vin divers,vin divers,Vins divers,136700,,,unité manquante,unité manquante,,
+111,1784,,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,2575700,,,unité manquante,unité manquante,,
+323,1787.2,Amiens,Angleterre,vin divers,vin divers,Vins divers,138000,,,unité manquante,unité manquante,,
+102,1789,Amiens,Angleterre,vin,vin,Vins divers,15476,,,unité manquante,unité manquante,,
+103,1789,Amiens,Angleterre,vin,vin,Vins divers,6193,17.201389,muid,muids,litres,,360.0290650946851
+104,1789,Amiens,Angleterre,vin,vin,Vins divers,2545,254.5,velte,veltes,litres,1.3128873,10
+105,1789,Amiens,Angleterre,vin,vin,Vins divers,892,446,bouteille,bouteilles,,,2
+165,1789,Amiens,Angleterre,vin,vin,Vins divers,186.0000062,310,bouteilles,bouteilles,,,.60000002
+166,1789,Amiens,Angleterre,vin,vin,Vins divers,903.9999888,6.2777777,muids,muids,litres,.54015934,144
+167,1789,Amiens,Angleterre,vin,vin,Vins divers,20280,13520,bouteilles,bouteilles,,,1.5
+168,1789,Amiens,Angleterre,vin,vin,Vins divers,16536,11024,bouteilles,bouteilles,,,1.5
+67,1787.2,Bordeaux,Angleterre,vin divers,vin divers,Vins divers,3996000,14172.31,muids,muids,litres,,281.9582693294177
+676,1789,Bordeaux,Angleterre,vin de ville,vin de ville,Vins divers,2772790,9627.7598,muid,muids,litres,,287.9994991150485
+696,1789,Bordeaux,Angleterre,vin de haut,vin de haut,Vins divers,161982,562.37,muid,muids,litres,,288.0345679890464
+707,1789,Bordeaux,Angleterre,vin muscat,vin de muscat,Vins divers,396,,pintes,pintes,litres,0,0
+34,1789,Caen,Angleterre,vin de Champagne,vin de Champagne,Vins divers,300,100,baril,barils,,,3
+35,1789,Caen,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,600,348,baril,barils,,,1.724137931034483
+98,1789,Caen,Angleterre,vin de Bourgogne,vin de Bourgogne,Vins divers,320,1.6666666,muid,muids,litres,,192.0000076800003
+99,1789,Caen,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,350,2.0138888,muid,muids,litres,,173.7931111191442
+428,1787.2,Flandre,Angleterre,vin divers,vin divers,Vins divers,98000,184.31,muids,muids,litres,,531.7128750474743
+111,1789,France,L'Angleterre,vin ordinaire,vin ordinaire,Vins divers,1065,1420,Bouteilles,bouteilles,,,.75
+113,1789,France,L'Angleterre,vin de liqueurs,vin de liqueurs,Vin de liqueurs,3060,1530,Bouteilles,bouteilles,,,2
+84,1787.2,La Rochelle,Angleterre,vin,vin,Vins divers,6000,144.22,muids,muids,litres,,41.60310636527527
+100,1789,La Rochelle,Angleterre,vin,vin,Vins divers,187,1.08,muids,muids,litres,,173.1481481481481
+50,1789,Lorient,Angleterre,vin,vin,Vins divers,184,23,Veltes,veltes,litres,1.0503099,8
+269,1787.2,Marseille,Angleterre,vin,vin,Vins divers,16000,82.81999999999999,muids,muids,litres,,193.1900507123883
+1880,1789,Marseille,Angleterre,vin blanc,vin blanc,Vins divers,599.040026,23.040001,quintal,quintal,kg,1.0623084,26
+1883,1789,Marseille,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,913.49998695,1305,pinte,pintes,litres,.73521686,.69999999
+1894,1789,Marseille,Angleterre,vin de Chypre,vin de Chypre,Vins divers,168.29999626,187,pinte,pintes,litres,.94527882,.89999998
+1905,1789,Marseille,Angleterre,vin de Malaga,vin de Malaga,Vins divers,489.999993,700,pinte,pintes,litres,.73521686,.69999999
+1910,1789,Marseille,Angleterre,vin muscat,vin de muscat,Vins divers,1136.79998376,1624,pinte,pintes,litres,.73521686,.69999999
+1935,1789,Marseille,Angleterre,vin rouge,vin rouge,Vins divers,2616,218,"muid de 62,5 pintes","muid de 62,5 pintes",litres,.20165949,12
+453,1787.2,Montpellier,Angleterre,vin,vin,Vins divers,7000,468.44,muids,muids,litres,,14.94321578003586
+455,1787.2,Montpellier,Angleterre,vin,vin,Vins divers,8000,410.39001,muids,muids,litres,,19.49365190444085
+646,1789,Montpellier,Angleterre,vin,vin,Vins divers,16545.62556,459.60071,Muids,muids,litres,.13503984,36
+492,1789,Nantes,L'Angleterre,vin rouge au muids,vin rouge au muids,Vins divers,1050,9.15,muids,muids,litres,,114.7540983606557
+501,1789,Nantes,Angleterre,vin rouge en bouteilles,vin rouge en bouteilles,Vins divers,603,402,bouteilles,bouteilles,,,1.5
+505,1789,Nantes,Angleterre,vin divers,vin divers,Vins divers,174,,valeur,valeur,,,
+128,1787.2,Rennes,Angleterre,vin,vin,Vins divers,6000,54.459999,muids,muids,litres,,110.172605768869
+237,1787.2,Rouen,Angleterre,vin divers,vin divers,Vins divers,71000,,,unité manquante,unité manquante,,
+134,1789,Saint-Malo,Angleterre,vin,vin,Vins divers,875,3500,Pintes,pintes,litres,.26257747,.25
+193,1789,Saint-Malo,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,1000,2000,Pintes,pintes,litres,.52515495,.5
+217,1789,Saint-Malo,Angleterre,vin rouge,vin rouge,Vins divers,770,,,unité manquante,unité manquante,,
+144,1789,Toulon,Angleterre,vin,vin,Vins divers,144.39040131264,3.6666667,Muids,muids,litres,.14771558,39.3792
+2044,1780,,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,211336,422.5,muids,muids,litres,,500.203550295858
+2060,1780,,Angleterre,vin de Bordeaux de ville,vin de Bordeaux de ville,Vins de Bordeaux,52400,65.5,tonneaux,tonneaux,kg,,800
+2072,1780,,Angleterre,vin de Bourgogne,vin de Bourgogne,Vins divers,1950,4.875,muids,muids,litres,,400
+2091,1780,,Angleterre,vin Champagne,vin de Champagne,Vins divers,3600,9,muids,muids,litres,,400
+2103,1780,,Angleterre,vin de Champagne de Reims,vin de Reims,Vins divers,4314,4314,bouteilles,bouteilles,,,1
+2141,1780,,Angleterre,vin ordinaire,vin ordinaire,Vins divers,1000,2.5,muids,muids,litres,,400
+3985,1782,,Angleterre,vin de France divers,vin de France,Vins divers,31199,220.75,muids,muids,litres,,141.3318233295583
+3998,1782,,Angleterre,vin de France divers embouteillé,vin de France en bouteilles,Vins divers,17418,17418,bouteilles,bouteilles,,,1
+4014,1782,,Angleterre,vin de France de Bordeaux,vin de Bordeaux,Vins de Bordeaux,38455,446.13,muids,muids,litres,,86.19684845224486
+4028,1782,,Angleterre,vin de France de Bourgogne,vin de Bourgogne,Vins divers,3132,7.25,muids,muids,litres,,432
+4035,1782,,Angleterre,vin de France de Champagne,vin de France de Champagne,Vins divers,1356,8.25,muids,muids,litres,,164.3636363636364
+4065,1782,,Angleterre,vin étranger de Malaga,vin de Malaga,Vins divers,60,48,pintes,pintes,litres,,1.25
+3034,1787,,Angleterre,vin de France divers,vin de France,Vins divers,102844,,,unité manquante,unité manquante,,
+3057,1787,,Angleterre,vin de France de Bordeaux au muid,vin de Bordeaux au muid,Vins de Bordeaux,5595956,19731.9,muids,muids,litres,,283.5994506357725
+3068,1787,,Angleterre,vin de France de Bordeaux en bouteilles,vin de Bordeaux en bouteilles,Vins de Bordeaux,6904,6921,en nombre,en nombre,nombre,,.9975437075567115
+3074,1787,,Angleterre,vin de France de Bourgogne en muid,vin de Bourgogne en muid,Vins divers,31290,148.67,muids,muids,litres,,210.4661330463443
+3085,1787,,Angleterre,vin de France de Bourgogne en Bouteilles,vin de Bourgogne en bouteilles,Vins divers,56522,39844,en nombre,en nombre,nombre,,1.418582471639394
+3095,1787,,Angleterre,vin de France de Champagne en muid,vin de Champagne en muid,Vins divers,5905,22,muids,muids,litres,,268.4090909090909
+3103,1787,,Angleterre,vin de France de Champagne en bouteilles,vin de Champagne en bouteilles,Vins divers,48381,24798,en nombre,en nombre,nombre,,1.951004113234938
+3119,1787,,Angleterre,vin de France du Languedoc,vin du Languedoc,Vins divers,17410,806.04999,muids,muids,litres,,21.59915664784017
+3142,1787,,Angleterre,vin de France de Provence,vin de Provence,Vins divers,5856,105.8,muids,muids,litres,,55.34971644612477
+3151,1787,,Angleterre,vin de France du Roussillon,vin du Roussillon,Vins divers,8325,231.35001,muids,muids,litres,,35.98443760603252
+3152,1787,,Angleterre,vin de France de Saintonge,vin de Saintonge,Vins divers,3064,170,muids,muids,litres,,18.02352941176471
+3170,1787,,Angleterre,vin de liqueurs divers,vin de liqueurs,Vin de liqueurs,5782,,,unité manquante,unité manquante,,
+670,1788,,Angleterre,vin à la valeur,vin,Vins divers,36300,,,unité manquante,unité manquante,,
+671,1788,,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,,4200,Bouteilles,bouteilles,,,
+672,1788,,Angleterre,vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,3996100,13952,Muids,muids,litres,,
+673,1788,,Angleterre,vin divers,vin divers,Vins divers,,48400,Bouteilles,bouteilles,,,
+674,1788,,Angleterre,vin divers,vin divers,Vins divers,167400,1028,Muids,muids,litres,,
+39,1787,,Angleterre,subsistances vin divers,vin divers,Vins divers,279500,,,unité manquante,unité manquante,,
+60,1787,,Angleterre,subsistances vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,5602900,,,unité manquante,unité manquante,,
+74,1787,,Angleterre,subsistances vin de liqueurs,vin de liqueurs,Vin de liqueurs,5800,,,unité manquante,unité manquante,,
+35,1788,,Angleterre,subsistances vin divers,vin divers,Vins divers,203700,,,unité manquante,unité manquante,,
+46,1788,,Angleterre,subsistances vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,3996100,,,unité manquante,unité manquante,,
+35,1789,,Angleterre,subsistances vin divers,vin divers,Vins divers,187000,,,unité manquante,unité manquante,,
+49,1789,,Angleterre,subsistances vin de Bordeaux,vin de Bordeaux,Vins de Bordeaux,2903000,,,unité manquante,unité manquante,,
