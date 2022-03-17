@@ -28,9 +28,12 @@ Au sujet des destinations :
 
 Tolflit18 : Peu de données au niveau du bureau de ferme ou de la direction
 
-
+destination_uhgs_id : destination_fr
 A0864873 : Cap nord
 A0394917 : Lisbonne mais Angleterre
+A0840357 : Norvège
+A0912818 : Bergen
+A1964976 : Îles Féroé
 
 # Mesure
 

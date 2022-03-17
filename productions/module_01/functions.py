@@ -65,14 +65,11 @@ def is_smoggleur_roscoff(row):
         return True
     return False
 
-def is_smoggleur_lorient(row): # 51 + 5 + 1
+def is_smoggleur_lorient(row):
     if row['departure_fr'] != 'Lorient':
         return False
     if row['flag'] == 'British' \
-        and row['destination_uhgs_id'] in {
-            'A0840357', # Norvège
-            'A0912818', # Bergen
-            'A1964976'}: # Îles Féroé
+        and row['destination_uhgs_id'] in {'A0840357', 'A0912818', 'A1964976'}:
         return True
     return False
 
