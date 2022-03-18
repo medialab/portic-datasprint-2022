@@ -1,5 +1,5 @@
 import csv
-from functions import is_smoggleur_dunkerque, is_smoggleur_calais, is_smoggleur_boulogne, is_smoggleur_roscoff, is_smoggleur_lorient, is_smoggleur_bordeaux
+from functions import is_smoggleur_dunkerque, is_smoggleur_calais, is_smoggleur_boulogne, is_smoggleur_roscoff, is_smoggleur_lorient, is_smoggleur_bordeaux, is_illegal_commodities
 
 CSV_FILE_INPUT_1787 = '../../data/navigo_all_flows_1787.csv'
 CSV_FILE_INPUT_1789 = '../../data/navigo_all_flows_1789.csv'
@@ -39,7 +39,7 @@ for source in [CSV_FILE_INPUT_1787]:
                 row['is_smoggleur'] = is_smoggleur_bordeaux(row)
                 bordeaux.append(row)
 
-with open('result.csv', 'w', newline='') as csvfile:
+with open('smoggleurs.csv', 'w', newline='') as csvfile:
     fieldnames = [
         'departure_fr',
         'departure_longitude',
@@ -64,8 +64,8 @@ with open('result.csv', 'w', newline='') as csvfile:
         if flow['destination_fr'] in {'pas identifié', 'pas mentionné'}:
             flow['destination_fr'] = 'inconnu'
             # continue
-        if flow['is_smoggleur'] == False:
-            continue
+        # if flow['is_smoggleur'] == False:
+        #     continue
         writer.writerow({
             'departure_fr': flow['departure_fr'],
             'departure_longitude': flow['departure_longitude'],
@@ -76,3 +76,55 @@ with open('result.csv', 'w', newline='') as csvfile:
             'tonnage': flow['tonnage'],
             'is_smoggleur': 1 if flow['is_smoggleur'] == True else 0
         })
+
+ports = {
+    'dunkerque': dunkerque,
+    'calais': calais,
+    'boulogne': boulogne,
+    'roscoff': roscoff,
+    'lorient': lorient,
+    'bordeaux': bordeaux,
+}
+
+with open('ports.csv', 'w', newline='') as csvfile:
+    fieldnames = [
+        'port de départ',
+        'total des trajets anglais',
+        'trajets anglais smoggleurs',
+        '% de trajets anglais smoggleurs',
+        'total tonnage',
+        'tonnage smoggleur',
+        '% de tonnage smoggleurs',
+        'total des destinations',
+        'destinations smoggleurs',
+        '% de destination smoggleurs',
+        'smoggleurs avec produits de contrebande',
+        '% de smoggleurs avec produits de contrebande'
+    ]
+
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+
+    for port in ports.keys():
+        flows = [flow for flow in ports[port] if flow['flag'] == 'British']
+
+        row = dict.fromkeys(
+            fieldnames,
+            0 # initial value for all fields
+        )
+
+        row['port de départ'] = port
+        row['total des trajets anglais'] = len(flows)
+        row['trajets anglais smoggleurs'] = len([flow for flow in ports[port] if flow['is_smoggleur'] == True])
+        row['% de trajets anglais smoggleurs'] = (row['trajets anglais smoggleurs'] / row['total des trajets anglais']) * 100
+        row['total tonnage'] = sum([flow['tonnage'] for flow in ports[port]])
+        row['tonnage smoggleur'] = sum([flow['tonnage'] for flow in ports[port] if flow['is_smoggleur'] == True])
+        row['% de tonnage smoggleurs'] = (row['tonnage smoggleur'] / row['total tonnage']) * 100
+        row['total des destinations'] = len(set([flow['destination_fr'] for flow in ports[port]]))
+        row['destinations smoggleurs'] = len(set([flow['destination_fr'] for flow in ports[port] if flow['is_smoggleur'] == True]))
+        row['% de destination smoggleurs'] = (row['destinations smoggleurs'] / row['total des destinations']) * 100
+        row['smoggleurs avec produits de contrebande'] = len([flow for flow in ports[port] if (flow['is_smoggleur'] == True and is_illegal_commodities(flow) == True)])
+        row['% de destination smoggleurs'] = 0 if row['smoggleurs avec produits de contrebande'] == 0 else (row['smoggleurs avec produits de contrebande'] / row['trajets anglais smoggleurs']) * 100
+
+        writer.writerow(row)
