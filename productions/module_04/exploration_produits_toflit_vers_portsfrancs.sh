@@ -37,5 +37,9 @@ python ../../productions/module_04/agregate_values_for_histograms.py ../produits
 
 python ../../productions/module_04/sum_values_for_histograms.py toflit18_products_%s_to_%s_1789_values.csv france etranger dunkerque autres_portsfrancs > all_produits_france-etranger_to_dunkerque-autres_portsfrancs_values_1789.csv
 
-
+for source in france etranger; do
+  for dest in dunkerque autres_portsfrancs; do
+    xsv select "produit,${source}_to_${dest}" all_produits_france-etranger_to_dunkerque-autres_portsfrancs_values_1789.csv | xsv sort -RN -s "${source}_to_${dest}" | xsv slice -s 0 -e 20 > "top20_${source}_to_${dest}.csv"
+  done
+done
 
