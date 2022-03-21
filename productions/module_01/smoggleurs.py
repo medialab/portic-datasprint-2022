@@ -128,3 +128,31 @@ with open('ports.csv', 'w', newline='') as csvfile:
         row['% de destination smoggleurs'] = 0 if row['smoggleurs avec produits de contrebande'] == 0 else (row['smoggleurs avec produits de contrebande'] / row['trajets anglais smoggleurs']) * 100
 
         writer.writerow(row)
+
+with open('produits.csv', 'w', newline='') as csvfile:
+    fieldnames = [
+        'port de départ',
+        'port de destination',
+        'produit',
+        'tonnage pondéré'
+    ]
+
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+
+    for flow in dunkerque + calais + boulogne + roscoff + lorient + bordeaux:
+        if flow['is_smoggleur'] == False:
+            continue
+
+        commodities = [flow['commodity_standardized_fr'], flow['commodity_standardized2_fr'], flow['commodity_standardized3_fr'], flow['commodity_standardized4_fr']]
+        commodities = [commodity for commodity in commodities if commodity != '']
+
+        for commodity in commodities:
+
+            writer.writerow({
+                'port de départ': flow['departure_fr'],
+                'port de destination': flow['destination_fr'],
+                'produit': commodity,
+                'tonnage pondéré': flow['tonnage'] / len(commodities)
+            })
