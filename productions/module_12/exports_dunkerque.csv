@@ -1,5 +1,46 @@
 cargo,cargo_standardized_fr,departure_uhgs_id,departure_fr,destination_uhgs_id,destination_fr,destination_partner_balance_supp_1789,destination_substate_1789_fr,destination_state_1789_fr,tonnage,outdate_fixed,nb_cargo
-orge,Orge,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,108.0,1789-08-03,1.0
+bled,Blé,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,65.0,1789-07-14,1.0
+mousseline,,A0204180,Dunkerque,A0374720,Madère,Etranger,îles atlantiques portugaises,Portugal,25.0,1789-09-26,1.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-03-07,3.0
+Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-03-07,3.0
+Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-03-07,3.0
+sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,106.0,1789-10-09,1.0
+bled,Blé,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,60.0,1789-07-15,1.0
+futailles vides,Futailles vides,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-03-31,3.0
+Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-03-31,3.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-03-31,3.0
+sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,60.0,1789-09-24,1.0
+sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,55.0,1789-08-21,1.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-08-17,2.0
+Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-08-17,2.0
+Coton,Coton,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-10-29,3.0
+Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-10-29,3.0
+Cuirs,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-10-29,3.0
+tabac,,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,200.0,1789-11-25,1.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,B2827324,New Bedford,Etranger,Massachussets,Etats-Unis d'Amérique,350.0,1789-08-22,2.0
+charbon,Charbon,A0204180,Dunkerque,B2827324,New Bedford,Etranger,Massachussets,Etats-Unis d'Amérique,350.0,1789-08-22,2.0
+genevre,,A0204180,Dunkerque,A1086867,Nordbergen,Etranger,,Suède,12.0,1789-07-25,1.0
+Tabac,,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,130.0,1789-08-29,2.0
+autres marchandises,Diverses marchandises,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,130.0,1789-08-29,2.0
+avoine,Avoine,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,100.0,1789-12-07,1.0
+Diverses marchandises,Diverses marchandises,A0204180,Dunkerque,A0046492,Bruges,Etranger,Pays-Bas autrichiens,Autriche,60.0,1789-07-07,1.0
+Tabac,,A0204180,Dunkerque,A0743522,Hambourg,Etranger,,Hambourg,150.0,1789-03-09,1.0
+tabac,,A0204180,Dunkerque,A0743522,Hambourg,Etranger,,Hambourg,115.0,1789-08-01,1.0
+sucre,Sucre,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,100.0,1789-08-05,1.0
+bois,Bois,A0204180,Dunkerque,A0360085,Lisbonne,Etranger,,Portugal,240.0,1789-09-12,1.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,55.0,1789-03-27,2.0
+Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,55.0,1789-03-27,2.0
+avoine,Avoine,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,160.0,1789-12-03,1.0
+Graines de lin,Graines de lin,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-09-25,2.0
+Tabac,,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-09-25,2.0
+vin,Vin,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,70.0,1789-11-07,1.0
+Eau-de-vie,Eau-de-vie,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,120.0,1789-11-10,1.0
+sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-12-03,1.0
+sel,Sel,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-08-21,1.0
+Genevre,,A0204180,Dunkerque,A1964976,Îles Féroé,Etranger,,Danemark,12.0,1789-03-14,2.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A1964976,Îles Féroé,Etranger,,Danemark,12.0,1789-03-14,2.0
+Tabac,,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-04-20,2.0
+autres marchandises,Diverses marchandises,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-04-20,2.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0624934,Dort,Etranger,Gueldre,Provinces-Unies,106.0,1789-03-27,2.0
 Tabac,,A0204180,Dunkerque,A0624934,Dort,Etranger,Gueldre,Provinces-Unies,106.0,1789-03-27,2.0
 caffé,Café,A0204180,Dunkerque,A0618784,Dordrecht ,Etranger,Hollande,Provinces-Unies,106.0,1789-06-23,1.0
@@ -14,16 +55,22 @@ Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,
 vin,Vin,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-07-02,2.0
 futailles vides,Futailles vides,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-07-02,2.0
 vin,Vin,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-09-21,1.0
+graine de lin,Graines de lin,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-09-05,1.0
 Cottes de tabac,,A0204180,Dunkerque,A0691896,Brême,Etranger,,Brême,70.0,1789-04-04,1.0
 sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-10-08,1.0
 sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,80.0,1789-03-13,1.0
+orge,Orge,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,100.0,1789-08-05,1.0
 vin,Vin,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-07-29,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-07-29,3.0
 panier,,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-07-29,3.0
 futailles vuides,Futailles vides,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-12-22,1.0
+Sucre,Sucre,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,106.0,1789-12-12,2.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,106.0,1789-12-12,2.0
 caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-10-20,2.0
 Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-10-20,2.0
-bled,Blé,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,60.0,1789-07-15,1.0
+Raisins,,A0204180,Dunkerque,A0912818,Bergue ,Etranger,Norvège,Danemark,35.0,1789-09-16,3.0
+Figues,,A0204180,Dunkerque,A0912818,Bergue ,Etranger,Norvège,Danemark,35.0,1789-09-16,3.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0912818,Bergue ,Etranger,Norvège,Danemark,35.0,1789-09-16,3.0
 Eau-de-vie,Eau-de-vie,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,270.0,1789-06-06,1.0
 sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,6.0,1789-09-25,1.0
 sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-03-07,2.0
@@ -35,12 +82,16 @@ saumons,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autri
 Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-01-21,4.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,75.0,1789-06-06,2.0
 marbre,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,75.0,1789-06-06,2.0
+Fruits,Fruits,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,130.0,1789-07-08,2.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,130.0,1789-07-08,2.0
 restant de son chargement,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,100.0,1789-12-17,1.0
 Huilles,Huile,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,100.0,1789-04-11,3.0
 Fruits,Fruits,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,100.0,1789-04-11,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,100.0,1789-04-11,3.0
 restant de son chargement,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,140.0,1789-04-17,1.0
 restant de son chargement qu’il a apporté ici,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,44.0,1789-08-05,1.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-02-03,2.0
+vin,Vin,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-02-03,2.0
 sel,Sel,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-08-08,2.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-08-08,2.0
 Caffé,Café,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,42.0,1789-05-20,3.0
@@ -53,7 +104,6 @@ Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas
 Fruits,Fruits,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,110.0,1789-02-14,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,110.0,1789-02-14,3.0
 Huilles,Huile,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,110.0,1789-02-14,3.0
-sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,60.0,1789-09-24,1.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-02-19,2.0
 sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-02-19,2.0
 sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-06-02,1.0
@@ -81,9 +131,6 @@ Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,P
 Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,50.0,1789-11-07,2.0
 Tabac,,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-02-28,2.0
 Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-02-28,2.0
-futailles vides,Futailles vides,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-03-31,3.0
-Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-03-31,3.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-03-31,3.0
 fèves,Fèves,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-07-23,1.0
 Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-08-12,2.0
 autres marchandises,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-08-12,2.0
@@ -109,7 +156,6 @@ Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies
 Tabac,,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,50.0,1789-12-03,2.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,50.0,1789-12-03,2.0
 Avoine,Avoine,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,130.0,1789-12-31,1.0
-lest,Lest,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,130.0,1789-05-27,1.0
 mousseline,,A0204180,Dunkerque,A0374720,Madère,Etranger,îles atlantiques portugaises,Portugal,25.0,1789-10-08,1.0
 Sucre,Sucre,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,65.0,1789-05-16,2.0
 caffé,Café,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,65.0,1789-05-16,2.0
@@ -147,7 +193,6 @@ Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,
 caffé,Café,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,90.0,1789-05-09,1.0
 balloteries,,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,115.0,1789-03-13,2.0
 bled,Blé,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,115.0,1789-03-13,2.0
-sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,55.0,1789-08-21,1.0
 Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-04-17,2.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-04-17,2.0
 Eau-de-vie,Eau-de-vie,A0204180,Dunkerque,A0374720,Madère,Etranger,îles atlantiques portugaises,Portugal,130.0,1789-10-19,1.0
@@ -193,7 +238,6 @@ Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas
 Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-06-06,3.0
 caffé,Café,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-06-06,3.0
 sel,Sel,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-06-06,3.0
-sel,Sel,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-08-21,1.0
 Cuirs,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-10-31,3.0
 Caffé,Café,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-10-31,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-10-31,3.0
@@ -218,11 +262,6 @@ Caffé,Café,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,A
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,45.0,1789-06-23,2.0
 sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-02-16,1.0
 sel,Sel,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-06-26,1.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-08-17,2.0
-Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-08-17,2.0
-Coton,Coton,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-10-29,3.0
-Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-10-29,3.0
-Cuirs,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,55.0,1789-10-29,3.0
 Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-03-07,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-03-07,3.0
 vin,Vin,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-03-07,3.0
@@ -239,27 +278,14 @@ Caffé,Café,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,A
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,36.0,1789-03-18,3.0
 Sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-10-17,2.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-10-17,2.0
-tabac,,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,200.0,1789-11-25,1.0
 Sucre,Sucre,A0204180,Dunkerque,A0618784,Dordrecht ,Etranger,Hollande,Provinces-Unies,90.0,1789-05-04,2.0
 Tabac,,A0204180,Dunkerque,A0618784,Dordrecht ,Etranger,Hollande,Provinces-Unies,90.0,1789-05-04,2.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,B2827324,New Bedford,Etranger,Massachussets,Etats-Unis d'Amérique,350.0,1789-08-22,2.0
-charbon,Charbon,A0204180,Dunkerque,B2827324,New Bedford,Etranger,Massachussets,Etats-Unis d'Amérique,350.0,1789-08-22,2.0
-genevre,,A0204180,Dunkerque,A1086867,Nordbergen,Etranger,,Suède,12.0,1789-07-25,1.0
-huille de térbantine,,A0204180,Dunkerque,A0622825,Middelbourg,Etranger,Zélande,Provinces-Unies,100.0,1789-02-21,2.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0622825,Middelbourg,Etranger,Zélande,Provinces-Unies,100.0,1789-02-21,2.0
-Tabac,,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,130.0,1789-08-29,2.0
-autres marchandises,Diverses marchandises,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,130.0,1789-08-29,2.0
 Tabac,,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,150.0,1789-04-11,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,150.0,1789-04-11,3.0
 cloux,,A0204180,Dunkerque,A0251183,Livourne,Etranger,,Toscane,150.0,1789-04-11,3.0
-Tabac,,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-09-21,2.0
-Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-09-21,2.0
-avoine,Avoine,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,100.0,1789-12-07,1.0
-Diverses marchandises,Diverses marchandises,A0204180,Dunkerque,A0046492,Bruges,Etranger,Pays-Bas autrichiens,Autriche,60.0,1789-07-07,1.0
+huille de térbantine,,A0204180,Dunkerque,A0622825,Middelbourg,Etranger,Zélande,Provinces-Unies,100.0,1789-02-21,2.0
+Etc.,Diverses marchandises,A0204180,Dunkerque,A0622825,Middelbourg,Etranger,Zélande,Provinces-Unies,100.0,1789-02-21,2.0
 Eau-de-vie,Eau-de-vie,A0204180,Dunkerque,A0364551,Setúbal ,Etranger,,Portugal,300.0,1789-09-03,2.0
-lest,Lest,A0204180,Dunkerque,A0364551,Setúbal ,Etranger,,Portugal,300.0,1789-09-03,2.0
-Genevre,,A0204180,Dunkerque,A1964976,Îles Féroé,Etranger,,Danemark,12.0,1789-03-14,2.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A1964976,Îles Féroé,Etranger,,Danemark,12.0,1789-03-14,2.0
 orge,Orge,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-08-05,1.0
 sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-05-29,1.0
 sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,10.0,1789-11-02,1.0
@@ -273,25 +299,11 @@ sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autri
 Etc.,Diverses marchandises,A0204180,Dunkerque,B0000056,Louisiane,Etranger,Colonies espagnoles d'Amérique,Espagne,120.0,1789-08-22,3.0
 Genevre,,A0204180,Dunkerque,B0000056,Louisiane,Etranger,Colonies espagnoles d'Amérique,Espagne,120.0,1789-08-22,3.0
 toile,,A0204180,Dunkerque,B0000056,Louisiane,Etranger,Colonies espagnoles d'Amérique,Espagne,120.0,1789-08-22,3.0
-Raisins,,A0204180,Dunkerque,A0912818,Bergue ,Etranger,Norvège,Danemark,35.0,1789-09-16,3.0
-Figues,,A0204180,Dunkerque,A0912818,Bergue ,Etranger,Norvège,Danemark,35.0,1789-09-16,3.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0912818,Bergue ,Etranger,Norvège,Danemark,35.0,1789-09-16,3.0
 graine de lin,Graines de lin,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-08-21,1.0
-Tabac,,A0204180,Dunkerque,A0743522,Hambourg,Etranger,,Hambourg,150.0,1789-03-09,1.0
-tabac,,A0204180,Dunkerque,A0743522,Hambourg,Etranger,,Hambourg,115.0,1789-08-01,1.0
-sucre,Sucre,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,100.0,1789-08-05,1.0
 sel,Sel,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,60.0,1789-09-16,1.0
 bled,Blé,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,130.0,1789-04-14,1.0
-sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,106.0,1789-10-09,1.0
-caffé,Café,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,92.0,1789-09-21,1.0
-Tabac,,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-04-20,2.0
-autres marchandises,Diverses marchandises,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,40.0,1789-04-20,2.0
 bléd,Blé,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,200.0,1789-04-11,2.0
 farines,Farine,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,200.0,1789-04-11,2.0
-bois,Bois,A0204180,Dunkerque,A0360085,Lisbonne,Etranger,,Portugal,240.0,1789-09-12,1.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,55.0,1789-03-27,2.0
-Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,55.0,1789-03-27,2.0
-avoine,Avoine,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,160.0,1789-12-03,1.0
 mousseline,,A0204180,Dunkerque,A0374720,Madère,Etranger,îles atlantiques portugaises,Portugal,25.0,1789-10-13,1.0
 sucre,Sucre,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,132.0,1789-12-12,1.0
 Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,68.0,1789-02-17,2.0
@@ -299,36 +311,22 @@ caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies
 Huilles,Huile,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,50.0,1789-03-11,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,50.0,1789-03-11,3.0
 Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,50.0,1789-03-11,3.0
-Graines de lin,Graines de lin,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-09-25,2.0
-Tabac,,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-09-25,2.0
-vin,Vin,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,70.0,1789-11-07,1.0
-orge,Orge,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-10-21,1.0
-Eau-de-vie,Eau-de-vie,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,120.0,1789-11-10,1.0
-sucre,Sucre,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-12-03,1.0
 tabac faisant restant de son chargement,,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,74.0,1789-04-25,1.0
 Fruits,Fruits,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,160.0,1789-03-28,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,160.0,1789-03-28,3.0
 Huilles,Huile,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,160.0,1789-03-28,3.0
 autres marchandises,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-03-18,2.0
 Laines,Laine,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,50.0,1789-03-18,2.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-03-07,3.0
-Caffé,Café,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-03-07,3.0
-Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-03-07,3.0
+orge,Orge,A0204180,Dunkerque,A0079352,Barcelone,Etranger,,Espagne,108.0,1789-08-03,1.0
+Tabac,,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-09-21,2.0
+Sucre,Sucre,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,60.0,1789-09-21,2.0
+caffé,Café,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,92.0,1789-09-21,1.0
+orge,Orge,A0204180,Dunkerque,A0624785,Veere,Etranger,Zélande,Provinces-Unies,40.0,1789-10-21,1.0
 Tabac,,A0204180,Dunkerque,A0232521,Gênes,Etranger,,République de Gênes,200.0,1789-08-14,2.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0232521,Gênes,Etranger,,République de Gênes,200.0,1789-08-14,2.0
-bled,Blé,A0204180,Dunkerque,A0620777,Amsterdam,Etranger,Hollande,Provinces-Unies,65.0,1789-07-14,1.0
-graine de lin,Graines de lin,A0204180,Dunkerque,A0041886,Nieuport,Etranger,Pays-Bas autrichiens,Autriche,20.0,1789-09-05,1.0
-mousseline,,A0204180,Dunkerque,A0374720,Madère,Etranger,îles atlantiques portugaises,Portugal,25.0,1789-09-26,1.0
-orge,Orge,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,100.0,1789-08-05,1.0
-Sucre,Sucre,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,106.0,1789-12-12,2.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0627935,Rotterdam,Etranger,Hollande,Provinces-Unies,106.0,1789-12-12,2.0
-Fruits,Fruits,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,130.0,1789-07-08,2.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,130.0,1789-07-08,2.0
 Huilles,Huile,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,100.0,1789-02-14,3.0
 Fruits,Fruits,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,100.0,1789-02-14,3.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,100.0,1789-02-14,3.0
-Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-02-03,2.0
-vin,Vin,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,40.0,1789-02-03,2.0
 Etc.,Diverses marchandises,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,90.0,1789-05-27,3.0
 Huilles,Huile,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,90.0,1789-05-27,3.0
 Fruits,Fruits,A0204180,Dunkerque,A0049808,Ostende,Etranger,Pays-Bas autrichiens,Autriche,90.0,1789-05-27,3.0

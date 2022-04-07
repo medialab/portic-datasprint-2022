@@ -107,11 +107,104 @@ create or replace view navigocheck.pointcall_cargo2 as (
             select count(*) from navigocheck.pointcall_cargo2
             -- 31363
             
-            select * from navigocheck.pointcall_cargo2 where link_to_pointcall = '00335599'
-            
+            select * from navigocheck.pointcall_cargo where link_to_pointcall = '00335599'
+                        select * from navigocheck.pointcall_cargo where link_to_pointcall = '00334176'
+ select * from navigocheck.pointcall_cargo where link_to_pointcall = '00344077'
+
+ select (all_cargos->>2)::json->>'commodity_purpose' , all_cargos
+ from navigocheck.pointcall_cargo where link_to_pointcall = '00334176'
+
+select record_id, pointcall, cargo_item_action, cargo_item_action2, cargo_item_action3, cargo_item_action4, commodity_purpose, commodity_purpose2, commodity_purpose3, commodity_purpose4 from navigoviz.pointcall where source_doc_id= '00334176'
+-- records 00344077 et 00334176 (de Dunkerque)
+
+-- correction de pointcall sur le server le 7 avril 2022
+update navigoviz.pointcall set commodity_purpose2=(all_cargos->>1)::json->>'commodity_purpose',
+        commodity_id2=(all_cargos->>1)::json->>'commodity_id',
+        quantity2=(all_cargos->>1)::json->>'quantity',
+        quantity_u2=(all_cargos->>1)::json->>'quantity_u',
+        commodity_standardized2=(all_cargos->>1)::json->>'commodity_standardized_en',
+        commodity_standardized2_fr=(all_cargos->>1)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding2=(all_cargos->>1)::json->>'commodity_permanent_coding',
+        cargo_item_action2=(all_cargos->>1)::json->>'cargo_item_action';
+        
+update navigoviz.pointcall set commodity_purpose3=(all_cargos->>2)::json->>'commodity_purpose',
+        commodity_id3=(all_cargos->>2)::json->>'commodity_id',
+        quantity3=(all_cargos->>2)::json->>'quantity',
+        quantity_u3=(all_cargos->>2)::json->>'quantity_u',
+        commodity_standardized3=(all_cargos->>2)::json->>'commodity_standardized_en',
+        commodity_standardized3_fr=(all_cargos->>2)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding3=(all_cargos->>2)::json->>'commodity_permanent_coding',
+        cargo_item_action3=(all_cargos->>2)::json->>'cargo_item_action';
+
+update navigoviz.pointcall set commodity_purpose4=(all_cargos->>3)::json->>'commodity_purpose',
+        commodity_id4=(all_cargos->>3)::json->>'commodity_id',
+        quantity4=(all_cargos->>3)::json->>'quantity',
+        quantity_u4=(all_cargos->>3)::json->>'quantity_u',
+        commodity_standardized4=(all_cargos->>3)::json->>'commodity_standardized_en',
+        commodity_standardized4_fr=(all_cargos->>3)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding4=(all_cargos->>3)::json->>'commodity_permanent_coding',
+        cargo_item_action4=(all_cargos->>3)::json->>'cargo_item_action';
+
+-- correction de raw_flows sur le server le 7 avril 2022
+update navigoviz.raw_flows  set commodity_purpose2=(all_cargos->>1)::json->>'commodity_purpose',
+        commodity_id2=(all_cargos->>1)::json->>'commodity_id',
+        quantity2=(all_cargos->>1)::json->>'quantity',
+        quantity_u2=(all_cargos->>1)::json->>'quantity_u',
+        commodity_standardized2=(all_cargos->>1)::json->>'commodity_standardized_en',
+        commodity_standardized2_fr=(all_cargos->>1)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding2=(all_cargos->>1)::json->>'commodity_permanent_coding',
+        cargo_item_action2=(all_cargos->>1)::json->>'cargo_item_action';
+        
+update navigoviz.raw_flows set commodity_purpose3=(all_cargos->>2)::json->>'commodity_purpose',
+        commodity_id3=(all_cargos->>2)::json->>'commodity_id',
+        quantity3=(all_cargos->>2)::json->>'quantity',
+        quantity_u3=(all_cargos->>2)::json->>'quantity_u',
+        commodity_standardized3=(all_cargos->>2)::json->>'commodity_standardized_en',
+        commodity_standardized3_fr=(all_cargos->>2)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding3=(all_cargos->>2)::json->>'commodity_permanent_coding',
+        cargo_item_action3=(all_cargos->>2)::json->>'cargo_item_action';
+
+update navigoviz.raw_flows set commodity_purpose4=(all_cargos->>3)::json->>'commodity_purpose',
+        commodity_id4=(all_cargos->>3)::json->>'commodity_id',
+        quantity4=(all_cargos->>3)::json->>'quantity',
+        quantity_u4=(all_cargos->>3)::json->>'quantity_u',
+        commodity_standardized4=(all_cargos->>3)::json->>'commodity_standardized_en',
+        commodity_standardized4_fr=(all_cargos->>3)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding4=(all_cargos->>3)::json->>'commodity_permanent_coding',
+        cargo_item_action4=(all_cargos->>3)::json->>'cargo_item_action';
+ 
+-- correction de built_travels sur le server le 7 avril 2022
+update navigoviz.built_travels  set commodity_purpose2=(all_cargos->>1)::json->>'commodity_purpose',
+        commodity_id2=(all_cargos->>1)::json->>'commodity_id',
+        quantity2=(all_cargos->>1)::json->>'quantity',
+        quantity_u2=(all_cargos->>1)::json->>'quantity_u',
+        commodity_standardized2=(all_cargos->>1)::json->>'commodity_standardized_en',
+        commodity_standardized2_fr=(all_cargos->>1)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding2=(all_cargos->>1)::json->>'commodity_permanent_coding',
+        cargo_item_action2=(all_cargos->>1)::json->>'cargo_item_action';
+        
+update navigoviz.built_travels set commodity_purpose3=(all_cargos->>2)::json->>'commodity_purpose',
+        commodity_id3=(all_cargos->>2)::json->>'commodity_id',
+        quantity3=(all_cargos->>2)::json->>'quantity',
+        quantity_u3=(all_cargos->>2)::json->>'quantity_u',
+        commodity_standardized3=(all_cargos->>2)::json->>'commodity_standardized_en',
+        commodity_standardized3_fr=(all_cargos->>2)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding3=(all_cargos->>2)::json->>'commodity_permanent_coding',
+        cargo_item_action3=(all_cargos->>2)::json->>'cargo_item_action';
+
+update navigoviz.built_travels set commodity_purpose4=(all_cargos->>3)::json->>'commodity_purpose',
+        commodity_id4=(all_cargos->>3)::json->>'commodity_id',
+        quantity4=(all_cargos->>3)::json->>'quantity',
+        quantity_u4=(all_cargos->>3)::json->>'quantity_u',
+        commodity_standardized4=(all_cargos->>3)::json->>'commodity_standardized_en',
+        commodity_standardized4_fr=(all_cargos->>3)::json->>'commodity_standardized_fr',
+        commodity_permanent_coding4=(all_cargos->>3)::json->>'commodity_permanent_coding',
+        cargo_item_action4=(all_cargos->>3)::json->>'cargo_item_action';
+        
+select * from navigocheck.pointcall_cargo         where link_to_pointcall = '00334176';   
             select count(*) from navigocheck.pointcall_cargo
 			-- 31168
-            
+-- [{"quantity": null, "quantity_u": null, "commodity_id": "00000426", "cargo_item_action": "Out", "commodity_purpose": "Genevre", "link_to_pointcall": "00334176", "commodity_standardized_en": null, "commodity_standardized_fr": null, "commodity_permanent_coding": "ID-BFxxxx-JF-ECAxxx-FBxx"}, {"quantity": null, "quantity_u": null, "commodity_id": "00000013", "cargo_item_action": "Out", "commodity_purpose": "Etc.", "link_to_pointcall": "00334176", "commodity_standardized_en": "Sundries", "commodity_standardized_fr": "Diverses marchandises", "commodity_permanent_coding": "xx-xxxxxx-JZ-MAxxxx-xxxx"}]           
 select all_cargos  from navigoviz.pointcall p 
 
 ----------------------
@@ -335,17 +428,19 @@ select * from ports.port_points pp where uhgs_id = 'A0079352'
 
 --------------------------------------------------------------------------------------------------
 -- demain : filtrer les départs pour la pêche (terre-neuve, island) + commodity_purpose ~ pêche
--- A1964976 Ile feroe
+-- 61 pêche en tout
 -- A0146289 Islande
 -- B0000715 Grands Bancs de Terre-Neuve
+-- Supprimer aussi les départs sur LEST (328)
 --------------------------------------------------------------------------------------------------
 
---- La pêche 
 
 select rf.destination_uhgs_id, rf.destination_substate_1789_fr , rf.destination_state_1789_fr, rf.tonnage , rf.outdate_fixed , 
-rf.commodity_purpose, rf.commodity_purpose2 , rf.commodity_purpose3, rf.commodity_purpose3 , rf.commodity_purpose4 , 
-rf.all_cargos , jsonb_array_length(rf.all_cargos)
+ nb_cargo, rf.commodity_purpose, rf.commodity_purpose2 , rf.commodity_purpose3,  rf.commodity_purpose4 , 
+rf.all_cargos 
 from navigoviz.raw_flows rf 
 where rf.departure_uhgs_id = 'A0204180' and extract(year from rf.outdate_fixed) = 1789
-and rf.destination_partner_balance_supp_1789  in ('Etranger')  and rf.destination_state_1789_fr not in ('Grande-Bretagne') and rf.destination_uhgs_id != 'C0000009'
-and  rf.destination_uhgs_id = 'A1964976'	
+and rf.destination_partner_balance_supp_1789  in ('Etranger')  and rf.destination_state_1789_fr not in ('Grande-Bretagne') and rf.destination_uhgs_id not in ('C0000009', 'A0146289', 'B0000715')
+and (commodity_purpose  not like '%Lège%' )
+and   (commodity_purpose is not null and commodity_purpose not like '%pêche%') 
+-- 
