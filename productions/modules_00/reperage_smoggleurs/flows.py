@@ -105,3 +105,34 @@ with open('result.csv', 'w', newline='') as csvfile:
                 "% tonnage anglais vers Grande-Bretagne": depart['per_cent_tonnage_bateaux_anglais']
             }
         )
+
+with open('result_top_ten.csv', 'w', newline='') as csvfile:
+    fieldnames = [
+        'Nom port',
+        'nombre de départ',
+        "dont vers l'Grande-Bretagne",
+        "% départs vers Grande-Bretagne",
+        "nombre de bateaux anglais",
+        "% bateaux anglais avec départ Grande-Bretagne",
+        "tonnage bateaux vers Grande-Bretagne",
+        "tonnage des bateaux anglais vers Grande-Bretagne",
+        "% tonnage anglais vers Grande-Bretagne"
+    ]
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    
+    for depart in depart_sorted[1:11]:
+        writer.writerow(
+            {
+                'Nom port': depart['name'],
+                'nombre de départ': depart['total'],
+                "dont vers l'Grande-Bretagne": depart['dont_vers_grande_bretagne'],
+                "% départs vers Grande-Bretagne": depart['per_cent'],
+                "nombre de bateaux anglais": depart['nb_bateau_anglais'],
+                "% bateaux anglais avec départ Grande-Bretagne": depart['per_cent_bateaux_anglais'],
+                "tonnage bateaux vers Grande-Bretagne": depart['tonnage_vers_grande_bretagne'],
+                "tonnage des bateaux anglais vers Grande-Bretagne": depart['tonnage_bateaux_anglais_vers_grande_bretagne'],
+                "% tonnage anglais vers Grande-Bretagne": depart['per_cent_tonnage_bateaux_anglais']
+            }
+        )
