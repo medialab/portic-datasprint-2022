@@ -17,6 +17,8 @@ for source in [CSV_FILE_INPUT_1787]:
         for row in reader:
             if row['flag'] == 'French':
                 continue
+            if row['departure'] != 'Dunkerque':
+                continue
             if 'long cours' not in row['all_taxes']:
                 continue
             
@@ -31,7 +33,8 @@ with open('no_french_map.csv', 'w', newline='') as csvfile:
         'destination',
         'destination_uhgs_id',
         'destination_latitude',
-        'destination_longitude'
+        'destination_longitude',
+        'tonnage'
     }
 
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
