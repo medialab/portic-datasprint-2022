@@ -1,4 +1,3 @@
-from mdutils.mdutils import MdUtils
 import csv
 import json
 from pprint import pprint
@@ -122,7 +121,7 @@ with open('result_top_ten.csv', 'w', newline='') as csvfile:
 
     writer.writeheader()
     
-    for depart in depart_sorted[1:11]:
+    for depart in depart_sorted[0:10]:
         writer.writerow(
             {
                 'Nom port': depart['name'],
