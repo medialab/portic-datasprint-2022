@@ -5,7 +5,11 @@ import sys
 
 file = "../../data/toflit18_all_flows.csv"
 
-autres_port_francs = ["Lorient", "Bayonne", "Marseille"]
+autres_port_francs = [
+    "Lorient",
+    "Bayonne",
+    "Marseille",
+]
 dunkerque_port_franc = "Dunkerque"
 
 
@@ -25,24 +29,6 @@ product_factories = {
     "colonial_products": lambda row: row["product_revolutionempire"],
 }
 
-# Data storage by product type
-data_by_product_type = {}
-for product_key in product_factories:
-    data_by_product_type[product_key] = {
-        "colonial_products": {p: set() for p in autres_port_francs}
-    }
-    data_by_product_type[product_key]["report_port_francs"] = {
-        p: defaultdict(dict) for p in autres_port_francs
-    }
-    data_by_product_type[product_key]["report_others"] = {
-        p: defaultdict(dict) for p in autres_port_francs
-    }
-    data_by_product_type[product_key]["import_by_product_by_partner"] = {
-        p: defaultdict(dict) for p in autres_port_francs
-    }
-    data_by_product_type[product_key]["export_by_product_by_partner"] = {
-        p: defaultdict(dict) for p in autres_port_francs
-    }
 
 colonial_products_trade = {
     p: defaultdict(lambda: defaultdict(dict))
@@ -69,7 +55,6 @@ with open(file, "r") as muerte:
                 if row["customs_office"] != "Port franc de Bayonne et Saint Jean de Luz"
                 else "Bayonne"
             )
-            offices.add(office)
 
             product = row["product_revolutionempire"]
             partner_type = import_partner_class(row["partner_grouping"])
@@ -127,8 +112,6 @@ with open(file, "r") as muerte:
                     )
             # trade reported by other ports francs
             elif office in autres_port_francs:
-                if office == "Lorient" and partner_type == "colonies":
-                    print(product, row["export_import"])
                 if row["export_import"] == "Exports":
                     # for now we store all products in colonial products as we don't know yet what is colonial since it's calculated from imports
                     colonial_products_trade[office][product][partner_type][
@@ -175,16 +158,27 @@ with open(file, "r") as muerte:
                             )
                             + value
                         )
+                if row["partner_simplification"] in ["Bayonne", "Saint-Jean de Luz"]:
+
+                    if product:
+                        total_trade["Bayonne"]["tout produit"]["France"][
+                            row["export_import"]
+                        ] = (
+                            total_trade["Bayonne"]["tout produit"]["France"].get(
+                                row["export_import"], 0
+                            )
+                            + value
+                        )
     export_data = {
         p: {"colonial_products": [], "total_trade": []}
         for p in autres_port_francs + [dunkerque_port_franc]
     }
-    print(colonial_products_other_ports["Lorient"])
     for (port, colional_products) in colonial_products_trade.items():
         for product, product_trade in colional_products.items():
             # filter colonial products for other ports
             if (
-                port not in colonial_products_other_ports
+                True
+                or port not in colonial_products_other_ports
                 or product in colonial_products_other_ports[port]
             ):
                 totals = defaultdict(int)
