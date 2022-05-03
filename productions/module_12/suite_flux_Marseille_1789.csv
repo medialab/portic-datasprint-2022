@@ -1,0 +1,239 @@
+cargo,cargo_standardized_fr,departure_uhgs_id,departure_fr,destination_uhgs_id,destination_fr,destination_partner_balance_1789,destination_partner_balance_supp_1789,destination_substate_1789_fr,destination_state_1789_fr,tonnage,outdate_fixed,nb_cargo,commodity_as_toflit
+Ratafia,ratafia,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Subsistances
+Coreaux,coreaux,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+Vin,Vin,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Subsistances
+"Salaisons, olives, capres et anchois","salaisons, olives, capres et anchois",A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+Cuivre en plaque et travaillé,cuivre en plaque et travaillé,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+Parfumeries et gants de peau,parfumeries et gants de peau,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+Marchandises diverses,Marchandises,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Divers
+"Merceries, quincailles et armes à feu","merceries, quincailles et armes à feu",A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+"Liqueurs, sirops ou vins étrangers","liqueurs, sirops ou vins étrangers",A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+"Fer travaillé et clous, fer en barre","fer travaillé et clous, fer en barre",A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Subsistances
+Confitures et fruits à l’eau-de-vie,confitures et fruits à l’eau-de-vie,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+Cordages,cordages,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Industrie française et étrangère
+Draperies et autres étoffes en laine ou fil de chevre,draperies et autres étoffes en laine ou fil de chevre,A0210797,Marseille,D0000004,Indes orientales,,Etranger,,multi-Etat,500.0,1789-02-10,14.0,Unknown for TOFLIT
+marchandises de la foire de Beaucaire,marchandises de la foire de beaucaire,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-08-08,1.0,Unknown for TOFLIT
+châtaignes,châtaignes,A0210797,Marseille,A0118264,Carthagène ,Espagne,Etranger,,Espagne,,1789-02-22,2.0,Subsistances
+bois de construction,Bois de construction,A0210797,Marseille,A0118264,Carthagène ,Espagne,Etranger,,Espagne,,1789-02-22,2.0,Matières premières
+fèves,Fèves,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-11-15,1.0,Subsistances
+"Mouchoirs, Mousselines, et toiles de coton","mouchoirs, mousselines, et toiles de coton",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Savon,Savon,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+"Amandes, noix et noisettes","amandes, noix et noisettes",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Chandelles,chandelles,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+Chapeaux,chapeaux,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Objets manufacturés
+Charcuteries,charcuteries,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Cierges et bougies,cierges et bougies,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+Confitures et fruits à l’eau-de-vie,confitures et fruits à l’eau-de-vie,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Cordages,cordages,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+Draperies et autres étoffes en laine ou fil de chevre,draperies et autres étoffes en laine ou fil de chevre,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Drogues et teintures,drogues et teintures,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Subsistances
+"Etoffes, dorures et effets de modes","etoffes, dorures et effets de modes",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Fer travaillé et clous,fer travaillé et clous,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Fer-Blanc,fer-blanc,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Métaux
+Fromage,Fromage,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Subsistances
+Huile,Huile,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Matières premières
+"Liqueurs, sirops ou vins étrangers","liqueurs, sirops ou vins étrangers",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+"Livres, estampes et papiers","livres, estampes et papiers",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+"Merceries, quincailles et armes à feu","merceries, quincailles et armes à feu",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Parfumeries et gants de peau,parfumeries et gants de peau,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Pipes,pipes,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+Plomb ou grenaille,plomb ou grenaille,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+"Prunes, figues et raisins","prunes, figues et raisins",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+"Salaisons, olives, capres et anchois","salaisons, olives, capres et anchois",A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Souliers,souliers,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+Terraille,terraille,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+Toiles blanches et rousses,toiles blanches et rousses,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Unknown for TOFLIT
+Verreries,verreries,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Industrie française et étrangère
+Vin,Vin,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Subsistances
+Indiennes,indiennes,A0210797,Marseille,B0000969,Caroline,Etats-Unis,Etranger,,Etats-Unis d'Amérique,220.0,1789-07-07,31.0,Objets manufacturés
+Coton en laine,coton en laine,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,200.0,1789-04-01,3.0,Matières premières
+Jarres et Dame-jeanes,jarres et dame-jeanes,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,200.0,1789-04-01,3.0,Unknown for TOFLIT
+Soufre,soufre,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,200.0,1789-04-01,3.0,Matières premières
+bléd,Blé,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-10-29,2.0,Subsistances
+marchandises,Diverses marchandises,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-10-29,2.0,Divers
+fromages,Fromage,A0210797,Marseille,A1964975,Italie,,Etranger,,multi-Etat,,1789-01-21,1.0,Subsistances
+terrailles,Poterie,A0210797,Marseille,A1964712,Espagne méditerranéenne,Espagne,Etranger,,Espagne,,1789-10-20,3.0,Industrie française et étrangère
+ris,ris,A0210797,Marseille,A1964712,Espagne méditerranéenne,Espagne,Etranger,,Espagne,,1789-10-20,3.0,Subsistances
+fideaux,fideaux,A0210797,Marseille,A1964712,Espagne méditerranéenne,Espagne,Etranger,,Espagne,,1789-10-20,3.0,Divers
+bled,Blé,A0210797,Marseille,A0087160,Catalogne,Espagne,Etranger,,Espagne,,1789-02-20,1.0,Subsistances
+potherie,Poterie,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-06-03,1.0,Industrie française et étrangère
+Soufre,soufre,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,242.0,1789-08-27,2.0,Matières premières
+Coton en laine,coton en laine,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,242.0,1789-08-27,2.0,Matières premières
+Ratafia,ratafia,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Subsistances
+"Salaisons, olives, capres et anchois","salaisons, olives, capres et anchois",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+Savon,Savon,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Industrie française et étrangère
+Soufre,soufre,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Matières premières
+Souliers,souliers,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Industrie française et étrangère
+Vin,Vin,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Subsistances
+Bas de Fil et Coton,bas de fil et coton,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Industrie française et étrangère
+Chandelles,chandelles,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Industrie française et étrangère
+Drogues et teintures,drogues et teintures,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Subsistances
+Epiceries,epiceries,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Subsistances
+"Etoffes, dorures et effets de modes","etoffes, dorures et effets de modes",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+Fromage,Fromage,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Subsistances
+Huile,Huile,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Matières premières
+Indiennes,indiennes,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Objets manufacturés
+"Liqueurs, sirops ou vins étrangers","liqueurs, sirops ou vins étrangers",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+"Livres, estampes et papiers","livres, estampes et papiers",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+Marroquins et peaux tannées,marroquins et peaux tannées,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+"Amandes, noix et noisettes","amandes, noix et noisettes",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+Marchandises diverses,Marchandises,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Divers
+"Mouchoirs, mousselines et toiles de coton","mouchoirs, mousselines et toiles de coton",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+Parfumeries et gants de peau,parfumeries et gants de peau,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+"Prunes, figues et raisins","prunes, figues et raisins",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,150.0,1789-03-10,23.0,Unknown for TOFLIT
+Soufre,soufre,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Matières premières
+Cordages,cordages,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Industrie française et étrangère
+Drogues et teintures,drogues et teintures,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Unknown for TOFLIT
+"Etoffes, dorures et effets de modes","etoffes, dorures et effets de modes",A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Unknown for TOFLIT
+"Liqueurs, sirops ou vins étrangers","liqueurs, sirops ou vins étrangers",A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Unknown for TOFLIT
+Chapeaux,chapeaux,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Objets manufacturés
+Marroquins et peaux tannées,marroquins et peaux tannées,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Unknown for TOFLIT
+Parassols,parassols,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Industrie française et étrangère
+Vin,Vin,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,190.0,1789-03-23,9.0,Subsistances
+acier,acier,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Métaux
+Charcuteries,charcuteries,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Unknown for TOFLIT
+Cuivre en plaque et travaillé,cuivre en plaque et travaillé,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Unknown for TOFLIT
+Draperies et autres étoffes en laine ou fil de chevre,draperies et autres étoffes en laine ou fil de chevre,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Unknown for TOFLIT
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Subsistances
+Fer travaillé et clous,fer travaillé et clous,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Unknown for TOFLIT
+Fer en barre,fer en barre,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Industrie française et étrangère
+canons,Canons,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Industrie française et étrangère
+Huile,Huile,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Matières premières
+"Liqueurs, sirops ou vins étrangers","liqueurs, sirops ou vins étrangers",A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Unknown for TOFLIT
+"Merceries, quincailles et armes à feu","merceries, quincailles et armes à feu",A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Unknown for TOFLIT
+Vin,Vin,A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Subsistances
+"Amandes, noix et noisettes","amandes, noix et noisettes",A0210797,Marseille,D3874565,côte de Malabar,,Etranger,,multi-Etat,550.0,1789-04-08,13.0,Unknown for TOFLIT
+Cuivre en plaque et travaillé,cuivre en plaque et travaillé,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+Bœuf salé,Biscuits,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Subsistances
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Subsistances
+"Liqueurs, sirops ou vins étrangers","liqueurs, sirops ou vins étrangers",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+"Merceries, quincailles et armes à feu","merceries, quincailles et armes à feu",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+Marchandises diverses,Marchandises,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Divers
+"Prunes, figues et raisins","prunes, figues et raisins",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+Ratafia,ratafia,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Subsistances
+"Riz, grains et légumes","riz, grains et légumes",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+"Redingotes, habillemens ou casaques","redingotes, habillemens ou casaques",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+Toiles blanches et rousses,toiles blanches et rousses,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+Vin,Vin,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Subsistances
+Charcuteries,charcuteries,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,240.0,1789-04-30,13.0,Unknown for TOFLIT
+marchandises,Diverses marchandises,A0210797,Marseille,A0079365,Canaries,Espagne,Etranger,Canaries,Espagne,,1789-05-15,2.0,Divers
+passagers,Passagers,A0210797,Marseille,A0079365,Canaries,Espagne,Etranger,Canaries,Espagne,,1789-05-15,2.0,
+douves,douves,A0210797,Marseille,A0101557,Valence,Espagne,Etranger,,Espagne,,1789-12-09,1.0,Industrie française et étrangère
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,B0000015,Nouvelle-Angleterre,Etats-Unis,Etranger,,Etats-Unis d'Amérique,105.0,1789-09-15,3.0,Subsistances
+Huile,Huile,A0210797,Marseille,B0000015,Nouvelle-Angleterre,Etats-Unis,Etranger,,Etats-Unis d'Amérique,105.0,1789-09-15,3.0,Matières premières
+Soufre,soufre,A0210797,Marseille,B0000015,Nouvelle-Angleterre,Etats-Unis,Etranger,,Etats-Unis d'Amérique,105.0,1789-09-15,3.0,Matières premières
+"Amandes, noix et noisettes","amandes, noix et noisettes",A0210797,Marseille,B0000055,Charleston,Etats-Unis,Etranger,Caroline du Sud,Etats-Unis d'Amérique,,1789-10-20,4.0,Unknown for TOFLIT
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,B0000055,Charleston,Etats-Unis,Etranger,Caroline du Sud,Etats-Unis d'Amérique,,1789-10-20,4.0,Subsistances
+"Prunes, figues et raisins","prunes, figues et raisins",A0210797,Marseille,B0000055,Charleston,Etats-Unis,Etranger,Caroline du Sud,Etats-Unis d'Amérique,,1789-10-20,4.0,Unknown for TOFLIT
+Vinaigre,Vinaigre,A0210797,Marseille,B0000055,Charleston,Etats-Unis,Etranger,Caroline du Sud,Etats-Unis d'Amérique,,1789-10-20,4.0,Subsistances
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,200.0,1789-10-24,3.0,Subsistances
+Cordages,cordages,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,200.0,1789-10-24,3.0,Industrie française et étrangère
+Drogues et teintures,drogues et teintures,A0210797,Marseille,B0000003,Philadelphie,Etats-Unis,Etranger,Pennsylvanie,Etats-Unis d'Amérique,200.0,1789-10-24,3.0,Unknown for TOFLIT
+Fer travaillé et clous,fer travaillé et clous,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+"Etoffes, dorures et effets de modes","etoffes, dorures et effets de modes",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Subsistances
+Cordages,cordages,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+Confitures et fruits à l’eau-de-vie,confitures et fruits à l’eau-de-vie,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+Cierges et bougies,cierges et bougies,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+Charcuteries,charcuteries,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+Chapeaux,chapeaux,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Objets manufacturés
+Chandelles,chandelles,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+Bouchons,bouchons,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+Bas de soie,bas de soie,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Objets manufacturés
+"Amandes, noix et noisettes","amandes, noix et noisettes",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+Vin,Vin,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Subsistances
+Verreries,verreries,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+"Vaisselles, bijoux et meubles","vaisselles, bijoux et meubles",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+Toiles à voiles,toiles à voiles,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Objets manufacturés
+Souliers,souliers,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+Savon,Savon,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+"Salaisons, olives, capres et anchois","salaisons, olives, capres et anchois",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+Ratafia,ratafia,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Subsistances
+Pipes,pipes,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+Parfumeries et gants de peau,parfumeries et gants de peau,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+"Merceries, quincailles et armes à feu","merceries, quincailles et armes à feu",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Unknown for TOFLIT
+Médicamens,médicamens,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Drogues médicinales
+Huile,Huile,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Matières premières
+Fromage,Fromage,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Subsistances
+Fer en barre,fer en barre,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+Fayance,fayance,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,300.0,1789-10-27,28.0,Industrie française et étrangère
+bois,Bois,A0210797,Marseille,A0118264,Carthagène ,Espagne,Etranger,,Espagne,,1789-02-22,1.0,Matières premières
+vin,Vin,A0210797,Marseille,A1964975,Italie,,Etranger,,multi-Etat,,1789-09-04,1.0,Subsistances
+marchandises,Diverses marchandises,A0210797,Marseille,A0026844,Tunis,,Etranger,Régence de Tunis,Empire ottoman,,1789-02-22,4.0,Divers
+laines d' Espagne,laines d' espagne,A0210797,Marseille,A0026844,Tunis,,Etranger,Régence de Tunis,Empire ottoman,,1789-02-22,4.0,Unknown for TOFLIT
+marchandises,Diverses marchandises,A0210797,Marseille,A0026844,Tunis,,Etranger,Régence de Tunis,Empire ottoman,,1789-02-22,4.0,Divers
+passagers,Passagers,A0210797,Marseille,A0026844,Tunis,,Etranger,Régence de Tunis,Empire ottoman,,1789-02-22,4.0,
+douves,douves,A0210797,Marseille,A0118264,Carthagène ,Espagne,Etranger,,Espagne,,1789-02-22,2.0,Industrie française et étrangère
+bois de construction,Bois de construction,A0210797,Marseille,A0118264,Carthagène ,Espagne,Etranger,,Espagne,,1789-02-22,2.0,Matières premières
+vin,Vin,A0210797,Marseille,A0148992,Nice,,Etranger,,Royaume de Piémont-Sardaigne,,1789-06-26,2.0,Subsistances
+passagers,Passagers,A0210797,Marseille,A0148992,Nice,,Etranger,,Royaume de Piémont-Sardaigne,,1789-06-26,2.0,
+eau de vie,Eau-de-vie,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-08-15,2.0,Subsistances
+bléd,Blé,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-08-15,2.0,Subsistances
+passager,Passagers,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-08-17,2.0,
+corail de retour,corail de retour,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-08-17,2.0,Unknown for TOFLIT
+cacao,cacao,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-12-22,3.0,Subsistances
+campeche,campeche,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-12-22,3.0,Unknown for TOFLIT
+passagers,Passagers,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-12-22,3.0,
+marchandises,Diverses marchandises,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-10-19,3.0,Divers
+feves,Fèves,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-10-19,3.0,Subsistances
+passagers,Passagers,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-10-19,3.0,
+passagers,Passagers,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-11-10,4.0,
+raisins secs,raisins secs,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-11-10,4.0,Subsistances
+vin,Vin,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-11-10,4.0,Subsistances
+jus de limons,jus de limons,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-11-10,4.0,Subsistances
+bléd,Blé,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-11-19,1.0,Subsistances
+douves,douves,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-02-22,2.0,Industrie française et étrangère
+Noisettes,noisettes,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-02-22,2.0,Subsistances
+farine,Farine,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-05-12,4.0,Subsistances
+poisson salé,poisson salé,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-05-12,4.0,Subsistances
+vin,Vin,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-05-12,4.0,Subsistances
+passagers,Passagers,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-05-12,4.0,
+cercles,Cercles,A0210797,Marseille,A0116825,Majorque ,Espagne,Etranger,,Espagne,,1789-05-14,3.0,Industrie française et étrangère
+chair salée,chair salée,A0210797,Marseille,A0116825,Majorque ,Espagne,Etranger,,Espagne,,1789-05-14,3.0,Subsistances
+passagers,Passagers,A0210797,Marseille,A0116825,Majorque ,Espagne,Etranger,,Espagne,,1789-05-14,3.0,
+raclures de cornes,raclures de cornes,A0210797,Marseille,A0251183,Livourne,,Etranger,,Toscane,,1789-05-15,3.0,Matières premières
+bray,Brai,A0210797,Marseille,A0251183,Livourne,,Etranger,,Toscane,,1789-05-15,3.0,Matières premières
+vin,Vin,A0210797,Marseille,A0251183,Livourne,,Etranger,,Toscane,,1789-05-15,3.0,Subsistances
+gros millet,gros millet,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-06-15,2.0,Subsistances
+passagers,Passagers,A0210797,Marseille,A0079352,Barcelone,Espagne,Etranger,,Espagne,,1789-06-15,2.0,
+marchandises de la foire Beaucaire,marchandises de la foire beaucaire,A0210797,Marseille,A0251183,Livourne,,Etranger,,Toscane,,1789-08-01,2.0,Unknown for TOFLIT
+passagers,Passagers,A0210797,Marseille,A0251183,Livourne,,Etranger,,Toscane,,1789-08-01,2.0,
+Caffé des isles,Café,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Subsistances
+Vin,Vin,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Subsistances
+Souliers,souliers,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Industrie française et étrangère
+Savon,Savon,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Industrie française et étrangère
+"Salaisons, olives, capres et anchois","salaisons, olives, capres et anchois",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Unknown for TOFLIT
+"Prunes, figues et raisins","prunes, figues et raisins",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Unknown for TOFLIT
+Parfumeries et gants de peau,parfumeries et gants de peau,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Unknown for TOFLIT
+"Livres, estampes et papiers","livres, estampes et papiers",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Unknown for TOFLIT
+Indiennes,indiennes,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Objets manufacturés
+Huile,Huile,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Matières premières
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Subsistances
+Drogues et teintures,drogues et teintures,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Unknown for TOFLIT
+Confitures et fruits à l’eau-de-vie,confitures et fruits à l’eau-de-vie,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Unknown for TOFLIT
+Chandelles,chandelles,A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Industrie française et étrangère
+"Amandes, noix et noisettes","amandes, noix et noisettes",A0210797,Marseille,B0000006,Baltimore,Etats-Unis,Etranger,Maryland,Etats-Unis d'Amérique,,1789-11-14,15.0,Unknown for TOFLIT
+Huile,Huile,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Matières premières
+"Livres, estampes et papiers","livres, estampes et papiers",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+Parfumeries et gants de peau,parfumeries et gants de peau,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+Ratafia,ratafia,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Subsistances
+"Redingotes, habillemens ou casaques","redingotes, habillemens ou casaques",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+Savon,Savon,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Industrie française et étrangère
+"Vaisselles, bijoux et meubles","vaisselles, bijoux et meubles",A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+Vin,Vin,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Subsistances
+Bouchons,bouchons,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Industrie française et étrangère
+Chapeaux,chapeaux,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Objets manufacturés
+Charcuteries,charcuteries,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+Cierges et bougies,cierges et bougies,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Industrie française et étrangère
+Confitures et fruits à l’eau-de-vie,confitures et fruits à l’eau-de-vie,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+Drogues et teintures,drogues et teintures,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+Eau-de-vie,Eau-de-vie,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Subsistances
+Fayance,fayance,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Industrie française et étrangère
+Fromage,Fromage,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Subsistances
+Verreries,verreries,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Industrie française et étrangère
+Plomb ou grenaille,plomb ou grenaille,A0210797,Marseille,C0000013,Mozambique,Portugal,Etranger,colonies portugaises d'Afrique,Portugal,160.0,1789-10-01,19.0,Unknown for TOFLIT
+marchandises,Diverses marchandises,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-12-23,2.0,Divers
+passagers,Passagers,A0210797,Marseille,A0232521,Gênes,,Etranger,,République de Gênes,,1789-12-23,2.0,
