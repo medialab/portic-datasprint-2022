@@ -37,8 +37,8 @@ with open('tolift_export_values_resume.csv', 'w', newline='') as csvfile:
                 continue
             if row['export_import'] != 'Exports':
                 continue
-            if row['partner_simplification'] != 'Angleterre':
-                continue
+            # if row['partner_simplification'] != 'Angleterre':
+            #     continue
 
             row = {key: value for key, value in row.items() if key in fieldnames}
             writer.writerow(row)
