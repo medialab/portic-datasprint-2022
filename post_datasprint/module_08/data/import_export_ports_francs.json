@@ -7768,6 +7768,13 @@
         "product_type": "autres produits",
         "partner_type": "France",
         "importsexports": "Exports",
+        "value": 3440432.1238665055
+      },
+      {
+        "port": "Dunkerque",
+        "product_type": "autres produits",
+        "partner_type": "France",
+        "importsexports": "Imports",
         "value": 3618187.25966314
       },
       {
@@ -7787,7 +7794,7 @@
       {
         "port": "Dunkerque",
         "product_type": "autres produits",
-        "value": 29232094.740336858,
+        "value": 33028037.135796636,
         "importsexports": "Exports",
         "partner_type": "Fraude ?"
       },

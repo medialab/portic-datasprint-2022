@@ -144,17 +144,14 @@ with open(file, "r") as muerte:
                 )
             else:
                 # process mirror flows : France imports from Dunkerque or Bayonne
-                if (
-                    row["export_import"] == "Imports"
-                    and row["partner_simplification"] == "Dunkerque"
-                ):
+                if row["partner_simplification"] == "Dunkerque":
 
                     if product:
                         total_trade["Dunkerque"]["autres produits"]["France"][
-                            "Exports"
+                            row["export_import"]
                         ] = (
                             total_trade["Dunkerque"]["autres produits"]["France"].get(
-                                "Exports", 0
+                                row["export_import"], 0
                             )
                             + value
                         )
