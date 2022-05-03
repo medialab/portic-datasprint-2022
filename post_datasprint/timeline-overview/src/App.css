@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+svg {
+  outline: none;
+}
+
+svg text {
+  font-family: sans-serif;
+}
