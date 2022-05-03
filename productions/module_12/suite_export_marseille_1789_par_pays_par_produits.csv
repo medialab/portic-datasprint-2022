@@ -1,21 +1,65 @@
 destination_partner_balance_1789,commodity_as_toflit,nb_ships,sum_tonnage,nb_ships2,sum_tonnage_per_product
-Espagne,,0,0.0,0,0.0
-Espagne,Divers,0,0.0,0,0.0
-Espagne,Industrie française et étrangère,0,0.0,0,0.0
-Espagne,Matières premières,0,0.0,0,0.0
-Espagne,Subsistances,0,0.0,0,0.0
 Espagne,Unknown for TOFLIT,0,0.0,0,0.0
-Etats-Unis,Divers,1,150.0,1,6.521739130434782
-Etats-Unis,Industrie française et étrangère,15,2940.0,15,191.75003895901511
-Etats-Unis,Matières premières,10,1804.0,10,486.5846968988624
-Etats-Unis,Métaux,1,220.0,1,7.096774193548387
-Etats-Unis,Objets manufacturés,4,780.0,4,41.826398628642664
-Etats-Unis,Subsistances,11,1905.0,11,176.67679601059686
+Espagne,bois,0,0.0,0,0.0
+Espagne,bois pour construction,0,0.0,0,0.0
+Espagne,cercles,0,0.0,0,0.0
+Espagne,chair salée,0,0.0,0,0.0
+Espagne,châtaignes,0,0.0,0,0.0
+Espagne,douves à tonneaux,0,0.0,0,0.0
+Espagne,eau-de-vie,0,0.0,0,0.0
+Espagne,fideau,0,0.0,0,0.0
+Espagne,fèves,0,0.0,0,0.0
+Espagne,grains blé,0,0.0,0,0.0
+Espagne,grains riz,0,0.0,0,0.0
+Espagne,marchandises,0,0.0,0,0.0
+Espagne,millet gros,0,0.0,0,0.0
+Espagne,noisettes,0,0.0,0,0.0
+Espagne,passagers,0,0.0,0,0.0
+Espagne,poterie,0,0.0,0,0.0
 Etats-Unis,Unknown for TOFLIT,32,6180.0,32,396.5435561788998
-Portugal,Divers,1,240.0,1,18.46153846153846
-Portugal,Drogues médicinales,1,300.0,1,10.714285714285714
-Portugal,Industrie française et étrangère,15,3800.0,15,149.24812030075188
-Portugal,Matières premières,2,460.0,2,19.13533834586466
-Portugal,Objets manufacturés,4,1060.0,4,40.563909774436084
-Portugal,Subsistances,12,2800.0,12,150.38750722961248
+Etats-Unis,bas de coton et bas de fil,1,150.0,1,6.521739130434782
+Etats-Unis,bougie et cierges,1,220.0,1,7.096774193548387
+Etats-Unis,café,0,0.0,0,0.0
+Etats-Unis,chandelle,2,370.0,2,13.61851332398317
+Etats-Unis,chapeaux,2,410.0,2,28.2078853046595
+Etats-Unis,cordage,3,610.0,3,94.87455197132617
+Etats-Unis,coton,2,442.0,2,187.66666666666669
+Etats-Unis,divers,1,150.0,1,6.521739130434782
+Etats-Unis,eau-de-vie,4,675.0,4,115.28517999064984
+Etats-Unis,fer-blanc,1,220.0,1,7.096774193548387
+Etats-Unis,fromage,2,370.0,2,13.61851332398317
+Etats-Unis,huile,3,475.0,3,48.618513323983166
+Etats-Unis,indienne,2,370.0,2,13.61851332398317
+Etats-Unis,parasols,1,190.0,1,21.11111111111111
+Etats-Unis,pipes,1,220.0,1,7.096774193548387
+Etats-Unis,ratafia,1,150.0,1,6.521739130434782
+Etats-Unis,savon,2,370.0,2,13.61851332398317
+Etats-Unis,soufre,5,887.0,5,250.29951690821258
+Etats-Unis,souliers,2,370.0,2,13.61851332398317
+Etats-Unis,terraille,1,220.0,1,7.096774193548387
+Etats-Unis,verrerie,1,220.0,1,7.096774193548387
+Etats-Unis,vin,3,560.0,3,34.72962443509428
+Etats-Unis,vinaigre,0,0.0,0,0.0
+Etats-Unis,épicerie,1,150.0,1,6.521739130434782
 Portugal,Unknown for TOFLIT,25,5900.0,25,311.4893001735107
+Portugal,barres de fer,1,300.0,1,10.714285714285714
+Portugal,bas de soie,1,300.0,1,10.714285714285714
+Portugal,biscuit,1,240.0,1,18.46153846153846
+Portugal,bouchons,2,460.0,2,19.13533834586466
+Portugal,bougie et cierges,2,460.0,2,19.13533834586466
+Portugal,chandelle,1,300.0,1,10.714285714285714
+Portugal,chapeaux,2,460.0,2,19.13533834586466
+Portugal,cordage,1,300.0,1,10.714285714285714
+Portugal,divers,1,240.0,1,18.46153846153846
+Portugal,eau-de-vie,3,700.0,3,37.59687680740312
+Portugal,faïence,2,460.0,2,19.13533834586466
+Portugal,fromage,2,460.0,2,19.13533834586466
+Portugal,huile,2,460.0,2,19.13533834586466
+Portugal,médicaments,1,300.0,1,10.714285714285714
+Portugal,pipes,1,300.0,1,10.714285714285714
+Portugal,ratafia,3,700.0,3,37.59687680740312
+Portugal,savon,2,460.0,2,19.13533834586466
+Portugal,souliers,1,300.0,1,10.714285714285714
+Portugal,toile à voile,1,300.0,1,10.714285714285714
+Portugal,verrerie,2,460.0,2,19.13533834586466
+Portugal,vin,3,700.0,3,37.59687680740312
