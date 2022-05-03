@@ -1,0 +1,1565 @@
+{
+  "Lorient": {
+    "colonial_products": [],
+    "total_trade": [
+      {
+        "port": "Lorient",
+        "product_type": "tout produit",
+        "partner_type": "Monde",
+        "importsexports": "Exports",
+        "value": 1565730.68502171
+      },
+      {
+        "port": "Lorient",
+        "product_type": "tout produit",
+        "partner_type": "Monde",
+        "importsexports": "Imports",
+        "value": 2834871.9988
+      },
+      {
+        "port": "Lorient",
+        "product_type": "tout produit",
+        "partner_type": "France",
+        "importsexports": "Exports",
+        "value": 80456.500093
+      },
+      {
+        "port": "Lorient",
+        "product_type": "tout produit",
+        "partner_type": "France",
+        "importsexports": "Imports",
+        "value": 113649.54951377
+      },
+      {
+        "port": "Lorient",
+        "product_type": "tout produit",
+        "partner_type": "colonies",
+        "importsexports": "Exports",
+        "value": 1067534.0
+      },
+      {
+        "port": "Lorient",
+        "product_type": "tout produit",
+        "value": 234800.36319906032,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      }
+    ]
+  },
+  "Bayonne": {
+    "colonial_products": [
+      {
+        "product": "Bois divers hors combustible",
+        "value": 190.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 960.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 1619.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 460.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 389.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 12810.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 57209.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 3184.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 621.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 41836.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 569085.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 1184822.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 38815.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 654552.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 20950.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 275942.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 34875.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 289867.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Indigo",
+        "value": 442620.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Indigo",
+        "value": 910100.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Indigo",
+        "value": 5548.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Indigo",
+        "value": 473028.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 617367.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 41581.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 2194.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 656754.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 9240.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 80300.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 1045.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 72105.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 394.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 80.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 620.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 300.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 634.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Tabac",
+        "value": 46850.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Tabac",
+        "value": 161645.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Tabac",
+        "value": 2372.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Tabac",
+        "value": 117167.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 90500.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 192366.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 101866.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 4230.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 60.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 4170.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sucre",
+        "value": 326884.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sucre",
+        "value": 46610.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sucre",
+        "value": 599740.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sucre",
+        "value": 319466.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 4860.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 256.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 4604.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 1714.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 1714.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 6718.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 1660.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 8378.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Riz",
+        "value": 3524.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Riz",
+        "value": 3524.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      }
+    ],
+    "total_trade": [
+      {
+        "port": "Bayonne",
+        "product_type": "tout produit",
+        "partner_type": "Monde",
+        "importsexports": "Exports",
+        "value": 3559266.0
+      },
+      {
+        "port": "Bayonne",
+        "product_type": "tout produit",
+        "partner_type": "Monde",
+        "importsexports": "Imports",
+        "value": 8370185.0
+      },
+      {
+        "port": "Bayonne",
+        "product_type": "tout produit",
+        "partner_type": "colonies",
+        "importsexports": "Exports",
+        "value": 500164.0
+      },
+      {
+        "port": "Bayonne",
+        "product_type": "tout produit",
+        "partner_type": "colonies",
+        "importsexports": "Imports",
+        "value": 890608.0
+      },
+      {
+        "port": "Bayonne",
+        "product_type": "tout produit",
+        "value": 5201363.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      }
+    ]
+  },
+  "Marseille": {
+    "colonial_products": [
+      {
+        "product": "Cacao et chocolat",
+        "value": 196188.600018,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 125262.99799475001,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 14630.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 98113.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 12557.397976750013,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 10338559.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 466215.2,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 15241441.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 1055.6,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 5370152.799999999,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 449563.70104,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 8103817.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 10286.89961,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 12148.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 971005.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 8627119.39935,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
+        "value": 278137.64996701,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
+        "value": 8389.900062,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
+        "value": 1536.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
+        "value": 9540.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
+        "value": 261743.74990501002,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Indigo",
+        "value": 1879838.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Indigo",
+        "value": 1258750.25,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Indigo",
+        "value": 812862.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Indigo",
+        "value": 191774.25,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Rocou",
+        "value": 38674.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Rocou",
+        "value": 3162.5,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Rocou",
+        "value": 53337.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Rocou",
+        "value": 17825.5,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Sucre",
+        "value": 12200117.3999885,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Sucre",
+        "value": 13853256.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Sucre",
+        "value": 1653138.6000114996,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 2577.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 34876.700054,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 80989.79970750002,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 129238.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 77092.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 8609.900346499984,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Fils divers",
+        "value": 24881.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Fils divers",
+        "value": 3292143.419804,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Fils divers",
+        "value": 6568105.2019956,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Fils divers",
+        "value": 90756.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Fils divers",
+        "value": 23958.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Fils divers",
+        "value": 3184282.7821916,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 11360.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 9734.48007,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 109704.38996400002,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 884729.9085799999,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 67270.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 17645.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 723774.998686,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 3549.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 184.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 621.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 5668.489906,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 44188.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 17782.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 24723.510094,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 14103.470012,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 39321.310604,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 4028.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 37492.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 5001.6,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 63683.440592000006,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 549525.410595,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 483081.9210750001,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 3735.28,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 306.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 8089.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 38976.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 38985.76951999997,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 84118.539712,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 93067.24097117,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 129131.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 5958.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 114224.29874083,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 23571.05034,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 433200.290206,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 811221.1462857,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 2922917.9605372,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 209864.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 299730.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 2611192.0541175,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 33452.1409183,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 265.00001,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 360540.9891789,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 11654.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 236751.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 55403.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 563422.1300872001,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cornes, corail, \u00e9cailles, ivoire et nacre",
+        "value": 15998.749749999999,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cornes, corail, \u00e9cailles, ivoire et nacre",
+        "value": 31038.029888,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cornes, corail, \u00e9cailles, ivoire et nacre",
+        "value": 9996.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Cornes, corail, \u00e9cailles, ivoire et nacre",
+        "value": 25035.280138000006,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Tabac",
+        "value": 148856.7983707,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Tabac",
+        "value": 335974.392,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Marseille"
+      },
+      {
+        "product": "Tabac",
+        "value": 99466.796,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Marseille"
+      },
+      {
+        "product": "Tabac",
+        "value": 19965.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Tabac",
+        "value": 107615.79762929998,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 34554.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 3474.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Marseille"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 31080.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Marseille"
+      }
+    ],
+    "total_trade": [
+      {
+        "port": "Marseille",
+        "product_type": "tout produit",
+        "partner_type": "Monde",
+        "importsexports": "Exports",
+        "value": 65429151.09017971
+      },
+      {
+        "port": "Marseille",
+        "product_type": "tout produit",
+        "partner_type": "Monde",
+        "importsexports": "Imports",
+        "value": 98943860.15101588
+      },
+      {
+        "port": "Marseille",
+        "product_type": "tout produit",
+        "partner_type": "France",
+        "importsexports": "Exports",
+        "value": 26351491.29229197
+      },
+      {
+        "port": "Marseille",
+        "product_type": "tout produit",
+        "partner_type": "France",
+        "importsexports": "Imports",
+        "value": 983812.3515460002
+      },
+      {
+        "port": "Marseille",
+        "product_type": "tout produit",
+        "partner_type": "colonies",
+        "importsexports": "Exports",
+        "value": 16611629.0
+      },
+      {
+        "port": "Marseille",
+        "product_type": "tout produit",
+        "partner_type": "colonies",
+        "importsexports": "Imports",
+        "value": 31647025.0
+      },
+      {
+        "port": "Marseille",
+        "product_type": "tout produit",
+        "value": 23182426.1200902,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      }
+    ]
+  },
+  "Dunkerque": {
+    "colonial_products": [
+      {
+        "product": "Caf\u00e9",
+        "value": 1182957.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 4071453.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Caf\u00e9",
+        "value": 2888496.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 719051.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 1082427.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 363376.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Indigo",
+        "value": 101042.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Indigo",
+        "value": 89556.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Indigo",
+        "value": 11486.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Sucre",
+        "value": 2211754.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Sucre",
+        "value": 3269855.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Sucre",
+        "value": 1058101.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
+        "value": 345721.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
+        "value": 345721.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 4414.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Cacao et chocolat",
+        "value": 4414.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 2724.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 2724.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 16367.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 16367.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Fils divers",
+        "value": 1376.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Fils divers",
+        "value": 1376.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 150.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 150.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 61376.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 61376.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 19963.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 19963.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 210.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Sirop et m\u00e9lasse",
+        "value": 210.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Tabac",
+        "value": 48931.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Tabac",
+        "value": 48931.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 1353.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Dunkerque"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 1353.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Dunkerque"
+      }
+    ],
+    "total_trade": [
+      {
+        "port": "Dunkerque",
+        "product_type": "autres produits",
+        "partner_type": "France",
+        "importsexports": "Exports",
+        "value": 3618187.25966314
+      },
+      {
+        "port": "Dunkerque",
+        "product_type": "autres produits",
+        "partner_type": "colonies",
+        "importsexports": "Exports",
+        "value": 1411503.0
+      },
+      {
+        "port": "Dunkerque",
+        "product_type": "autres produits",
+        "partner_type": "Monde",
+        "importsexports": "Imports",
+        "value": 34261785.0
+      },
+      {
+        "port": "Dunkerque",
+        "product_type": "autres produits",
+        "value": 29232094.740336858,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      },
+      {
+        "port": "Dunkerque",
+        "product_type": "produits coloniaux",
+        "partner_type": "Monde",
+        "importsexports": "Exports",
+        "value": 4560525.0
+      },
+      {
+        "port": "Dunkerque",
+        "product_type": "produits coloniaux",
+        "partner_type": "colonies",
+        "importsexports": "Imports",
+        "value": 8670155.0
+      },
+      {
+        "port": "Dunkerque",
+        "product_type": "produits coloniaux",
+        "value": 4109630.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      }
+    ]
+  }
+}
