@@ -1,6 +1,6 @@
 {
   "Lorient": {
-    "colonial_products": [
+    "detail_products": [
       {
         "product": "Ouvrages de bois, li\u00e8ge et jonc",
         "value": 4160.0,
@@ -1433,153 +1433,496 @@
     "total_trade": [
       {
         "port": "Lorient",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "Monde",
         "importsexports": "Exports",
-        "value": 1565730.68502171
+        "value": 1563858.68502171
       },
       {
         "port": "Lorient",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "Monde",
         "importsexports": "Imports",
         "value": 2834871.9988
       },
       {
         "port": "Lorient",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "France",
         "importsexports": "Exports",
         "value": 80456.500093
       },
       {
         "port": "Lorient",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "France",
         "importsexports": "Imports",
         "value": 113649.54951377
       },
       {
         "port": "Lorient",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "colonies",
         "importsexports": "Exports",
         "value": 1067534.0
       },
       {
         "port": "Lorient",
-        "product_type": "tout produit",
-        "value": 234800.36319906032,
+        "product_type": "autres produits",
+        "value": 236672.36319906032,
         "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      },
+      {
+        "port": "Lorient",
+        "product_type": "produits coloniaux",
+        "partner_type": "Monde",
+        "importsexports": "Exports",
+        "value": 1872.0
+      },
+      {
+        "port": "Lorient",
+        "product_type": "produits coloniaux",
+        "value": 1872.0,
+        "importsexports": "Imports",
         "partner_type": "Fraude ?"
       }
     ]
   },
   "Bayonne": {
-    "colonial_products": [
+    "detail_products": [
       {
-        "product": "Bi\u00e8re, cidre et vinaigre",
-        "value": 2771.0,
+        "product": "Bois des Indes",
+        "value": 8982.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bois des Indes",
+        "value": 8982.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Brai, goudron et r\u00e9sines",
+        "value": 383756.2585921,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Brai, goudron et r\u00e9sines",
+        "value": 84546.89867504999,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Brai, goudron et r\u00e9sines",
+        "value": 141456.0,
         "importsexports": "Exports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "Bi\u00e8re, cidre et vinaigre",
-        "value": 3186.0,
+        "product": "Brai, goudron et r\u00e9sines",
+        "value": 400.0,
         "importsexports": "Imports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "Bi\u00e8re, cidre et vinaigre",
+        "product": "Brai, goudron et r\u00e9sines",
+        "value": 8611.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Brai, goudron et r\u00e9sines",
+        "value": 149542.35991705,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chairs et \u0153ufs",
+        "value": 18447.099989399998,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chairs et \u0153ufs",
+        "value": 5919.70008254,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chairs et \u0153ufs",
+        "value": 45738.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chairs et \u0153ufs",
+        "value": 720.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chairs et \u0153ufs",
+        "value": 71880.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chairs et \u0153ufs",
+        "value": 104370.60009314,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "R\u00e9glisse",
+        "value": 70842.59997,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "R\u00e9glisse",
+        "value": 92762.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "R\u00e9glisse",
+        "value": 29102.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "R\u00e9glisse",
+        "value": 7182.599969999996,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 111020.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 34491.89997435,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 617367.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 41581.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 2194.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Eaux-de-vie et liqueurs",
+        "value": 580225.89997435,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Laines non transform\u00e9es diverses",
+        "value": 1667255.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Laines non transform\u00e9es diverses",
+        "value": 60100.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Laines non transform\u00e9es diverses",
+        "value": 7850.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Laines non transform\u00e9es diverses",
+        "value": 1615005.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bouchons principalement en li\u00e8ge",
+        "value": 3512.5,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bouchons principalement en li\u00e8ge",
+        "value": 536.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bouchons principalement en li\u00e8ge",
+        "value": 2976.5,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 7017.00005,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 2567.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 394.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 80.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
         "value": 620.0,
         "importsexports": "Exports",
         "partner_type": "colonies",
         "port": "Bayonne"
       },
       {
-        "product": "Bi\u00e8re, cidre et vinaigre",
-        "value": 205.0,
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 300.0,
         "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Divers m\u00e9lang\u00e9s",
+        "value": 3816.0000499999996,
+        "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Farine, gruau, biscuits et p\u00e2tes",
-        "value": 2520.0,
+        "product": "Plumes brutes",
+        "value": 12240.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Plumes brutes",
+        "value": 13453.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Plumes brutes",
+        "value": 2200.0,
         "importsexports": "Exports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "Farine, gruau, biscuits et p\u00e2tes",
-        "value": 66067.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Farine, gruau, biscuits et p\u00e2tes",
-        "value": 12250.0,
+        "product": "Plumes brutes",
+        "value": 3000.0,
         "importsexports": "Exports",
         "partner_type": "colonies",
         "port": "Bayonne"
       },
       {
-        "product": "Farine, gruau, biscuits et p\u00e2tes",
-        "value": 51297.0,
-        "importsexports": "Exports",
+        "product": "Plumes brutes",
+        "value": 6413.0,
+        "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Ouvrages de bois, li\u00e8ge et jonc",
-        "value": 43300.0,
+        "product": "Animaux",
+        "value": 88520.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Animaux",
+        "value": 32945.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Animaux",
+        "value": 435.0,
         "importsexports": "Exports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "Ouvrages de bois, li\u00e8ge et jonc",
-        "value": 6800.0,
+        "product": "Animaux",
+        "value": 56010.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Habits et lingerie",
+        "value": 8406.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Habits et lingerie",
+        "value": 6843.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Habits et lingerie",
+        "value": 300.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Habits et lingerie",
+        "value": 15950.0,
         "importsexports": "Imports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "Ouvrages de bois, li\u00e8ge et jonc",
-        "value": 1090.0,
+        "product": "Habits et lingerie",
+        "value": 2330.0,
         "importsexports": "Exports",
         "partner_type": "colonies",
         "port": "Bayonne"
       },
       {
-        "product": "Ouvrages de bois, li\u00e8ge et jonc",
-        "value": 37590.0,
+        "product": "Habits et lingerie",
+        "value": 11757.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bonneterie hors soie",
+        "value": 1524.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bonneterie hors soie",
+        "value": 1524.0,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "B\u00e2timents de mer et apparaux",
-        "value": 6027.0,
+        "product": "Combustibles dont charbons et bois",
+        "value": 7656.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Combustibles dont charbons et bois",
+        "value": 159.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Combustibles dont charbons et bois",
+        "value": 3683.0,
         "importsexports": "Exports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "B\u00e2timents de mer et apparaux",
-        "value": 16075.0,
+        "product": "Combustibles dont charbons et bois",
+        "value": 6887.0,
         "importsexports": "Imports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "B\u00e2timents de mer et apparaux",
-        "value": 10048.0,
-        "importsexports": "Exports",
+        "product": "Combustibles dont charbons et bois",
+        "value": 4293.0,
+        "importsexports": "Imports",
         "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 30439.2,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bois divers hors combustible",
+        "value": 162655.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
@@ -1612,107 +1955,86 @@
       },
       {
         "product": "Bois divers hors combustible",
-        "value": 389.0,
-        "importsexports": "Imports",
+        "value": 131826.8,
+        "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
-        "value": 12810.0,
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 58753.89889308001,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 29432.5,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 43300.0,
         "importsexports": "Exports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
-        "value": 57209.0,
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 6800.0,
         "importsexports": "Imports",
         "partner_type": "Monde",
         "port": "Bayonne"
       },
       {
-        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
-        "value": 3184.0,
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 1090.0,
         "importsexports": "Exports",
         "partner_type": "colonies",
         "port": "Bayonne"
       },
       {
-        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
-        "value": 621.0,
+        "product": "Ouvrages de bois, li\u00e8ge et jonc",
+        "value": 66911.39889308001,
         "importsexports": "Imports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
-        "value": 41836.0,
-        "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Combustibles dont charbons et bois",
-        "value": 3683.0,
+        "product": "Chapeaux hors paille et \u00e9corce",
+        "value": 1140.0,
         "importsexports": "Exports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Combustibles dont charbons et bois",
-        "value": 6887.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Combustibles dont charbons et bois",
-        "value": 3204.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Brai, goudron et r\u00e9sines",
-        "value": 141456.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Brai, goudron et r\u00e9sines",
-        "value": 400.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Brai, goudron et r\u00e9sines",
-        "value": 8611.0,
+        "product": "Chapeaux hors paille et \u00e9corce",
+        "value": 600.0,
         "importsexports": "Exports",
         "partner_type": "colonies",
         "port": "Bayonne"
       },
       {
-        "product": "Brai, goudron et r\u00e9sines",
-        "value": 149667.0,
+        "product": "Chapeaux hors paille et \u00e9corce",
+        "value": 1740.0,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Drogues diverses",
-        "value": 300.0,
+        "product": "Cordage et filets",
+        "value": 8983.60021559,
         "importsexports": "Exports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Drogues diverses",
-        "value": 300.0,
+        "product": "Cordage et filets",
+        "value": 10480.0,
         "importsexports": "Imports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
@@ -1738,8 +2060,736 @@
       },
       {
         "product": "Cordage et filets",
-        "value": 36919.0,
+        "value": 35422.60021559,
         "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 20367.69988184,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 149201.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 20950.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 275942.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 34875.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cuirs, peaux et pelleterie",
+        "value": 418700.30011815997,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages m\u00e9talliques",
+        "value": 15820.5,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages m\u00e9talliques",
+        "value": 277283.96001100005,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages m\u00e9talliques",
+        "value": 8430.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages m\u00e9talliques",
+        "value": 190440.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages m\u00e9talliques",
+        "value": 29483.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages m\u00e9talliques",
+        "value": 413990.46001100005,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
+        "value": 4268.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
+        "value": 9316.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
+        "value": 13952.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
+        "value": 24984.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
+        "value": 16080.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 8003.5,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 979.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 9240.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 80300.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 1045.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fils divers",
+        "value": 65080.5,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res premi\u00e8res diverses",
+        "value": 6868.00001,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res premi\u00e8res diverses",
+        "value": 20766.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res premi\u00e8res diverses",
+        "value": 1090.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res premi\u00e8res diverses",
+        "value": 1873.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res premi\u00e8res diverses",
+        "value": 14680.99999,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bl\u00e9 et autres grains comestibles",
+        "value": 1272742.214505826,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bl\u00e9 et autres grains comestibles",
+        "value": 1200981.9492438799,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bl\u00e9 et autres grains comestibles",
+        "value": 1392.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bl\u00e9 et autres grains comestibles",
+        "value": 1101366.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bl\u00e9 et autres grains comestibles",
+        "value": 1028213.734738054,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "L\u00e9gumes",
+        "value": 75980.0000534,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "L\u00e9gumes",
+        "value": 10576.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "L\u00e9gumes",
+        "value": 32074.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "L\u00e9gumes",
+        "value": 28922.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "L\u00e9gumes",
+        "value": 68556.0000534,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mercerie",
+        "value": 11840.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mercerie",
+        "value": 1800.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mercerie",
+        "value": 19768.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mercerie",
+        "value": 35722.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mercerie",
+        "value": 5914.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ch\u00e2les et mouchoirs hors soie",
+        "value": 41130.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ch\u00e2les et mouchoirs hors soie",
+        "value": 14356.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ch\u00e2les et mouchoirs hors soie",
+        "value": 16500.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ch\u00e2les et mouchoirs hors soie",
+        "value": 38986.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
+        "value": 6141.000008049999,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
+        "value": 5165.2,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
+        "value": 11198.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
+        "value": 660.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
+        "value": 11513.800008049999,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues diverses",
+        "value": 9700.000003500001,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues diverses",
+        "value": 300.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues diverses",
+        "value": 10000.000003500001,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "P\u00eache et fruits de mer",
+        "value": 38965.2,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "P\u00eache et fruits de mer",
+        "value": 9048.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "P\u00eache et fruits de mer",
+        "value": 19760.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "P\u00eache et fruits de mer",
+        "value": 404022.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "P\u00eache et fruits de mer",
+        "value": 74358.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "P\u00eache et fruits de mer",
+        "value": 279986.8,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graisses diverses",
+        "value": 8933.5,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graisses diverses",
+        "value": 25346.4498512,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graisses diverses",
+        "value": 2699.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graisses diverses",
+        "value": 45185.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graisses diverses",
+        "value": 58898.9498512,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Toiles de chanvre et de lin",
+        "value": 127380.5,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Toiles de chanvre et de lin",
+        "value": 1744.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Toiles de chanvre et de lin",
+        "value": 261950.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Toiles de chanvre et de lin",
+        "value": 136313.5,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Verrerie",
+        "value": 3798.15995337,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Verrerie",
+        "value": 5065.08,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Verrerie",
+        "value": 1200.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Verrerie",
+        "value": 1250.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Verrerie",
+        "value": 1316.92004663,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Vins divers",
+        "value": 557448.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Vins divers",
+        "value": 31189.5,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Vins divers",
+        "value": 670831.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Vins divers",
+        "value": 13522.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Vins divers",
+        "value": 121196.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Vins divers",
+        "value": 1304763.5,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bi\u00e8re, cidre et vinaigre",
+        "value": 2771.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bi\u00e8re, cidre et vinaigre",
+        "value": 3186.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bi\u00e8re, cidre et vinaigre",
+        "value": 368.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bi\u00e8re, cidre et vinaigre",
+        "value": 620.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bi\u00e8re, cidre et vinaigre",
+        "value": 573.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Farine, gruau, biscuits et p\u00e2tes",
+        "value": 2520.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Farine, gruau, biscuits et p\u00e2tes",
+        "value": 66067.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Farine, gruau, biscuits et p\u00e2tes",
+        "value": 31730.5,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Farine, gruau, biscuits et p\u00e2tes",
+        "value": 15903.83,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Farine, gruau, biscuits et p\u00e2tes",
+        "value": 12250.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Farine, gruau, biscuits et p\u00e2tes",
+        "value": 35470.33,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "B\u00e2timents de mer et apparaux",
+        "value": 6027.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "B\u00e2timents de mer et apparaux",
+        "value": 16075.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "B\u00e2timents de mer et apparaux",
+        "value": 32581.700568660002,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "B\u00e2timents de mer et apparaux",
+        "value": 1400.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "B\u00e2timents de mer et apparaux",
+        "value": 41229.70056866,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 12810.0,
+        "importsexports": "Exports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 57209.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 2450.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 9674.75,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 3184.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 621.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mati\u00e8res brutes et transform\u00e9es pour teinture",
+        "value": 49060.75,
+        "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -1766,50 +2816,22 @@
       },
       {
         "product": "Cacao et chocolat",
-        "value": 654552.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Animaux",
-        "value": 435.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Animaux",
-        "value": 435.0,
+        "value": 8450.5,
         "importsexports": "Imports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Chairs et \u0153ufs",
-        "value": 45738.0,
+        "product": "Cacao et chocolat",
+        "value": 1580.0,
         "importsexports": "Exports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Chairs et \u0153ufs",
-        "value": 720.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Chairs et \u0153ufs",
-        "value": 71880.0,
+        "product": "Cacao et chocolat",
+        "value": 661422.5,
         "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Chairs et \u0153ufs",
-        "value": 116898.0,
-        "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -1829,6 +2851,20 @@
       },
       {
         "product": "Chanvre",
+        "value": 5852.000106400001,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chanvre",
+        "value": 8977.30006492,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chanvre",
         "value": 1200.0,
         "importsexports": "Exports",
         "partner_type": "colonies",
@@ -1836,7 +2872,7 @@
       },
       {
         "product": "Chanvre",
-        "value": 176820.0,
+        "value": 179945.29995852002,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -1857,35 +2893,21 @@
       },
       {
         "product": "Cire",
-        "value": 123000.0,
+        "value": 25807.6665,
         "importsexports": "Exports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Cuirs, peaux et pelleterie",
-        "value": 20950.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Cuirs, peaux et pelleterie",
-        "value": 275942.0,
+        "product": "Cire",
+        "value": 648.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Cuirs, peaux et pelleterie",
-        "value": 34875.0,
-        "importsexports": "Imports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Cuirs, peaux et pelleterie",
-        "value": 289867.0,
+        "product": "Cire",
+        "value": 97840.33350000001,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -1906,35 +2928,21 @@
       },
       {
         "product": "Cuivre",
-        "value": 5800.0,
+        "value": 2070.0,
         "importsexports": "Exports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Ouvrages m\u00e9talliques",
-        "value": 8430.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Ouvrages m\u00e9talliques",
-        "value": 190440.0,
+        "product": "Cuivre",
+        "value": 1515.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Ouvrages m\u00e9talliques",
-        "value": 29483.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Ouvrages m\u00e9talliques",
-        "value": 152527.0,
+        "product": "Cuivre",
+        "value": 5245.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -1955,6 +2963,20 @@
       },
       {
         "product": "Indigo",
+        "value": 2488.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Indigo",
+        "value": 10224.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Indigo",
         "value": 5548.0,
         "importsexports": "Imports",
         "partner_type": "colonies",
@@ -1962,29 +2984,8 @@
       },
       {
         "product": "Indigo",
-        "value": 473028.0,
+        "value": 480764.0,
         "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "R\u00e9glisse",
-        "value": 92762.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "R\u00e9glisse",
-        "value": 29102.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "R\u00e9glisse",
-        "value": 63660.0,
-        "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -1997,35 +2998,21 @@
       },
       {
         "product": "T\u00e9r\u00e9benthine",
-        "value": 58334.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Eaux-de-vie et liqueurs",
-        "value": 617367.0,
+        "value": 6796.7999865,
         "importsexports": "Exports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Eaux-de-vie et liqueurs",
-        "value": 41581.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Eaux-de-vie et liqueurs",
-        "value": 2194.0,
+        "product": "T\u00e9r\u00e9benthine",
+        "value": 941.0,
         "importsexports": "Imports",
-        "partner_type": "colonies",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Eaux-de-vie et liqueurs",
-        "value": 656754.0,
+        "product": "T\u00e9r\u00e9benthine",
+        "value": 64189.7999865,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2046,7 +3033,21 @@
       },
       {
         "product": "Cannelle",
-        "value": 7600.0,
+        "value": 2655.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cannelle",
+        "value": 28091.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cannelle",
+        "value": 33036.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2067,28 +3068,21 @@
       },
       {
         "product": "Toiles de coton",
-        "value": 1085052.0,
+        "value": 10012.0,
         "importsexports": "Exports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
-        "value": 13952.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
-        "value": 24984.0,
+        "product": "Toiles de coton",
+        "value": 165924.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Porcelaine, poterie, fa\u00efence et ouvrages de terre",
-        "value": 11032.0,
+        "product": "Toiles de coton",
+        "value": 1240964.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2116,36 +3110,22 @@
       },
       {
         "product": "Quincaillerie",
-        "value": 21605.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Fils divers",
-        "value": 9240.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Fils divers",
-        "value": 80300.0,
+        "value": 1066.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Fils divers",
-        "value": 1045.0,
-        "importsexports": "Imports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Fils divers",
-        "value": 72105.0,
+        "product": "Quincaillerie",
+        "value": 39951.75,
         "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Quincaillerie",
+        "value": 17280.75,
+        "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -2186,6 +3166,20 @@
       },
       {
         "product": "Huiles diverses",
+        "value": 2105.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Huiles diverses",
+        "value": 19799.550450000002,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Huiles diverses",
         "value": 1917.0,
         "importsexports": "Exports",
         "partner_type": "colonies",
@@ -2193,133 +3187,7 @@
       },
       {
         "product": "Huiles diverses",
-        "value": 7523.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Laines non transform\u00e9es diverses",
-        "value": 60100.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Laines non transform\u00e9es diverses",
-        "value": 7850.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Laines non transform\u00e9es diverses",
-        "value": 52250.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "L\u00e9gumes",
-        "value": 32074.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "L\u00e9gumes",
-        "value": 28922.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "L\u00e9gumes",
-        "value": 3152.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Habits et lingerie",
-        "value": 300.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Habits et lingerie",
-        "value": 15950.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Habits et lingerie",
-        "value": 2330.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Habits et lingerie",
-        "value": 13320.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Divers m\u00e9lang\u00e9s",
-        "value": 394.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Divers m\u00e9lang\u00e9s",
-        "value": 80.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Divers m\u00e9lang\u00e9s",
-        "value": 620.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Divers m\u00e9lang\u00e9s",
-        "value": 300.0,
-        "importsexports": "Imports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Divers m\u00e9lang\u00e9s",
-        "value": 634.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mercerie",
-        "value": 19768.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mercerie",
-        "value": 35722.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mercerie",
-        "value": 15954.0,
+        "value": 25217.550450000002,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2333,7 +3201,21 @@
       },
       {
         "product": "Meubles, glaces et miroirs",
-        "value": 340.0,
+        "value": 1585.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Meubles, glaces et miroirs",
+        "value": 120.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Meubles, glaces et miroirs",
+        "value": 1805.0,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2354,78 +3236,22 @@
       },
       {
         "product": "Papier",
-        "value": 19456.0,
+        "value": 976.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Papier",
+        "value": 350.0,
         "importsexports": "Imports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Mati\u00e8res premi\u00e8res diverses",
-        "value": 1090.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mati\u00e8res premi\u00e8res diverses",
-        "value": 1873.0,
+        "product": "Papier",
+        "value": 20082.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mati\u00e8res premi\u00e8res diverses",
-        "value": 783.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Plumes brutes",
-        "value": 2200.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Plumes brutes",
-        "value": 3000.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Plumes brutes",
-        "value": 5200.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "P\u00eache et fruits de mer",
-        "value": 19760.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "P\u00eache et fruits de mer",
-        "value": 404022.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "P\u00eache et fruits de mer",
-        "value": 74358.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "P\u00eache et fruits de mer",
-        "value": 309904.0,
-        "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -2445,7 +3271,21 @@
       },
       {
         "product": "Savon",
-        "value": 68490.0,
+        "value": 484.0000108,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Savon",
+        "value": 53450.4,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Savon",
+        "value": 15523.600010799993,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2466,7 +3306,21 @@
       },
       {
         "product": "Sel",
-        "value": 12.0,
+        "value": 142204.17636921248,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sel",
+        "value": 62188.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sel",
+        "value": 80028.17636921248,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2487,8 +3341,15 @@
       },
       {
         "product": "Produits inconnus",
-        "value": 1731.0,
+        "value": 2379.6,
         "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Produits inconnus",
+        "value": 648.5999999999999,
+        "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -2501,7 +3362,14 @@
       },
       {
         "product": "Salp\u00eatre et soufre",
-        "value": 870.0,
+        "value": 663.3,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Salp\u00eatre et soufre",
+        "value": 206.70000000000005,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2529,57 +3397,22 @@
       },
       {
         "product": "Tabac",
-        "value": 117167.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Verrerie",
-        "value": 1200.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Verrerie",
-        "value": 1250.0,
+        "value": 2032.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Verrerie",
-        "value": 50.0,
+        "product": "Tabac",
+        "value": 98580.6,
         "importsexports": "Exports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Vins divers",
-        "value": 670831.0,
+        "product": "Tabac",
+        "value": 20618.399999999994,
         "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Vins divers",
-        "value": 13522.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Vins divers",
-        "value": 121196.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Vins divers",
-        "value": 778505.0,
-        "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -2613,7 +3446,14 @@
       },
       {
         "product": "Vin de liqueurs",
-        "value": 1730.0,
+        "value": 14547.116,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Vin de liqueurs",
+        "value": 16277.116000000002,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2627,6 +3467,13 @@
       },
       {
         "product": "Caf\u00e9",
+        "value": 256.8,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Caf\u00e9",
         "value": 192366.0,
         "importsexports": "Imports",
         "partner_type": "colonies",
@@ -2634,7 +3481,7 @@
       },
       {
         "product": "Caf\u00e9",
-        "value": 101866.0,
+        "value": 101609.2,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2683,7 +3530,497 @@
       },
       {
         "product": "Sucre",
-        "value": 319466.0,
+        "value": 182940.3,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Sucre",
+        "value": 502406.30000000005,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits secs et noix",
+        "value": 15200.100092319999,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits secs et noix",
+        "value": 768.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits secs et noix",
+        "value": 1200.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits secs et noix",
+        "value": 13232.100092319999,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Armes, munitions, poudre et pierres \u00e0 fusil",
+        "value": 1845.38,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Armes, munitions, poudre et pierres \u00e0 fusil",
+        "value": 1845.38,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cendres diverses",
+        "value": 2170.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cendres diverses",
+        "value": 2170.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bougies, chandelles et flambeaux",
+        "value": 4903.75006705,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bougies, chandelles et flambeaux",
+        "value": 2828.3,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bougies, chandelles et flambeaux",
+        "value": 160.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bougies, chandelles et flambeaux",
+        "value": 2235.45006705,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 1013.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 6718.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 1660.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Coton non transform\u00e9",
+        "value": 7365.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes de laine",
+        "value": 49883.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes de laine",
+        "value": 5550.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes de laine",
+        "value": 246220.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes de laine",
+        "value": 201887.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 891.8000172,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 4512.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 1714.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Drogues m\u00e9dicinales diverses",
+        "value": 5334.1999828,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fer",
+        "value": 749.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fer",
+        "value": 1633.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fer",
+        "value": 660.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fer",
+        "value": 1544.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fromage",
+        "value": 420.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fromage",
+        "value": 24379.6,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fromage",
+        "value": 105280.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fromage",
+        "value": 129239.6,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits frais",
+        "value": 1836.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits frais",
+        "value": 879.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits frais",
+        "value": 170.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fruits frais",
+        "value": 787.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Soieries diverses",
+        "value": 2393.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Soieries diverses",
+        "value": 2393.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Riz",
+        "value": 5040.600121920001,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Riz",
+        "value": 576.3,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Riz",
+        "value": 3524.0,
+        "importsexports": "Imports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Riz",
+        "value": 940.3001219200005,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graines diverses et m\u00e9lang\u00e9es",
+        "value": 253.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graines diverses et m\u00e9lang\u00e9es",
+        "value": 253.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graines grasses",
+        "value": 6076.8,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Graines grasses",
+        "value": 6076.8,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Huile d'olive \u00e0 manger",
+        "value": 5717.55,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Huile d'olive \u00e0 manger",
+        "value": 43542.200000000004,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Huile d'olive \u00e0 manger",
+        "value": 127422.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Huile d'olive \u00e0 manger",
+        "value": 165246.65000000002,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Marbre brut et ouvr\u00e9",
+        "value": 464.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Marbre brut et ouvr\u00e9",
+        "value": 464.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Miel",
+        "value": 107.9999976,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Miel",
+        "value": 107.9999976,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Argenterie et orf\u00e8vrerie",
+        "value": 1035.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Argenterie et orf\u00e8vrerie",
+        "value": 14231.4,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Argenterie et orf\u00e8vrerie",
+        "value": 21010.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Argenterie et orf\u00e8vrerie",
+        "value": 7813.6,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cordonnerie et sellerie",
+        "value": 200.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cordonnerie et sellerie",
+        "value": 2312.0,
+        "importsexports": "Exports",
+        "partner_type": "colonies",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cordonnerie et sellerie",
+        "value": 985.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Cordonnerie et sellerie",
+        "value": 1527.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fleurs artificielles et ouvrages de mode",
+        "value": 1786.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fleurs artificielles et ouvrages de mode",
+        "value": 1786.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chapeaux d'\u00e9corce et de paille",
+        "value": 870.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Chapeaux d'\u00e9corce et de paille",
+        "value": 870.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Toiles diverses",
+        "value": 9114.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Toiles diverses",
+        "value": 885335.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Toiles diverses",
+        "value": 876221.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2704,7 +4041,21 @@
       },
       {
         "product": "Beurre",
-        "value": 7153.0,
+        "value": 1576.6499999999999,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Beurre",
+        "value": 217.2,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Beurre",
+        "value": 5793.550000000001,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2725,21 +4076,21 @@
       },
       {
         "product": "Subsistances diverses et m\u00e9lang\u00e9es",
-        "value": 4604.0,
+        "value": 900.0,
         "importsexports": "Imports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Chapeaux hors paille et \u00e9corce",
-        "value": 600.0,
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 481.5,
         "importsexports": "Exports",
-        "partner_type": "colonies",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Chapeaux hors paille et \u00e9corce",
-        "value": 600.0,
+        "product": "Subsistances diverses et m\u00e9lang\u00e9es",
+        "value": 4185.5,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -2760,8 +4111,15 @@
       },
       {
         "product": "C\u00e9ruse et blanc de plomb",
-        "value": 825.0,
+        "value": 1201.2,
         "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "C\u00e9ruse et blanc de plomb",
+        "value": 376.20000000000005,
+        "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
@@ -2781,413 +4139,462 @@
       },
       {
         "product": "Fer-blanc",
+        "value": 4431.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Fer-blanc",
+        "value": 16821.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Acier",
+        "value": 4760.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Acier",
+        "value": 3304.4,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Acier",
+        "value": 8064.4,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Quinquina",
+        "value": 16850.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Quinquina",
+        "value": 13416.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Quinquina",
+        "value": 30266.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Poivre et piment",
+        "value": 25900.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Poivre et piment",
+        "value": 37549.5,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Poivre et piment",
+        "value": 63449.5,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Lin",
+        "value": 289231.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Lin",
+        "value": 44177.700000000004,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Lin",
+        "value": 333408.7,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Rubanerie et passementerie de soie",
+        "value": 1713.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Rubanerie et passementerie de soie",
+        "value": 1713.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes diverses",
+        "value": 3000.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes diverses",
+        "value": 56498.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes diverses",
+        "value": 53498.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mousseline, basin et nankin",
+        "value": 82900.0,
+        "importsexports": "Imports",
+        "partner_type": "Monde",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Mousseline, basin et nankin",
+        "value": 82900.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bijouterie et pierres fines",
+        "value": 1170.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Bijouterie et pierres fines",
+        "value": 1170.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Textiles manufactur\u00e9s divers et m\u00e9lang\u00e9s",
+        "value": 2128.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Textiles manufactur\u00e9s divers et m\u00e9lang\u00e9s",
+        "value": 2560.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Textiles manufactur\u00e9s divers et m\u00e9lang\u00e9s",
+        "value": 432.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Manne et m\u00e9dicaments",
+        "value": 8873.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Manne et m\u00e9dicaments",
+        "value": 8873.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "S\u00e9n\u00e9",
+        "value": 758.75,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "S\u00e9n\u00e9",
+        "value": 758.75,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Garance",
+        "value": 648.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Garance",
+        "value": 648.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Girofle",
+        "value": 7812.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Girofle",
+        "value": 7812.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Muscades",
+        "value": 180.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Muscades",
+        "value": 180.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9tain",
+        "value": 765.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9tain",
+        "value": 765.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes de soie",
+        "value": 1825.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes de soie",
+        "value": 14215.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "\u00c9toffes de soie",
         "value": 12390.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Bl\u00e9 et autres grains comestibles",
-        "value": 1392.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Bl\u00e9 et autres grains comestibles",
-        "value": 1101366.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Bl\u00e9 et autres grains comestibles",
-        "value": 1099974.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Bouchons principalement en li\u00e8ge",
-        "value": 536.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Bouchons principalement en li\u00e8ge",
-        "value": 536.0,
         "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Ch\u00e2les et mouchoirs hors soie",
-        "value": 14356.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Ch\u00e2les et mouchoirs hors soie",
-        "value": 16500.0,
+        "product": "Librairie",
+        "value": 439.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Ch\u00e2les et mouchoirs hors soie",
-        "value": 2144.0,
+        "product": "Librairie",
+        "value": 439.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Argenterie et orf\u00e8vrerie",
-        "value": 21010.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Argenterie et orf\u00e8vrerie",
-        "value": 21010.0,
+        "product": "Parfumerie et toilette",
+        "value": 165.0,
         "importsexports": "Imports",
-        "partner_type": "Fraude ?",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
-        "value": 11198.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
-        "value": 660.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Ouvrages divers et m\u00e9lang\u00e9s",
-        "value": 10538.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Cordonnerie et sellerie",
-        "value": 2312.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Cordonnerie et sellerie",
-        "value": 985.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Cordonnerie et sellerie",
-        "value": 1327.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Bougies, chandelles et flambeaux",
-        "value": 160.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Bougies, chandelles et flambeaux",
-        "value": 160.0,
-        "importsexports": "Imports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Graisses diverses",
-        "value": 2699.0,
-        "importsexports": "Exports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Graisses diverses",
-        "value": 45185.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Graisses diverses",
-        "value": 42486.0,
+        "product": "Parfumerie et toilette",
+        "value": 165.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Acier",
-        "value": 4760.0,
+        "product": "Plomb",
+        "value": 14883.18,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Acier",
-        "value": 4760.0,
+        "product": "Plomb",
+        "value": 14883.18,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Drogues m\u00e9dicinales diverses",
-        "value": 1714.0,
+        "product": "Faucilles, faux et limes",
+        "value": 1544.0,
         "importsexports": "Imports",
-        "partner_type": "colonies",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Drogues m\u00e9dicinales diverses",
-        "value": 1714.0,
+        "product": "Faucilles, faux et limes",
+        "value": 1544.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Coton non transform\u00e9",
-        "value": 6718.0,
+        "product": "Rubanerie et passementerie diverse",
+        "value": 238.0,
         "importsexports": "Imports",
-        "partner_type": "colonies",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Coton non transform\u00e9",
-        "value": 1660.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
+        "product": "Rubanerie et passementerie diverse",
+        "value": 3990.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Coton non transform\u00e9",
-        "value": 8378.0,
+        "product": "Rubanerie et passementerie diverse",
+        "value": 3752.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Soie",
+        "value": 900.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Soie",
+        "value": 900.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "\u00c9toffes de laine",
-        "value": 246220.0,
+        "product": "Th\u00e9",
+        "value": 147.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "\u00c9toffes de laine",
-        "value": 246220.0,
+        "product": "Th\u00e9",
+        "value": 147.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Quinquina",
-        "value": 16850.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
+        "product": "Bonneterie de soie",
+        "value": 14208.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Quinquina",
-        "value": 16850.0,
+        "product": "Bonneterie de soie",
+        "value": 14208.0,
+        "importsexports": "Imports",
+        "partner_type": "Fraude ?",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Salsepareille",
+        "value": 1710.0,
+        "importsexports": "Imports",
+        "partner_type": "France",
+        "port": "Bayonne"
+      },
+      {
+        "product": "Salsepareille",
+        "value": 1710.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Poivre et piment",
-        "value": 25900.0,
+        "product": "Poils et crin",
+        "value": 12948.0004316,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Poivre et piment",
-        "value": 25900.0,
+        "product": "Poils et crin",
+        "value": 12948.0004316,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Fromage",
-        "value": 105280.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
+        "product": "Sels chimiques",
+        "value": 560.0,
+        "importsexports": "Exports",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Fromage",
-        "value": 105280.0,
-        "importsexports": "Exports",
+        "product": "Sels chimiques",
+        "value": 560.0,
+        "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
       },
       {
-        "product": "Fruits frais",
-        "value": 170.0,
+        "product": "M\u00e9taux divers et m\u00e9lang\u00e9s",
+        "value": 1100.0,
         "importsexports": "Imports",
-        "partner_type": "Monde",
+        "partner_type": "France",
         "port": "Bayonne"
       },
       {
-        "product": "Fruits frais",
-        "value": 170.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Fruits secs et noix",
-        "value": 1200.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Fruits secs et noix",
-        "value": 1200.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Huile d'olive \u00e0 manger",
-        "value": 127422.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Huile d'olive \u00e0 manger",
-        "value": 127422.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Lin",
-        "value": 289231.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Lin",
-        "value": 289231.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Fer",
-        "value": 660.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Fer",
-        "value": 660.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Rubanerie et passementerie de soie",
-        "value": 1713.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Rubanerie et passementerie de soie",
-        "value": 1713.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Toiles diverses",
-        "value": 885335.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Toiles diverses",
-        "value": 885335.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Toiles de chanvre et de lin",
-        "value": 261950.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Toiles de chanvre et de lin",
-        "value": 261950.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Riz",
-        "value": 3524.0,
-        "importsexports": "Imports",
-        "partner_type": "colonies",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Riz",
-        "value": 3524.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "\u00c9toffes diverses",
-        "value": 3000.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "\u00c9toffes diverses",
-        "value": 3000.0,
-        "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mousseline, basin et nankin",
-        "value": 82900.0,
-        "importsexports": "Imports",
-        "partner_type": "Monde",
-        "port": "Bayonne"
-      },
-      {
-        "product": "Mousseline, basin et nankin",
-        "value": 82900.0,
+        "product": "M\u00e9taux divers et m\u00e9lang\u00e9s",
+        "value": 1100.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?",
         "port": "Bayonne"
@@ -3196,57 +4603,71 @@
     "total_trade": [
       {
         "port": "Bayonne",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "France",
         "importsexports": "Imports",
         "value": 5160206.625222757
       },
       {
         "port": "Bayonne",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "France",
         "importsexports": "Exports",
         "value": 3139840.4455255987
       },
       {
         "port": "Bayonne",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "Monde",
         "importsexports": "Exports",
-        "value": 3559266.0
+        "value": 3141882.0
       },
       {
         "port": "Bayonne",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "Monde",
         "importsexports": "Imports",
         "value": 8370185.0
       },
       {
         "port": "Bayonne",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
         "partner_type": "colonies",
         "importsexports": "Exports",
         "value": 500164.0
       },
       {
         "port": "Bayonne",
-        "product_type": "tout produit",
+        "product_type": "autres produits",
+        "value": 6748505.179697159,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      },
+      {
+        "port": "Bayonne",
+        "product_type": "produits coloniaux",
+        "partner_type": "Monde",
+        "importsexports": "Exports",
+        "value": 417384.0
+      },
+      {
+        "port": "Bayonne",
+        "product_type": "produits coloniaux",
         "partner_type": "colonies",
         "importsexports": "Imports",
         "value": 890608.0
       },
       {
         "port": "Bayonne",
-        "product_type": "tout produit",
-        "value": 7221729.179697159,
+        "product_type": "produits coloniaux",
+        "value": 473224.0,
         "importsexports": "Exports",
         "partner_type": "Fraude ?"
       }
     ]
   },
   "Marseille": {
-    "colonial_products": [
+    "detail_products": [
       {
         "product": "Cacao et chocolat",
         "value": 196188.600018,
@@ -7472,57 +8893,71 @@
     "total_trade": [
       {
         "port": "Marseille",
-        "product_type": "tout produit",
+        "product_type": "produits coloniaux",
         "partner_type": "Monde",
         "importsexports": "Exports",
-        "value": 65429151.09017971
+        "value": 24912626.0
       },
       {
         "port": "Marseille",
-        "product_type": "tout produit",
-        "partner_type": "Monde",
-        "importsexports": "Imports",
-        "value": 98943860.15101588
-      },
-      {
-        "port": "Marseille",
-        "product_type": "tout produit",
-        "partner_type": "France",
-        "importsexports": "Exports",
-        "value": 26351491.29229197
-      },
-      {
-        "port": "Marseille",
-        "product_type": "tout produit",
-        "partner_type": "France",
-        "importsexports": "Imports",
-        "value": 983812.3515460002
-      },
-      {
-        "port": "Marseille",
-        "product_type": "tout produit",
-        "partner_type": "colonies",
-        "importsexports": "Exports",
-        "value": 16611629.0
-      },
-      {
-        "port": "Marseille",
-        "product_type": "tout produit",
+        "product_type": "produits coloniaux",
         "partner_type": "colonies",
         "importsexports": "Imports",
         "value": 31647025.0
       },
       {
         "port": "Marseille",
-        "product_type": "tout produit",
-        "value": 23182426.1200902,
+        "product_type": "produits coloniaux",
+        "value": 6734399.0,
+        "importsexports": "Exports",
+        "partner_type": "Fraude ?"
+      },
+      {
+        "port": "Marseille",
+        "product_type": "autres produits",
+        "partner_type": "France",
+        "importsexports": "Exports",
+        "value": 26351491.29229197
+      },
+      {
+        "port": "Marseille",
+        "product_type": "autres produits",
+        "partner_type": "France",
+        "importsexports": "Imports",
+        "value": 983812.3515460002
+      },
+      {
+        "port": "Marseille",
+        "product_type": "autres produits",
+        "partner_type": "Monde",
+        "importsexports": "Exports",
+        "value": 40516525.090179704
+      },
+      {
+        "port": "Marseille",
+        "product_type": "autres produits",
+        "partner_type": "Monde",
+        "importsexports": "Imports",
+        "value": 98943860.15101588
+      },
+      {
+        "port": "Marseille",
+        "product_type": "autres produits",
+        "partner_type": "colonies",
+        "importsexports": "Exports",
+        "value": 16611629.0
+      },
+      {
+        "port": "Marseille",
+        "product_type": "autres produits",
+        "value": 16448027.120090201,
         "importsexports": "Exports",
         "partner_type": "Fraude ?"
       }
     ]
   },
   "Dunkerque": {
-    "colonial_products": [
+    "detail_products": [
       {
         "product": "Caf\u00e9",
         "value": 1182957.0,
@@ -7604,20 +9039,6 @@
         "product": "Sucre",
         "value": 1058101.0,
         "importsexports": "Exports",
-        "partner_type": "Fraude ?",
-        "port": "Dunkerque"
-      },
-      {
-        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
-        "value": 345721.0,
-        "importsexports": "Exports",
-        "partner_type": "Monde",
-        "port": "Dunkerque"
-      },
-      {
-        "product": "Denr\u00e9es coloniales et \u00e9piceries diverses",
-        "value": 345721.0,
-        "importsexports": "Imports",
         "partner_type": "Fraude ?",
         "port": "Dunkerque"
       },
