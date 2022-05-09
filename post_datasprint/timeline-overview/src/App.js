@@ -8,7 +8,7 @@ import { Tooltip } from "react-svg-tooltip";
 import './App.css';
 
 const COLUMN_HEIGHT = 200;
-const WIDTH = 800;
+const WIDTH = 1335;
 
 const sources = {
   'chrono_quali': {
@@ -17,6 +17,14 @@ const sources = {
     endYearField: 'End Year',
     labelField: 'Headline',
     type: 'qualitative'
+  },
+  'appartenances': {
+    url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS_IHaGQWmEZoToPx4oql78l9Ac-cnvKxDyJoBym9UjzNXQFKrRhThRw912zIAiXOy3yT52mb0XfNqu/pub?gid=616873690&single=true&output=csv',
+    yearField: 'Year',
+    endYearField: 'End Year',
+    labelField: 'Headline',
+    type: 'qualitative',
+    is_appartenance: true
   },
   'depenses_militaires': {
     url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQJEELzcdsyrFDzrfBGQ1c0beEbL9Bdsk6YX4VPKPCa-w9IUMC1zwwexXW6UI3Z-Q/pub?output=csv',
@@ -74,17 +82,132 @@ function App() {
         setData(results)
       })
   }, [])
-  const decades = range(1700, 1810, 10);
+  const decades = range(1650, 1810, 15);
   const margins = {
     top: 10,
     bottom: 10,
     left: 20,
     right: 100
   }
-  const xScale = scaleLinear().domain([1700, 1800]).range([margins.left, WIDTH - margins.left - margins.right]);
+  const xScale = scaleLinear().domain([1650, 1800]).range([margins.left, WIDTH - margins.left - margins.right]);
 
   return data ? (
     <div className="App">
+      {/* first one */}
+      <svg width={WIDTH} height={COLUMN_HEIGHT * 2}>
+      <g className="decades">
+          {
+            decades.map(decade => {
+              const x = xScale(decade);
+              return (
+                <g transform={`translate(${x}, 0)`}>
+                  <text x={0} y={15}>
+                    {decade}
+                  </text>
+                  <line
+                    stroke="lightgrey"
+                    strokeDasharray={4}
+                    x1={0}
+                    x2={0}
+                    y1={0}
+                    y2={COLUMN_HEIGHT * 2}
+                  />
+                  <text x={0} y={COLUMN_HEIGHT * Object.keys(data).length - 2}>
+                    {decade}
+                  </text>
+                </g>
+              )
+            })
+          }
+        </g>
+        {
+          Object.entries(data)
+            .map(([sourceName, { is_appartenance, yearField, endYearField, labelField, type, data: dati, yFields }], index) => {
+
+              const colors = ['#215C91', '#916113', '#E0B97A', '#6EBAFF', '#4998DE']
+              if (type === 'qualitative') {
+
+                return (
+                  <g key={index} transform={`translate(0, ${is_appartenance ? 20 : 0})`} style={{ opacity: .5 }}>
+                    
+                    { /* points */
+                      dati.filter(d => d[endYearField] === '')
+                        .map((datum, datumIndex) => {
+                          const startYear = xScale(+datum[yearField]);
+                          const label = datum[labelField];
+                          const type = datum['Type'];
+                          let color = 'orange';
+                          if (label.toLowerCase().includes('guerre')) {
+                            color = 'red';
+                          } else if (type === 'France') {
+                            color = 'blue';
+                          } else if (type === 'Angleterre') {
+                            color = 'brown';
+                          }
+                          return (
+                            <g transform={`translate(${startYear}, ${COLUMN_HEIGHT * 1.5})`}>
+                              <circle
+                                key={datumIndex}
+                                cx={0}
+                                cy={0}
+                                r={5}
+                                fill={color}
+                              />
+                              <text
+                                x={5}
+                                y={is_appartenance ? 20 : 0}
+                                transform={is_appartenance ? 'rotate(45)' : 'rotate(-45)'}
+                              >
+                                {label}
+                              </text>
+                            </g>
+                          )
+                        })
+                    }
+                    { /* bars */
+                      dati.filter(d => d[endYearField] !== '')
+                        .map((datum, datumIndex) => {
+                          const startYear = xScale(+datum[yearField]);
+                          const endYear = xScale(+datum[endYearField]);
+                          const label = datum[labelField];
+                          const type = datum['Type'];
+                          let color = 'orange';
+                          if (label.toLowerCase().includes('guerre')) {
+                            color = 'red';
+                          } else if (type === 'France') {
+                            color = 'blue';
+                          } else if (type === 'Angleterre') {
+                            color = 'brown';
+                          }
+                          
+                          return (
+                            <g transform={`translate(${startYear}, ${COLUMN_HEIGHT * 1.5 + 10})`}>
+                              <rect
+                                key={datumIndex}
+                                x={0}
+                                y={0}
+                                height={10}
+                                width={endYear - startYear}
+                                fill={color}
+                              />
+                              <text
+                                x={5}
+                                y={0}
+                                transform={'rotate(-45)'}
+                              >
+                                {label}
+                              </text>
+                            </g>
+                          )
+                        })
+                    }
+                  </g>
+                )
+              }
+            })
+        }
+      </svg>
+      {/* second one */}
       <svg width={WIDTH} height={COLUMN_HEIGHT * Object.keys(data).length}>
         <g className="decades">
           {
