@@ -30,7 +30,7 @@ product_factories = {
 }
 
 
-colonial_products_trade = {
+detail_products_trade = {
     p: defaultdict(lambda: defaultdict(dict))
     for p in autres_port_francs + [dunkerque_port_franc]
 }
@@ -38,9 +38,12 @@ total_trade = {
     p: defaultdict(lambda: defaultdict(dict))
     for p in autres_port_francs + [dunkerque_port_franc]
 }
-colonial_products_other_ports = {p: set() for p in autres_port_francs}
+colonial_products_other_ports = {
+    p: set() for p in autres_port_francs + [dunkerque_port_franc]
+}
 
-offices = set()
+sources = set()
+partners_anom = set()
 
 # file = toflit18 all flows
 with open(file, "r") as muerte:
@@ -64,10 +67,11 @@ with open(file, "r") as muerte:
                 if row["export_import"] == "Exports":
                     if partner_type != "colonies":
                         # export in Dunkerque are necessarly colonial products
-                        colonial_products_trade[office][product][partner_type][
+                        # detail prodcuts only depicts colonial products for Dunkerque
+                        detail_products_trade[office][product][partner_type][
                             row["export_import"]
                         ] = (
-                            colonial_products_trade[office][product][partner_type].get(
+                            detail_products_trade[office][product][partner_type].get(
                                 row["export_import"], 0
                             )
                             + value
@@ -93,10 +97,11 @@ with open(file, "r") as muerte:
                 elif row["export_import"] == "Imports":
                     product_type = "autres produits"
                     if partner_type == "colonies":
-                        colonial_products_trade[office][product][partner_type][
+                        colonial_products_other_ports[office].add(product)
+                        detail_products_trade[office][product][partner_type][
                             row["export_import"]
                         ] = (
-                            colonial_products_trade[office][product][partner_type].get(
+                            detail_products_trade[office][product][partner_type].get(
                                 row["export_import"], 0
                             )
                             + value
@@ -113,20 +118,20 @@ with open(file, "r") as muerte:
             # trade reported by other ports francs
             elif office in autres_port_francs:
                 if row["export_import"] == "Exports":
-                    # for now we store all products in colonial products as we don't know yet what is colonial since it's calculated from imports
-                    colonial_products_trade[office][product][partner_type][
+
+                    detail_products_trade[office][product][partner_type][
                         row["export_import"]
                     ] = (
-                        colonial_products_trade[office][product][partner_type].get(
+                        detail_products_trade[office][product][partner_type].get(
                             row["export_import"], 0
                         )
                         + value
                     )
                 elif row["export_import"] == "Imports":
-                    colonial_products_trade[office][product][partner_type][
+                    detail_products_trade[office][product][partner_type][
                         row["export_import"]
                     ] = (
-                        colonial_products_trade[office][product][partner_type].get(
+                        detail_products_trade[office][product][partner_type].get(
                             row["export_import"], 0
                         )
                         + value
@@ -134,10 +139,24 @@ with open(file, "r") as muerte:
                     if partner_type == "colonies":
                         colonial_products_other_ports[office].add(product)
                 # store total trade by partner type
-                total_trade[office]["tout produit"][partner_type][
+                # we can isolate produits coloniaux thanks to the specific source + partner
+                type_produit = "autres produits"
+
+                # ANOM gives colonial products re-exports partner = "Monde hors colonies" for Dunkerque, Marseille and Lorient but not for Bayonne
+                if (
+                    (
+                        row["partner_simplification"] == "Monde hors colonies"
+                        # using a fixed list of products instead for Bayonne = product which imports value are at least 50% from colonies
+                        or (office == "Bayonne" and product in ["Sucre", "Café"])
+                    )
+                    and row["export_import"] == "Exports"
+                ) or (row["export_import"] == "Imports" and partner_type == "colonies"):
+
+                    type_produit = "produits coloniaux"
+                total_trade[office][type_produit][partner_type][
                     row["export_import"]
                 ] = (
-                    total_trade[office]["tout produit"][partner_type].get(
+                    total_trade[office][type_produit][partner_type].get(
                         row["export_import"], 0
                     )
                     + value
@@ -155,33 +174,49 @@ with open(file, "r") as muerte:
                             )
                             + value
                         )
+                        # NOTE: we desactivate to complement detail product with miror flows as there a no colonial products in there
+                        # deatil_products_trade["Dunkerque"][product]["France"][
+                        #     row["export_import"]
+                        # ] = (
+                        #     deatil_products_trade["Dunkerque"][product]["France"].get(
+                        #         row["export_import"], 0
+                        #     )
+                        #     + value
+                        # )
                 if row["partner_simplification"] in ["Bayonne", "Saint-Jean de Luz"]:
 
                     if product:
-                        total_trade["Bayonne"]["tout produit"]["France"][
+                        total_trade["Bayonne"]["autres produits"]["France"][
                             row["export_import"]
                         ] = (
-                            total_trade["Bayonne"]["tout produit"]["France"].get(
+                            total_trade["Bayonne"]["autres produits"]["France"].get(
                                 row["export_import"], 0
                             )
                             + value
                         )
+                        detail_products_trade["Bayonne"][product]["France"][
+                            row["export_import"]
+                        ] = (
+                            detail_products_trade["Bayonne"][product]["France"].get(
+                                row["export_import"], 0
+                            )
+                            + value
+                        )
+
     export_data = {
-        p: {"colonial_products": [], "total_trade": []}
+        p: {"detail_products": [], "total_trade": []}
         for p in autres_port_francs + [dunkerque_port_franc]
     }
-    for (port, colional_products) in colonial_products_trade.items():
+    total_Dunkerque_export_colonial_to_France = 0
+    for (port, colional_products) in detail_products_trade.items():
         for product, product_trade in colional_products.items():
-            # filter colonial products for other ports
-            if (
-                True
-                or port not in colonial_products_other_ports
-                or product in colonial_products_other_ports[port]
-            ):
+            # filter deatil product to keep only colonial products for Dunkerque
+            # NOTE: this filter is deprecated as we desactivated to complement ANOM products with mirors flows in detail product
+            if port != "Dunkerque" or product in colonial_products_other_ports[port]:
                 totals = defaultdict(int)
                 for (partner_type, values) in product_trade.items():
                     for impexp, value in values.items():
-                        export_data[port]["colonial_products"].append(
+                        export_data[port]["detail_products"].append(
                             {
                                 "product": product,
                                 "value": value,
@@ -191,8 +226,14 @@ with open(file, "r") as muerte:
                             }
                         )
                         totals[impexp] += value
+                        if (
+                            port == "Dunkerque"
+                            and impexp == "Exports"
+                            and partner_type == "France"
+                        ):
+                            total_Dunkerque_export_colonial_to_France += value
 
-                export_data[port]["colonial_products"].append(
+                export_data[port]["detail_products"].append(
                     {
                         "product": product,
                         "value": totals["Imports"] - totals["Exports"]
@@ -205,6 +246,18 @@ with open(file, "r") as muerte:
                         "port": port,
                     }
                 )
+    # NOTE: commented as mirors flows are only considered as no colonial products
+    # substract colonial product from Dunkerque export Autre Produits to France
+    # print(
+    #     f"subtract colonial from Dunkerque exoirt Autre profuits: {total_Dunkerque_export_colonial_to_France}"
+    # )
+    # total_trade["Dunkerque"]["produits coloniaux"]["France"][
+    #     "Exports"
+    # ] = total_Dunkerque_export_colonial_to_France
+    total_trade["Dunkerque"]["autres produits"]["France"]["Exports"] = (
+        total_trade["Dunkerque"]["autres produits"]["France"]["Exports"]
+        - total_Dunkerque_export_colonial_to_France
+    )
 
     for (port, totals) in total_trade.items():
 
