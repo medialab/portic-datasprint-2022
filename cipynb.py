@@ -23,7 +23,7 @@ For a downloadable example of notebooks see:
 import os
 import argparse
 
-PUB_URL_BASE = 'https://medialab.github.io/portic-datasprint-2021/'
+PUB_URL_BASE = 'https://medialab.github.io/portic-datasprint-2022/'
 
 
 def get_path(dir):
