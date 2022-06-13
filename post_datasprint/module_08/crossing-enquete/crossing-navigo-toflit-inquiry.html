@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>crossing-navigo-toflit-inquiry</title>
+<title>crossing-navigo-toflit-inquiry</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14538,9 +14538,38 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </style>
 
 <!-- Load mathjax -->
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"> </script>
     <!-- MathJax configuration -->
-    
+    <script type="text/x-mathjax-config">
+    init_mathjax = function() {
+        if (window.MathJax) {
+        // MathJax loaded
+            MathJax.Hub.Config({
+                TeX: {
+                    equationNumbers: {
+                    autoNumber: "AMS",
+                    useLabelIds: true
+                    }
+                },
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true,
+                    processEnvironments: true
+                },
+                displayAlign: 'center',
+                CommonHTML: {
+                    linebreaks: { 
+                    automatic: true 
+                    }
+                }
+            });
+        
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+    }
+    init_mathjax();
+    </script>
     <!-- End of mathjax configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
@@ -14549,11 +14578,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Enqu%C3%AAte-sur-l'estimation-de-la-valeur-d'export-de-Dunkerque-vers-l'%C3%A9tranger-en-1787">Enqu&#234;te sur l'estimation de la valeur d'export de Dunkerque vers l'&#233;tranger en 1787<a class="anchor-link" href="#Enqu%C3%AAte-sur-l'estimation-de-la-valeur-d'export-de-Dunkerque-vers-l'%C3%A9tranger-en-1787">&#182;</a></h1><p>L'objectif de ce document est d'obtenir une estimation de l'ordre de grandeur de la valeur exportée par Dunkerque, afin d'avoir ensuite une estimation de la valeur fraudée.</p>
+<h1 id="Enqu%C3%AAte-sur-l'estimation-de-la-valeur-d'export-de-Dunkerque-vers-l'%C3%A9tranger-en-1789">Enqu&#234;te sur l'estimation de la valeur d'export de Dunkerque vers l'&#233;tranger en 1789<a class="anchor-link" href="#Enqu%C3%AAte-sur-l'estimation-de-la-valeur-d'export-de-Dunkerque-vers-l'%C3%A9tranger-en-1789">&#182;</a></h1><p>L'objectif de ce document est d'obtenir une estimation de l'ordre de grandeur de la valeur exportée par Dunkerque, afin d'avoir ensuite une estimation de la valeur fraudée.</p>
 <p>Pour faire cela, chacune des deux sources navigo et toflit18 sont incomplètes :</p>
 <ul>
 <li>pour toflit18, nous n'avons que les exports de produits coloniaux</li>
-<li>pour navigo, nous n'avons que le nombre des bateaux et - avec une approximation les non-smoggleurs - leur tonnage.</li>
+<li>pour navigo, nous n'avons que le nombre des bateaux et - avec une approximation les smoggleurs - leur tonnage.</li>
 </ul>
 <p>Il s'agit donc d'effectuer l'estimation de la valeur exportée par Dunkerque en 1789 selon la méthode suivante :</p>
 <ol>
@@ -14610,50 +14639,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Agrégation des valeurs par pays à partir de l&#39;extraction de Christine:
-                     pays   tonnage
-0              Angleterre  181112.0
-1                Danemark   47201.0
-2                 Espagne   48398.0
-3     Etats de l&#39;Empereur   42778.0
-4   États-Unis d&#39;Amérique   56971.0
-5                Hollande  103274.0
-6                Portugal   26846.0
-7                  Prusse   25539.0
-8     Villes hanséatiques  120050.0
-9                  Russie   21135.0
-10                  Suède   17515.0
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-0.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -14673,50 +14659,11 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>destinations navigo :
-                     pays   tonnage
-0                Danemark   40026.0
-1              Angleterre  158827.0
-2                  Russie   14503.0
-3                 Espagne   36093.0
-4                Hollande   73248.0
-5                Portugal   34821.0
-6     Villes hanséatiques   65623.0
-7                   Suède   14059.0
-8   États-Unis d&#39;Amérique   19652.0
-9     Etats de l&#39;Empereur   28040.0
-10                 Prusse   17179.0
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-1.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -14746,50 +14693,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>destinations navigo:
-                     pays   tonnage
-0              Angleterre  172450.0
-1                 Espagne   73074.0
-2                Danemark   41656.0
-3                   Suède   14414.0
-4                  Russie   30908.0
-5     Etats de l&#39;Empereur   30001.0
-6   États-Unis d&#39;Amérique   24383.0
-7     Villes hanséatiques   65899.0
-8                Portugal   41724.0
-9                Hollande   74365.0
-10                 Prusse   17322.0
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-2.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -14841,60 +14745,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>somme des exports selon résumé en 1787 :
-                      partenaire      tonnage
-0                        Espagne   92847700.0
-1                       Hollande   24197100.0
-2          États-Unis d&#39;Amérique   14153300.0
-3            Villes hanséatiques   11419600.0
-4                       Danemark    4980100.0
-5   Milanais, Toscane et Lucques    3642100.0
-6                          Gênes   10696700.0
-7     Empire Ottoman et Barbarie   37745500.0
-8                         Naples   14714900.0
-9           Royaume de Sardaigne   26197300.0
-10                      Autriche   36028300.0
-11                        Russie    6547700.0
-12         États ecclésiastiques    2370200.0
-13                    Angleterre   57227600.0
-14                        Venise     670100.0
-15                     Allemagne    8825820.0
-16                        Suisse    7423000.0
-17                      Portugal    9207600.0
-18           Colonies françaises  250347692.0
-19                        Prusse    3024100.0
-20                         Suède    8310700.0
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-3.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -14924,61 +14775,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>sources utilisées:[&#39;Résumé&#39;]
-partners_toflit18:
-                      partenaire      tonnage
-0                        Espagne   92847700.0
-1                       Hollande   24197100.0
-2          États-Unis d&#39;Amérique   14153300.0
-3            Villes hanséatiques   11419600.0
-4                       Danemark    4980100.0
-5   Milanais, Toscane et Lucques    3642100.0
-6                          Gênes   10696700.0
-7     Empire Ottoman et Barbarie   37745500.0
-8                         Naples   14714900.0
-9           Royaume de Sardaigne   26197300.0
-10                      Autriche   36028300.0
-11                        Russie    6547700.0
-12         États ecclésiastiques    2370200.0
-13                    Angleterre   57227600.0
-14                        Venise     670100.0
-15                     Allemagne    8825820.0
-16                        Suisse    7423000.0
-17                      Portugal    9207600.0
-18           Colonies françaises  250347692.0
-19                        Prusse    3024100.0
-20                         Suède    8310700.0
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-4.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15023,30 +14820,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-5.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15077,56 +14851,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-6.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-7.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-8.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15184,43 +14909,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-9.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-10.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15261,51 +14950,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Note : un pays présent dans les destinations navigo (1787) n&#39;est pas dans les partenaires des flux toflit18 sélectionnés : Etats de l&#39;Empereur
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-11.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-12.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15368,48 +15013,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Destinations selon navigo (en tonneaux) : 
-             destination  tonnage
-0    Villes hanséatiques   1050.0
-1             Angleterre   1048.0
-2    Etats de l&#39;Empereur    512.0
-3               Danemark    150.0
-4                 Prusse    370.0
-5               Hollande    550.0
-6  États-Unis d&#39;Amérique    160.0
-7               Portugal    584.0
-Tonnage moyen des navires : 126.4
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-13.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15432,86 +15036,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Ratio : le partenaire suivant n&#39;a pas été trouvé dans les ratios  Guinée et Sénégal
-
-Partenaires selon toflit18 (en livre tournois) - non corrigé avec terre-mer : 
-               partenaire  valeur exports
-0       Guinée et Sénégal    47556.000000
-1                Hollande   374262.850611
-2   États-Unis d&#39;Amérique    12315.500190
-3              Angleterre   482923.810842
-4     Villes hanséatiques   361513.650058
-5     Etats de l&#39;Empereur     3068.722223
-6                   Suède     4944.000000
-7                Danemark    12700.000392
-8                  Prusse     6135.000000
-9                 Espagne   146404.800195
-10                 Russie    48365.598793
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-14.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>
-Partenaires selon toflit18 (en livre tournois) - corrigé avec terre-mer : 
-               partenaire  valeur exports
-0       Guinée et Sénégal    47556.000000
-1                Hollande   374262.850611
-2   États-Unis d&#39;Amérique    12315.500190
-3              Angleterre   482923.810842
-4     Villes hanséatiques   361513.650058
-5     Etats de l&#39;Empereur     1993.374669
-6                   Suède     4944.000000
-7                Danemark    12700.000392
-8                  Prusse     6135.000000
-9                 Espagne   119709.559912
-10                 Russie    48365.598793
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-15.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15535,30 +15060,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-16.png"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15585,60 +15087,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Ratio : le partenaire suivant n&#39;a pas été trouvé dans les ratios  Guinée et Sénégal
-               partenaire toflit18 estimation   source/estimation
-0                Danemark   12,700     34,560   2.721259842519685
-1              Angleterre  482,923    394,239  0.8163599580057276
-2                  Russie   48,365          0                 0.0
-3                 Espagne  119,709          0                 0.0
-4                Hollande  374,262    897,984  2.3993459127563046
-5                Portugal        0    122,381                   /
-6     Villes hanséatiques  361,513  1,455,372   4.025780539012429
-7                   Suède    4,944          0                 0.0
-8   États-Unis d&#39;Amérique   12,315     45,772  3.7167681688997156
-9     Etats de l&#39;Empereur    1,993    878,489   440.7872553938786
-10                 Prusse    6,135    270,279   44.05525672371638
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-17.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Total des exports en lt selon la projection : 4,099,079
-Total des exports en lt selon toflit18 : 1,424,863
-rapport projection/réalité : 2.8768228329710057
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15665,73 +15114,7 @@ rapport projection/réalité : 2.8768228329710057
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>problème, le pays de destination navigo suivant n&#39;est pas dans la source terre-mer pour 1787 : Etats de l&#39;Empereur
-Ratio : le partenaire suivant n&#39;a pas été trouvé dans les ratios  Guinée et Sénégal
-partenaires toflit18 pour la rochelle : 
-               partenaire  valeur d&#39;export  valeur d&#39;export pondérée
-0       Guinée et Sénégal     47556.000000              47556.000000
-1                Hollande    374262.850611             374262.850611
-2   États-Unis d&#39;Amérique     12315.500190              12315.500190
-3              Angleterre    482923.810842             482923.810842
-4     Villes hanséatiques    361513.650058             361513.650058
-5     Etats de l&#39;Empereur      3068.722223               1993.374669
-6                   Suède      4944.000000               4944.000000
-7                Danemark     12700.000392              12700.000392
-8                  Prusse      6135.000000               6135.000000
-9                 Espagne    146404.800195             119709.559912
-10                 Russie     48365.598793              48365.598793
-              partenaire toflit18 estimation   source/estimation
-0               Danemark   12,700     18,663   1.469527559055118
-1             Angleterre  482,923    377,609  0.7819238263656939
-2                 Russie   48,365          0                 0.0
-3                Espagne  146,404          0                 0.0
-4               Hollande  374,262    181,689  0.4854593840678455
-5               Portugal        0    154,425                   /
-6    Villes hanséatiques  361,513    182,719  0.5054285737995591
-7                  Suède    4,944          0                 0.0
-8  États-Unis d&#39;Amérique   12,315    115,231    9.35696305318717
-9                 Prusse    6,135     65,132  10.616462917685412
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-18.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Total des exports en lt selon la projection : 1,095,470
-Total des exports en lt selon toflit18 : 1,449,565
-rapport projection/réalité : 0.7557235937945294
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15757,213 +15140,7 @@ rapport projection/réalité : 0.7557235937945294
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>problème, le pays de destination navigo suivant n&#39;est pas dans la source terre-mer pour 1787 : Etats de l&#39;Empereur
-Destinations selon navigo (en tonneaux) : 
-             destination  tonnage
-0  États-Unis d&#39;Amérique   2227.0
-1               Danemark   4277.0
-2             Angleterre   3942.0
-3                Espagne    297.0
-4               Hollande   2463.0
-5    Villes hanséatiques   1815.0
-6    Etats de l&#39;Empereur    150.0
-7                 Prusse   1000.0
-8                 Russie    176.0
-Ports pris en compte pour le bureau : Ars en Ré, Saint Martin de Ré, La Flotte en Ré
-Tonnage moyen des navires : 124.78625954198473
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-19.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>scan des valeurs pour le bureau des fermes de Saint-Martin-de-Ré
-flux bruts toflit18 : 
-              partenaire        valeur
-0              Allemagne    120.000000
-1             Angleterre  53146.549469
-2                 Prusse  36425.000330
-3               Hollande  13103.049902
-4                 Russie  32980.000000
-5               Danemark  94385.403667
-6  États-Unis d&#39;Amérique  18150.000132
-7    Villes hanséatiques   2860.000000
-8                Espagne    570.000000
-Problème d&#39;attribution du le partenaire qui n&#39;est pas dans la table des ratios terre-mer :  Allemagne
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-20.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-21.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-22.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Correspondance mer seule : 
-                  partner  sum_tonnage  sum_exports  price_per_barrel
-0                Danemark      40026.0    9222000.0        230.400240
-1              Angleterre     158827.0   59748000.0        376.182891
-2                  Russie      14503.0    4569000.0        315.038268
-3                 Espagne      36093.0   56852000.0       1575.153077
-4                Hollande      73248.0  119592000.0       1632.699869
-5                Portugal      34821.0    7297000.0        209.557451
-6     Villes hanséatiques      65623.0   90958000.0       1386.068909
-7                   Suède      14059.0    3935000.0        279.891884
-8   États-Unis d&#39;Amérique      19652.0    5622000.0        286.077753
-9     Etats de l&#39;Empereur      28040.0   48111000.0       1715.798859
-10                 Prusse      17179.0   12549000.0        730.484894
-Résultat de la projection avec la méthode mer seule : 
-                  partner  tonnage cumulé  prix/tonneau  valeur estimée  \
-0                Danemark          4277.0      230.4002    9.854218e+05   
-1              Angleterre          3942.0      376.1829    1.482913e+06   
-2                  Russie           176.0      315.0383    5.544674e+04   
-3                 Espagne           297.0     1575.1531    4.678205e+05   
-4                Hollande          2463.0     1632.6999    4.021340e+06   
-5                Portugal             NaN           NaN             NaN   
-6     Villes hanséatiques          1815.0     1386.0689    2.515715e+06   
-7                   Suède             NaN           NaN             NaN   
-8   États-Unis d&#39;Amérique          2227.0      286.0778    6.370952e+05   
-9     Etats de l&#39;Empereur           150.0     1715.7989    2.573698e+05   
-10                 Prusse          1000.0      730.4849    7.304849e+05   
-
-    toflit18 pondéré  toflit18 non pondéré  
-0         94385.4037            94385.4037  
-1         53146.5495            53146.5495  
-2         32980.0000            32980.0000  
-3           466.0670              570.0000  
-4         13103.0499            13103.0499  
-5                NaN                   NaN  
-6          2860.0000             2860.0000  
-7                NaN                   NaN  
-8         18150.0001            18150.0001  
-9                NaN                   NaN  
-10        36425.0003            36425.0003  
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-23.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Correspondance résumé : 
-                 partner  sum_tonnage   sum_exports  price_per_barrel
-0               Danemark      40026.0  4.980100e+06        124.421626
-1             Angleterre     158827.0  5.722760e+07        360.314052
-2                 Russie      14503.0  6.547700e+06        451.472109
-3                Espagne      36093.0  7.591798e+07       2103.399113
-4               Hollande      73248.0  2.419710e+07        330.344856
-5               Portugal      34821.0  9.207600e+06        264.426639
-6    Villes hanséatiques      65623.0  1.141960e+07        174.018256
-7                  Suède      14059.0  8.310700e+06        591.130237
-8  États-Unis d&#39;Amérique      19652.0  1.415330e+07        720.196418
-9                 Prusse      17179.0  3.024100e+06        176.034694
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-24.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Total des exports en lt selon la projection &#39;mer seule&#39; : 11,153,606 lt
-Total des exports en lt selon la projection &#39;résumé&#39; : 5,566,072 lt
-Total des exports en lt selon toflit18 : 251,516 lt
-Méthode &#39;mer seule&#39; - rapport projection/réalité : facteur de 44.345503182916204
-Méthode &#39;résumé&#39; - rapport projection/réalité : facteur de 22.130087094627324
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -15991,206 +15168,7 @@ Méthode &#39;résumé&#39; - rapport projection/réalité : facteur de 22.13008
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>problème, le pays de destination navigo suivant n&#39;est pas dans la source terre-mer pour 1787 : Etats de l&#39;Empereur
-Destinations selon navigo (en tonneaux) : 
-           destination  tonnage
-0           Angleterre   5541.0
-1  Etats de l&#39;Empereur    482.0
-2             Hollande     44.0
-3             Danemark     98.0
-4             Portugal     47.0
-Ports pris en compte pour le bureau : Charente
-Tonnage moyen des navires : 103.53333333333333
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-25.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>scan des valeurs pour le bureau des fermes de Tonnay-Charente
-flux bruts toflit18 : 
-              partenaire        valeur
-0             Angleterre  30120.700590
-1               Hollande  27422.190265
-2  États-Unis d&#39;Amérique  17466.400437
-3    Villes hanséatiques  68691.085070
-4              Allemagne  71383.250000
-5    Etats de l&#39;Empereur    295.000000
-Problème d&#39;attribution du le partenaire qui n&#39;est pas dans la table des ratios terre-mer :  Allemagne
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-26.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-27.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-28.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Correspondance mer seule : 
-                  partner  sum_tonnage  sum_exports  price_per_barrel
-0                Danemark      40026.0    9222000.0        230.400240
-1              Angleterre     158827.0   59748000.0        376.182891
-2                  Russie      14503.0    4569000.0        315.038268
-3                 Espagne      36093.0   56852000.0       1575.153077
-4                Hollande      73248.0  119592000.0       1632.699869
-5                Portugal      34821.0    7297000.0        209.557451
-6     Villes hanséatiques      65623.0   90958000.0       1386.068909
-7                   Suède      14059.0    3935000.0        279.891884
-8   États-Unis d&#39;Amérique      19652.0    5622000.0        286.077753
-9     Etats de l&#39;Empereur      28040.0   48111000.0       1715.798859
-10                 Prusse      17179.0   12549000.0        730.484894
-Résultat de la projection avec la méthode mer seule : 
-                  partner  tonnage cumulé  prix/tonneau  valeur estimée  \
-0                Danemark            98.0      230.4002    2.257922e+04   
-1              Angleterre          5541.0      376.1829    2.084429e+06   
-2                  Russie             NaN           NaN             NaN   
-3                 Espagne             NaN           NaN             NaN   
-4                Hollande            44.0     1632.6999    7.183879e+04   
-5                Portugal            47.0      209.5575    9.849200e+03   
-6     Villes hanséatiques             NaN           NaN             NaN   
-7                   Suède             NaN           NaN             NaN   
-8   États-Unis d&#39;Amérique             NaN           NaN             NaN   
-9     Etats de l&#39;Empereur           482.0     1715.7989    8.270150e+05   
-10                 Prusse             NaN           NaN             NaN   
-
-    toflit18 pondéré  toflit18 non pondéré  
-0                NaN                   NaN  
-1         30120.7006            30120.7006  
-2                NaN                   NaN  
-3                NaN                   NaN  
-4         27422.1903            27422.1903  
-5                NaN                   NaN  
-6         68691.0851            68691.0851  
-7                NaN                   NaN  
-8         17466.4004            17466.4004  
-9           191.6255              295.0000  
-10               NaN                   NaN  
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-29.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Correspondance résumé : 
-                 partner  sum_tonnage   sum_exports  price_per_barrel
-0               Danemark      40026.0  4.980100e+06        124.421626
-1             Angleterre     158827.0  5.722760e+07        360.314052
-2                 Russie      14503.0  6.547700e+06        451.472109
-3                Espagne      36093.0  7.591798e+07       2103.399113
-4               Hollande      73248.0  2.419710e+07        330.344856
-5               Portugal      34821.0  9.207600e+06        264.426639
-6    Villes hanséatiques      65623.0  1.141960e+07        174.018256
-7                  Suède      14059.0  8.310700e+06        591.130237
-8  États-Unis d&#39;Amérique      19652.0  1.415330e+07        720.196418
-9                 Prusse      17179.0  3.024100e+06        176.034694
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-30.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Total des exports en lt selon la projection &#39;mer seule&#39; : 3,015,711 lt
-Total des exports en lt selon la projection &#39;résumé&#39; : 2,035,656 lt
-Total des exports en lt selon toflit18 : 143,700 lt
-Méthode &#39;mer seule&#39; - rapport projection/réalité : facteur de 20.9581604690464
-Méthode &#39;résumé&#39; - rapport projection/réalité : facteur de 14.165980360739486
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -16213,218 +15191,9 @@ Méthode &#39;résumé&#39; - rapport projection/réalité : facteur de 14.16598
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>problème, le pays de destination navigo suivant n&#39;est pas dans la source terre-mer pour 1787 : Etats de l&#39;Empereur
-Destinations selon navigo (en tonneaux) : 
-             destination  tonnage
-0             Angleterre  12586.0
-1    Etats de l&#39;Empereur   1378.0
-2                 Prusse   3696.0
-3               Hollande   6639.0
-4    Villes hanséatiques   4588.0
-5  États-Unis d&#39;Amérique   3038.0
-6               Danemark   4915.0
-7                Espagne    902.0
-8               Portugal   1351.0
-9                 Russie    386.0
-Ports pris en compte pour le bureau : Marennes, Ars en Ré, Rochefort, Saint Gilles sur Vie, Charente, Saint Martin de Ré, La Rochelle, Mortagne, Noirmoutier, La Flotte en Ré
-Tonnage moyen des navires : 129.01633986928104
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-31.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>scan des valeurs pour la direction des fermes de La Rochelle
-flux bruts toflit18 : 
-               partenaire         valeur
-0              Angleterre  806200.582426
-1                Hollande  688046.788989
-2                  Russie  527634.349811
-3                  Prusse   61198.000464
-4                   Suède  152835.500000
-5     Villes hanséatiques  473051.136542
-6               Allemagne   71503.250000
-7                Danemark  107085.404059
-8   États-Unis d&#39;Amérique   47931.900759
-9                 Espagne  146974.800195
-10    Etats de l&#39;Empereur    3363.722223
-11      Guinée et Sénégal   47556.000000
-Problème d&#39;attribution du le partenaire qui n&#39;est pas dans la table des ratios terre-mer :  Allemagne
-Problème d&#39;attribution du le partenaire qui n&#39;est pas dans la table des ratios terre-mer :  Guinée et Sénégal
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-32.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-33.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-34.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Correspondance mer seule : 
-                  partner  sum_tonnage  sum_exports  price_per_barrel
-0                Danemark      40026.0    9222000.0        230.400240
-1              Angleterre     158827.0   59748000.0        376.182891
-2                  Russie      14503.0    4569000.0        315.038268
-3                 Espagne      36093.0   56852000.0       1575.153077
-4                Hollande      73248.0  119592000.0       1632.699869
-5                Portugal      34821.0    7297000.0        209.557451
-6     Villes hanséatiques      65623.0   90958000.0       1386.068909
-7                   Suède      14059.0    3935000.0        279.891884
-8   États-Unis d&#39;Amérique      19652.0    5622000.0        286.077753
-9     Etats de l&#39;Empereur      28040.0   48111000.0       1715.798859
-10                 Prusse      17179.0   12549000.0        730.484894
-Résultat de la projection avec la méthode mer seule : 
-                  partner  tonnage cumulé  prix/tonneau  valeur estimée  \
-0                Danemark          4915.0      230.4002    1.132417e+06   
-1              Angleterre         12586.0      376.1829    4.734638e+06   
-2                  Russie           386.0      315.0383    1.216048e+05   
-3                 Espagne           902.0     1575.1531    1.420788e+06   
-4                Hollande          6639.0     1632.6999    1.083949e+07   
-5                Portugal          1351.0      209.5575    2.831121e+05   
-6     Villes hanséatiques          4588.0     1386.0689    6.359284e+06   
-7                   Suède             NaN           NaN             NaN   
-8   États-Unis d&#39;Amérique          3038.0      286.0778    8.691042e+05   
-9     Etats de l&#39;Empereur          1378.0     1715.7989    2.364371e+06   
-10                 Prusse          3696.0      730.4849    2.699872e+06   
-
-    toflit18 pondéré  toflit18 non pondéré  
-0        107085.4041           107085.4041  
-1        806200.5824           806200.5824  
-2        527634.3498           527634.3498  
-3        120175.6269           146974.8002  
-4        688046.7890           688046.7890  
-5                NaN                   NaN  
-6        473051.1365           473051.1365  
-7        152835.5000           152835.5000  
-8         47931.9008            47931.9008  
-9          2185.0002             3363.7222  
-10        61198.0005            61198.0005  
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-35.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Correspondance résumé : 
-                 partner  sum_tonnage   sum_exports  price_per_barrel
-0               Danemark      40026.0  4.980100e+06        124.421626
-1             Angleterre     158827.0  5.722760e+07        360.314052
-2                 Russie      14503.0  6.547700e+06        451.472109
-3                Espagne      36093.0  7.591798e+07       2103.399113
-4               Hollande      73248.0  2.419710e+07        330.344856
-5               Portugal      34821.0  9.207600e+06        264.426639
-6    Villes hanséatiques      65623.0  1.141960e+07        174.018256
-7                  Suède      14059.0  8.310700e+06        591.130237
-8  États-Unis d&#39;Amérique      19652.0  1.415330e+07        720.196418
-9                 Prusse      17179.0  3.024100e+06        176.034694
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="https://medialab.github.io/portic-datasprint-2022/post_datasprint/module_08/crossing-enqueteassets/crossing-navigo-toflit-inquiry-36.png"
-class="
-"
->
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Total des exports en lt selon la projection &#39;mer seule&#39; : 30,824,685 lt
-Total des exports en lt selon la projection &#39;résumé&#39; : 13,405,355 lt
-Total des exports en lt selon toflit18 : 2,984,159 lt
-Méthode &#39;mer seule&#39; - rapport projection/réalité : facteur de 10.321879463268038
-Méthode &#39;résumé&#39; - rapport projection/réalité : facteur de 4.492171655529787
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
@@ -16461,29 +15230,7 @@ Méthode &#39;résumé&#39; - rapport projection/réalité : facteur de 4.492171
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-cyan-fg">  File </span><span class="ansi-green-fg">&#34;/var/folders/1y/4l7zn9vs3xsg6fvyz6vlhpdr0000gn/T/ipykernel_37061/107028813.py&#34;</span><span class="ansi-cyan-fg">, line </span><span class="ansi-green-fg">3</span>
-<span class="ansi-red-fg">    (method=&#39;résumé&#39;)</span>
-           ^
-<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> invalid syntax
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput ">
 
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">

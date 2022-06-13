@@ -92,7 +92,7 @@ with open(file, "r") as muerte:
                     )
                     if partner_type == "France":
                         print(
-                            "destination France dans export produtis coloniaux Dunkerque"
+                            "destination France dans export produits coloniaux Dunkerque"
                         )
                 elif row["export_import"] == "Imports":
                     product_type = "autres produits"

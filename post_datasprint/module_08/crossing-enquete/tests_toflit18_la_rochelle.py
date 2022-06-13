@@ -9,7 +9,9 @@ number_of_flows_total = 0
 
 # dictionnaire à deux niveaux bureaux -> partenaires (-> valeurs cumulées)
 customs_offices = {}
-
+partners = {}
+# sélection des flows
+selected_flows = []
 # lecture du fichier (correspond à bdd_courante.csv.zip - https://github.com/medialab/toflit18_data/blob/master/base/bdd%20courante.csv.zip)
 with open('../../../data/toflit18_all_flows.csv', newline='') as csvfile:
   flows = csv.DictReader(csvfile)
@@ -19,9 +21,11 @@ with open('../../../data/toflit18_all_flows.csv', newline='') as csvfile:
     # on numérise la valeur du flux
     value = float(flow['value'] or 0)
     # on s'intéresse au flux si les 3 critères suivants sont remplis
+    ie_type = flow['export_import'].lower()
     if flow['year'] == '1789' \
       and flow['customs_region'] == 'La Rochelle' \
-      and flow['export_import'] != 'Exports':
+      and flow['export_import'] == 'Exports':
+        selected_flows.append(flow)
         # itération du compteur de valeur et nb de flux global
         total_total += value
         number_of_flows_total += 1
@@ -41,12 +45,42 @@ with open('../../../data/toflit18_all_flows.csv', newline='') as csvfile:
                 "france": 0,
                 "amériques": 0
             }
+        partner_simp = flow['partner_grouping']
+        if partner_simp not in partners:
+          partners[partner_simp] = {
+            'nb observations': 0,
+            'valeur cumulée lt': 0
+          }
+        partners[partner_simp]['nb observations'] += 1
+        partners[partner_simp]['valeur cumulée lt'] += value
         partner = "étranger"
         if flow['partner_grouping'] == 'France':
             partner = "france"
         elif flow['partner_grouping'] == 'Amériques':
             partner = "amériques"
         customs_offices[customs_office][partner] += value
+
+################
+## Dump flows ##
+################
+
+with open('./flows_la_rochelle_1789.csv', 'w') as outputfile:
+  print('write csv')
+  fieldnames = selected_flows[0].keys()
+  writer = csv.DictWriter(outputfile, fieldnames)
+  writer.writeheader()
+  writer.writerows(selected_flows)
+  print('done')
+
+with open('./flows_la_rochelle_1789_by_partner.csv', 'w') as outputfile:
+  print('write partners')
+  partners_list = [{"partner_simplification": partner, **data} for partner, data in partners.items()]
+  fieldnames = partners_list[0].keys()
+  writer = csv.DictWriter(outputfile, fieldnames)
+  writer.writeheader()
+  writer.writerows(partners_list)
+  print('done')
+
 
 ##########
 ## LOGS ##
